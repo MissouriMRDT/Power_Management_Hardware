@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>C:\GitHub\Power_Management_Hardware\Hardware\PMS_2024\PMS\PMS.kicad_sch</source>
-    <date>3/20/2024 7:30:00 PM</date>
+    <source>D:\Documents\GitHub\Power_Management_Hardware\Hardware\PMS_2024\PMS\PMS.kicad_sch</source>
+    <date>3/23/2024 6:54:13 PM</date>
     <tool>Eeschema 7.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -48,25 +48,25 @@
     </comp>
     <comp ref="C2">
       <value>10uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <footprint>Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>d5f50593-2ca2-47d5-b3b3-6032e956d03a</tstamps>
+      <tstamps>f8894528-c98a-4311-b675-e22f64ab2820</tstamps>
     </comp>
     <comp ref="C3">
-      <value>10uF</value>
+      <value>22uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <libsource lib="Device" part="C_Polarized_US" description="Polarized capacitor, US symbol"/>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="PMS.kicad_sch"/>
-      <property name="ki_description" value="Polarized capacitor, US symbol"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>21f6c2e8-0190-47f4-ae50-556a12d4e043</tstamps>
+      <tstamps>0f6e61d1-c740-4604-a720-583441c36bf3</tstamps>
     </comp>
     <comp ref="C4">
       <value>1nF</value>
@@ -720,7 +720,7 @@
       <tstamps>0d337ea2-8792-4f63-b27a-71350dc0ccc1</tstamps>
     </comp>
     <comp ref="R13">
-      <value>3k</value>
+      <value>2k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -731,7 +731,7 @@
       <tstamps>50d90494-61ee-4f26-a20c-14148caeffcd</tstamps>
     </comp>
     <comp ref="R14">
-      <value>3k</value>
+      <value>2k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -742,7 +742,7 @@
       <tstamps>0fa02912-cb3d-4a57-9ca0-0e6c3be711e2</tstamps>
     </comp>
     <comp ref="R15">
-      <value>3k</value>
+      <value>2k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -753,7 +753,7 @@
       <tstamps>4c33a882-a8fa-4876-88b7-6d977cbe8307</tstamps>
     </comp>
     <comp ref="R16">
-      <value>3k</value>
+      <value>2k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -1626,22 +1626,22 @@
   </libparts>
   <libraries>
     <library logical="Device">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+      <uri>G:\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
     </library>
     <library logical="MRDT_Connectors">
-      <uri>C:/GitHub/MRDT_KiCAD_Libraries_New/Symbols/MRDT_Connectors.kicad_sym</uri>
+      <uri>D:/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Connectors.kicad_sym</uri>
     </library>
     <library logical="MRDT_Devices">
-      <uri>C:/GitHub/MRDT_KiCAD_Libraries_New/Symbols/MRDT_Devices.kicad_sym</uri>
+      <uri>D:/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Devices.kicad_sym</uri>
     </library>
     <library logical="MRDT_Drill_Holes">
-      <uri>C:/GitHub/MRDT_KiCAD_Libraries_New/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
+      <uri>D:/Documents/GitHub/MRDT_KiCAD_Libraries/Symbols/MRDT_Drill_Holes.kicad_sym</uri>
     </library>
     <library logical="Sensor_Current">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Current.kicad_sym</uri>
+      <uri>G:\7.0\share\kicad\symbols\/Sensor_Current.kicad_sym</uri>
     </library>
     <library logical="Transistor_FET">
-      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+      <uri>G:\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
