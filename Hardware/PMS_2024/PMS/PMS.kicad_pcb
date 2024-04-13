@@ -4896,7 +4896,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e19bfe4e-7c47-40f3-bd5b-9770dbea34c1)
     )
-    (fp_text value "PKE3316ZPI" (at -1.54 -11.577 180 unlocked) (layer "F.Fab")
+    (fp_text value "PKE3316ZPI" (at -1.524 -3.81 180 unlocked) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 205fe916-af29-4862-bc46-109ff570fddc)
     )
