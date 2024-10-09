@@ -5630,7 +5630,7 @@
 		(uuid "02ec283c-ef7c-4ed8-8c85-584e35071b56")
 	)
 	(junction
-		(at 299.72 77.47)
+		(at 297.18 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "08948199-916b-484c-861a-09492f74e6de")
@@ -5726,7 +5726,7 @@
 		(uuid "33c90b15-83e3-40cf-b898-ddb6727ba38d")
 	)
 	(junction
-		(at 306.07 110.49)
+		(at 303.53 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36c7c0eb-7b84-405d-8968-7ab75d58b4eb")
@@ -5942,7 +5942,7 @@
 		(uuid "99da2e1b-9de7-4950-aca3-d33c4b3c4595")
 	)
 	(junction
-		(at 306.07 63.5)
+		(at 303.53 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9b129ab1-6519-4679-9ea1-b4717bb8026f")
@@ -5960,7 +5960,7 @@
 		(uuid "9e76b557-6e7b-4a02-9c22-8c4a52c26e0c")
 	)
 	(junction
-		(at 299.72 53.34)
+		(at 297.18 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f7a2789-6b76-4a5a-9505-737c9c695aea")
@@ -6008,7 +6008,7 @@
 		(uuid "b643707d-9ffc-44f7-ab18-deeb36af1261")
 	)
 	(junction
-		(at 306.07 87.63)
+		(at 303.53 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8245275-9803-48f6-b61f-3a527e209bb9")
@@ -6066,6 +6066,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd4eafa1-3edc-4097-b1f1-3dcbcf52f1f3")
+	)
+	(junction
+		(at 303.53 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1026c33-c9f6-4bac-a9b9-871b1e956b41")
 	)
 	(junction
 		(at 227.965 71.12)
@@ -6140,6 +6146,12 @@
 		(uuid "f3d6715d-fb77-4ed2-a044-e5a5590cb076")
 	)
 	(junction
+		(at 297.18 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4f98931-a8a0-4ab2-a986-1354139562c4")
+	)
+	(junction
 		(at 140.97 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6152,7 +6164,7 @@
 		(uuid "f9f94882-edf8-4c6d-a239-7a0b0a764dcf")
 	)
 	(junction
-		(at 299.72 29.21)
+		(at 297.18 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ff1d5a64-0419-45c6-bdf8-a42ea3c311d5")
@@ -6419,7 +6431,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 39.37) (xy 306.07 39.37)
+			(xy 294.64 31.75) (xy 303.53 31.75)
 		)
 		(stroke
 			(width 0)
@@ -6469,7 +6481,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 39.37) (xy 306.07 63.5)
+			(xy 303.53 31.75) (xy 303.53 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6539,7 +6551,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 100.33) (xy 299.72 100.33)
+			(xy 294.64 92.71) (xy 297.18 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6739,7 +6751,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 53.34) (xy 299.72 29.21)
+			(xy 297.18 45.72) (xy 297.18 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7599,7 +7611,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 100.33) (xy 299.72 77.47)
+			(xy 297.18 92.71) (xy 297.18 69.85)
 		)
 		(stroke
 			(width 0)
@@ -7756,6 +7768,16 @@
 			(type default)
 		)
 		(uuid "6e0a5fad-3738-4a3c-8943-68350cfdd5fb")
+	)
+	(wire
+		(pts
+			(xy 303.53 102.87) (xy 303.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6eed5fb4-b944-430c-b173-5830158b40c4")
 	)
 	(wire
 		(pts
@@ -7999,7 +8021,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 87.63) (xy 297.18 87.63)
+			(xy 303.53 80.01) (xy 294.64 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8369,6 +8391,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 121.92) (xy 303.53 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93452960-758e-4881-a70c-e85897ed1d8c")
+	)
+	(wire
+		(pts
 			(xy 203.2 181.61) (xy 214.63 181.61)
 		)
 		(stroke
@@ -8459,6 +8491,16 @@
 	)
 	(wire
 		(pts
+			(xy 294.64 113.03) (xy 297.18 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3d3fcd-cf3d-4259-9ccf-007fd5d8f8d9")
+	)
+	(wire
+		(pts
 			(xy 240.03 234.95) (xy 246.38 234.95)
 		)
 		(stroke
@@ -8469,7 +8511,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 63.5) (xy 306.07 87.63)
+			(xy 303.53 55.88) (xy 303.53 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8569,7 +8611,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 110.49) (xy 306.07 110.49)
+			(xy 294.64 102.87) (xy 303.53 102.87)
 		)
 		(stroke
 			(width 0)
@@ -8679,7 +8721,7 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 110.49) (xy 306.07 87.63)
+			(xy 303.53 102.87) (xy 303.53 80.01)
 		)
 		(stroke
 			(width 0)
@@ -8869,16 +8911,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 114.3) (xy 306.07 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b265c93e-317e-454a-9a45-302966dc1e58")
-	)
-	(wire
-		(pts
 			(xy 386.08 236.22) (xy 386.08 228.6)
 		)
 		(stroke
@@ -8889,7 +8921,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 77.47) (xy 299.72 53.34)
+			(xy 297.18 69.85) (xy 297.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9039,7 +9071,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 29.21) (xy 309.88 29.21)
+			(xy 297.18 21.59) (xy 308.61 21.59)
 		)
 		(stroke
 			(width 0)
@@ -9189,6 +9221,16 @@
 	)
 	(wire
 		(pts
+			(xy 297.18 113.03) (xy 297.18 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5309eb3-93bb-46ee-8114-0f99d36ff851")
+	)
+	(wire
+		(pts
 			(xy 280.67 195.58) (xy 280.67 200.66)
 		)
 		(stroke
@@ -9279,7 +9321,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 63.5) (xy 306.07 63.5)
+			(xy 294.64 55.88) (xy 303.53 55.88)
 		)
 		(stroke
 			(width 0)
@@ -9456,6 +9498,16 @@
 			(type default)
 		)
 		(uuid "d7b33aa0-e70c-4a40-b48d-84dfd1db9543")
+	)
+	(wire
+		(pts
+			(xy 303.53 121.92) (xy 303.53 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d86175ae-750c-4295-a4e8-8ca4850b06b3")
 	)
 	(wire
 		(pts
@@ -9759,7 +9811,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 53.34) (xy 299.72 53.34)
+			(xy 294.64 45.72) (xy 297.18 45.72)
 		)
 		(stroke
 			(width 0)
@@ -9769,7 +9821,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 29.21) (xy 299.72 29.21)
+			(xy 294.64 21.59) (xy 297.18 21.59)
 		)
 		(stroke
 			(width 0)
@@ -9959,7 +10011,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 77.47) (xy 299.72 77.47)
+			(xy 294.64 69.85) (xy 297.18 69.85)
 		)
 		(stroke
 			(width 0)
@@ -10816,7 +10868,7 @@
 	)
 	(global_label "PV"
 		(shape input)
-		(at 309.88 29.21 0)
+		(at 308.61 21.59 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10828,7 +10880,7 @@
 		)
 		(uuid "61a79bd6-81a7-4ce3-a3ef-298e549b42a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 315.6998 29.21 0)
+			(at 314.4298 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +12503,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 113.03 0)
+		(at 284.48 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12460,7 +12512,7 @@
 		(fields_autoplaced yes)
 		(uuid "101490c5-3a5a-4785-8609-c5e623e04640")
 		(property "Reference" "Conn22"
-			(at 289.56 102.87 0)
+			(at 287.02 95.25 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12468,7 +12520,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 105.41 0)
+			(at 287.02 97.79 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12476,7 +12528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 127 0)
+			(at 280.67 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12485,7 +12537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 127 0)
+			(at 280.67 119.38 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -12494,7 +12546,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 113.03 0)
+			(at 284.48 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13588,7 +13640,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 80.01 0)
+		(at 284.48 72.39 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13597,7 +13649,7 @@
 		(fields_autoplaced yes)
 		(uuid "29ef75e1-a341-4df4-bc18-bf82914033bb")
 		(property "Reference" "Conn4"
-			(at 289.56 69.85 0)
+			(at 287.02 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13605,7 +13657,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 72.39 0)
+			(at 287.02 64.77 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13613,7 +13665,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 93.98 0)
+			(at 280.67 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13622,7 +13674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 93.98 0)
+			(at 280.67 86.36 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -13631,7 +13683,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 80.01 0)
+			(at 284.48 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15527,7 +15579,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 306.07 114.3 0)
+		(at 303.53 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15536,7 +15588,7 @@
 		(fields_autoplaced yes)
 		(uuid "4b759c1f-0b6a-4e8c-9f58-f2b3f4fda989")
 		(property "Reference" "#PWR042"
-			(at 306.07 120.65 0)
+			(at 303.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15545,7 +15597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 306.07 119.38 0)
+			(at 303.53 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15553,7 +15605,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 306.07 114.3 0)
+			(at 303.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15562,7 +15614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 306.07 114.3 0)
+			(at 303.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15571,7 +15623,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 306.07 114.3 0)
+			(at 303.53 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15733,6 +15785,83 @@
 			(project "Power_Management_2025_Rev1"
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "Conn7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 284.48 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f100aa1-6614-4ecf-a570-1e14998f8ac0")
+		(property "Reference" "Conn24"
+			(at 287.02 114.3 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 287.02 116.84 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bd019c49-141b-4981-9823-76d1f88735c6")
+		)
+		(pin "4"
+			(uuid "56042c2b-9fc4-4709-bf8a-60f319e73352")
+		)
+		(pin "2"
+			(uuid "293881f6-297d-4533-9ce7-883633145cb6")
+		)
+		(pin "1"
+			(uuid "447f4f83-4288-468e-891a-fe834991c9ba")
+		)
+		(pin "1"
+			(uuid "d5a31c9d-a695-49c3-897b-a78b4ad74180")
+		)
+		(instances
+			(project "Power_Management_2025_Rev1"
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "Conn24")
 					(unit 1)
 				)
 			)
@@ -18448,7 +18577,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 55.88 0)
+		(at 284.48 48.26 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18457,7 +18586,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ad7fbe1-c134-4f3e-a38a-d352f6a18fea")
 		(property "Reference" "Conn1"
-			(at 289.56 45.72 0)
+			(at 287.02 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18465,7 +18594,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 48.26 0)
+			(at 287.02 40.64 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18473,7 +18602,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 69.85 0)
+			(at 280.67 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18482,7 +18611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 69.85 0)
+			(at 280.67 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -18491,7 +18620,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 55.88 0)
+			(at 284.48 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19057,7 +19186,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 31.75 0)
+		(at 284.48 24.13 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19066,7 +19195,7 @@
 		(fields_autoplaced yes)
 		(uuid "9679dc20-a7f7-4386-869a-2796a04432bf")
 		(property "Reference" "Conn19"
-			(at 289.56 21.59 0)
+			(at 287.02 13.97 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19074,7 +19203,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 24.13 0)
+			(at 287.02 16.51 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19082,7 +19211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 45.72 0)
+			(at 280.67 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19091,7 +19220,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 45.72 0)
+			(at 280.67 38.1 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19100,7 +19229,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 31.75 0)
+			(at 284.48 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19823,7 +19952,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 90.17 0)
+		(at 284.48 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19832,7 +19961,7 @@
 		(fields_autoplaced yes)
 		(uuid "abfefbf0-ee24-4833-b0e4-08d62a53043d")
 		(property "Reference" "Conn21"
-			(at 289.56 80.01 0)
+			(at 287.02 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19840,7 +19969,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 82.55 0)
+			(at 287.02 74.93 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19848,7 +19977,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 104.14 0)
+			(at 280.67 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19857,7 +19986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 104.14 0)
+			(at 280.67 96.52 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19866,7 +19995,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 90.17 0)
+			(at 284.48 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20408,6 +20537,83 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 284.48 115.57 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6f5c51a-d838-47d7-893d-54450586de84")
+		(property "Reference" "Conn21"
+			(at 287.02 105.41 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 287.02 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 284.48 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7b8f434-cd4d-4e6b-9f5a-281c8468b673")
+		)
+		(pin "4"
+			(uuid "6c357e14-2fa2-42c5-837b-4ade24daff82")
+		)
+		(pin "3"
+			(uuid "457f1b9c-e70b-4e93-9fa8-2aac7e00af99")
+		)
+		(pin "2"
+			(uuid "91da9751-0fda-4a54-a957-f80ea0a5da6e")
+		)
+		(pin "1"
+			(uuid "9702db5f-8e2d-4182-b801-ca7505d86218")
+		)
+		(instances
+			(project "Power_Management_2025_Rev1"
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "Conn21")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 110.49 184.15 0)
 		(unit 1)
@@ -20624,7 +20830,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 102.87 0)
+		(at 284.48 95.25 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20633,7 +20839,7 @@
 		(fields_autoplaced yes)
 		(uuid "bcff7c9e-5340-4f0f-b9e2-e3050ec68476")
 		(property "Reference" "Conn20"
-			(at 289.56 92.71 0)
+			(at 287.02 85.09 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20641,7 +20847,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 95.25 0)
+			(at 287.02 87.63 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20649,7 +20855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 116.84 0)
+			(at 280.67 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20658,7 +20864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 116.84 0)
+			(at 280.67 109.22 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -20667,7 +20873,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 102.87 0)
+			(at 284.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22941,7 +23147,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 41.91 0)
+		(at 284.48 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22950,7 +23156,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7562c37-1ae7-4fe3-b99c-7751e32b8162")
 		(property "Reference" "Conn19"
-			(at 289.56 31.75 0)
+			(at 287.02 24.13 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22958,7 +23164,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 34.29 0)
+			(at 287.02 26.67 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22966,7 +23172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 55.88 0)
+			(at 280.67 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22975,7 +23181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 55.88 0)
+			(at 280.67 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -22984,7 +23190,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 41.91 0)
+			(at 284.48 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24201,7 +24407,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 287.02 66.04 0)
+		(at 284.48 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24210,7 +24416,7 @@
 		(fields_autoplaced yes)
 		(uuid "fed7d57b-f03f-407c-b67a-95d5f3ef5d3a")
 		(property "Reference" "Conn20"
-			(at 289.56 55.88 0)
+			(at 287.02 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24218,7 +24424,7 @@
 			)
 		)
 		(property "Value" "AndersonPP"
-			(at 289.56 58.42 0)
+			(at 287.02 50.8 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24226,7 +24432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 80.01 0)
+			(at 280.67 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24235,7 +24441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 80.01 0)
+			(at 280.67 72.39 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -24244,7 +24450,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 287.02 66.04 0)
+			(at 284.48 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
