@@ -9442,7 +9442,7 @@
 	(footprint "MRDT_Connectors:Anderson_1_Horizontal"
 		(layer "F.Cu")
 		(uuid "ae09cf20-d0d0-4343-9443-d35f6840f403")
-		(at 49.8518 41.627)
+		(at 49.3518 44.127)
 		(property "Reference" "Conn2"
 			(at -5.588 4.572 0)
 			(layer "F.SilkS")
