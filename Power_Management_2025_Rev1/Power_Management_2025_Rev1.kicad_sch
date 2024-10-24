@@ -12740,7 +12740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 43.18 212.09 0)
 			(effects
 				(font
@@ -13237,7 +13237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 369.57 237.49 0)
 			(effects
 				(font
@@ -13440,7 +13440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 305.7652 49.53 0)
 			(effects
 				(font
@@ -13509,7 +13509,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 			(at 367.03 22.86 0)
 			(effects
 				(font
@@ -13577,7 +13577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "KiCad:3140167"
 			(at 21.59 244.348 90)
 			(effects
 				(font
@@ -13645,7 +13645,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 388.62 40.64 0)
 			(effects
 				(font
@@ -13779,7 +13779,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 66.548 90)
 			(effects
 				(font
@@ -13849,7 +13849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 278.13 251.46 0)
 			(effects
 				(font
@@ -13919,7 +13919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 201.422 187.96 90)
 			(effects
 				(font
@@ -14055,7 +14055,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 270.002 175.26 90)
 			(effects
 				(font
@@ -14123,7 +14123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 54.61 0)
 			(effects
 				(font
@@ -14200,7 +14200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 27.94 0)
 			(effects
 				(font
@@ -14277,7 +14277,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -14347,7 +14347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 331.1652 49.53 0)
 			(effects
 				(font
@@ -14415,7 +14415,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 72.39 0)
 			(effects
 				(font
@@ -14558,7 +14558,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 81.28 0)
 			(effects
 				(font
@@ -14635,7 +14635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 27.94 0)
 			(effects
 				(font
@@ -14712,7 +14712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 95.25 0)
 			(effects
 				(font
@@ -14780,7 +14780,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 46.228 90)
 			(effects
 				(font
@@ -14848,7 +14848,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MODULE_DEV-16771"
+		(property "Footprint" "MRDT_Shields:Teensy_4_1_Ethernet"
 			(at 107.95 82.55 0)
 			(effects
 				(font
@@ -15149,7 +15149,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 48.26 245.11 0)
 			(effects
 				(font
@@ -15217,7 +15217,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 45.72 0)
 			(effects
 				(font
@@ -15570,7 +15570,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Devices:PKE3316ZPI"
 			(at 383.54 100.33 0)
 			(effects
 				(font
@@ -15650,7 +15650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 43.18 223.52 0)
 			(effects
 				(font
@@ -15727,7 +15727,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 289.56 177.8 0)
 			(effects
 				(font
@@ -16072,7 +16072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 81.28 0)
 			(effects
 				(font
@@ -16217,7 +16217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 38.1 279.4 0)
 			(effects
 				(font
@@ -16281,7 +16281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 290.322 194.31 90)
 			(effects
 				(font
@@ -16351,7 +16351,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 113.792 186.69 90)
 			(effects
 				(font
@@ -16553,7 +16553,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 212.852 187.96 90)
 			(effects
 				(font
@@ -16701,7 +16701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
 			(at 360.9848 96.52 0)
 			(effects
 				(font
@@ -16771,7 +16771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 250.952 189.23 90)
 			(effects
 				(font
@@ -16841,7 +16841,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 181.102 190.5 90)
 			(effects
 				(font
@@ -17107,7 +17107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 36.83 0)
 			(effects
 				(font
@@ -17184,7 +17184,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 342.9 231.14 0)
 			(effects
 				(font
@@ -17267,7 +17267,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 56.388 90)
 			(effects
 				(font
@@ -17401,7 +17401,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -17478,7 +17478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -17548,7 +17548,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 304.292 176.53 90)
 			(effects
 				(font
@@ -17616,7 +17616,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 147.32 171.45 0)
 			(effects
 				(font
@@ -17730,7 +17730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 97.028 90)
 			(effects
 				(font
@@ -17801,7 +17801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D5.0mm_P5.00mm"
 			(at 354.6348 163.83 0)
 			(effects
 				(font
@@ -17871,7 +17871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 195.072 173.99 90)
 			(effects
 				(font
@@ -17941,7 +17941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 285.242 191.77 90)
 			(effects
 				(font
@@ -18010,7 +18010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 26.67 245.11 0)
 			(effects
 				(font
@@ -18151,7 +18151,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 54.61 0)
 			(effects
 				(font
@@ -18228,7 +18228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 113.03 170.18 0)
 			(effects
 				(font
@@ -18410,7 +18410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 164.592 186.69 90)
 			(effects
 				(font
@@ -18544,7 +18544,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 16.51 213.36 0)
 			(effects
 				(font
@@ -18572,16 +18572,16 @@
 			)
 		)
 		(pin "2"
-			(uuid "554fecda-b9fc-4812-872c-565260c857b7")
+			(uuid "554fecda-b9fc-4812-872c-565260c857b8")
 		)
 		(pin "1"
-			(uuid "f1e4271f-5c5d-46de-8f0b-1f5b06103b29")
+			(uuid "f1e4271f-5c5d-46de-8f0b-1f5b06103b2a")
 		)
 		(pin "1"
-			(uuid "3ae1e104-ef65-488b-9d62-f86fc1737d4b")
+			(uuid "3ae1e104-ef65-488b-9d62-f86fc1737d4c")
 		)
 		(pin "3"
-			(uuid "2b088a4f-c901-4574-beb8-3a83b6d14b65")
+			(uuid "2b088a4f-c901-4574-beb8-3a83b6d14b66")
 		)
 		(pin "4"
 			(uuid "b8a32679-c206-48d1-b016-42bf4e6f8ea2")
@@ -18623,7 +18623,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 143.002 185.42 90)
 			(effects
 				(font
@@ -18693,7 +18693,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 176.022 187.96 90)
 			(effects
 				(font
@@ -18763,7 +18763,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 231.902 173.99 90)
 			(effects
 				(font
@@ -18899,7 +18899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 273.812 190.5 90)
 			(effects
 				(font
@@ -19034,7 +19034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_07_Horizontal"
 			(at 132.08 234.95 0)
 			(effects
 				(font
@@ -19381,7 +19381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 19.05 0)
 			(effects
 				(font
@@ -19461,7 +19461,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 336.8548 163.83 0)
 			(effects
 				(font
@@ -19531,7 +19531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 217.932 190.5 90)
 			(effects
 				(font
@@ -19686,7 +19686,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 255.27 175.26 0)
 			(effects
 				(font
@@ -19944,7 +19944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 105.41 0)
 			(effects
 				(font
@@ -20080,7 +20080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 26.67 279.4 0)
 			(effects
 				(font
@@ -20144,7 +20144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 127.762 170.18 90)
 			(effects
 				(font
@@ -20280,7 +20280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 148.082 187.96 90)
 			(effects
 				(font
@@ -20414,7 +20414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 10.795 0)
 			(effects
 				(font
@@ -20691,7 +20691,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 159.512 241.3 90)
 			(effects
 				(font
@@ -20826,7 +20826,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_07_Horizontal"
 			(at 130.81 270.51 0)
 			(effects
 				(font
@@ -20911,7 +20911,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 238.252 231.14 90)
 			(effects
 				(font
@@ -21112,7 +21112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 172.72 255.27 0)
 			(effects
 				(font
@@ -21350,7 +21350,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 256.032 191.77 90)
 			(effects
 				(font
@@ -21552,7 +21552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 239.522 189.23 90)
 			(effects
 				(font
@@ -21622,7 +21622,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 108.712 184.15 90)
 			(effects
 				(font
@@ -21690,7 +21690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 16.51 224.79 0)
 			(effects
 				(font
@@ -21718,19 +21718,19 @@
 			)
 		)
 		(pin "4"
-			(uuid "36f1e40b-a803-4c02-bba0-cb30e3ef4244")
+			(uuid "36f1e40b-a803-4c02-bba0-cb30e3ef4245")
 		)
 		(pin "1"
 			(uuid "ad8013fe-6036-4615-9638-3ed50ee591cd")
 		)
 		(pin "3"
-			(uuid "b6fb186e-5490-42f3-8125-7a53d6f12c7e")
+			(uuid "b6fb186e-5490-42f3-8125-7a53d6f12c7f")
 		)
 		(pin "1"
-			(uuid "e405f10f-8f5c-4e09-870d-a7264cc6067a")
+			(uuid "e405f10f-8f5c-4e09-870d-a7264cc6067b")
 		)
 		(pin "2"
-			(uuid "6dbd1ebc-eaa6-4f30-9c77-ec1d7ed4cb87")
+			(uuid "6dbd1ebc-eaa6-4f30-9c77-ec1d7ed4cb88")
 		)
 		(instances
 			(project ""
@@ -21767,7 +21767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -21835,7 +21835,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 72.39 0)
 			(effects
 				(font
@@ -22055,7 +22055,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 90.17 0)
 			(effects
 				(font
@@ -22134,7 +22134,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 395.732 36.83 90)
 			(effects
 				(font
@@ -22281,7 +22281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 329.692 217.17 90)
 			(effects
 				(font
@@ -22349,7 +22349,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 180.34 173.99 0)
 			(effects
 				(font
@@ -22529,7 +22529,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 217.17 173.99 0)
 			(effects
 				(font
@@ -22645,7 +22645,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 199.39 261.62 0)
 			(effects
 				(font
@@ -22715,7 +22715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 15.24 279.4 0)
 			(effects
 				(font
@@ -23109,7 +23109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 131.572 185.42 90)
 			(effects
 				(font
@@ -23388,7 +23388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 22.5552 158.75 0)
 			(effects
 				(font
@@ -23600,7 +23600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 97.282 184.15 90)
 			(effects
 				(font
@@ -23734,7 +23734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 36.83 0)
 			(effects
 				(font
@@ -23813,7 +23813,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal"
 			(at 86.36 276.86 0)
 			(effects
 				(font
@@ -23884,7 +23884,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -24031,7 +24031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 60.96 245.11 0)
 			(effects
 				(font
@@ -24099,7 +24099,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 76.708 90)
 			(effects
 				(font
@@ -24167,7 +24167,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 63.5 0)
 			(effects
 				(font
@@ -24310,7 +24310,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 86.868 90)
 			(effects
 				(font
@@ -24455,7 +24455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 237.49 90.17 0)
 			(effects
 				(font
@@ -24534,7 +24534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_03_Horizontal"
 			(at 106.68 252.73 0)
 			(effects
 				(font
@@ -24605,7 +24605,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm"
 			(at 251.46 245.11 0)
 			(effects
 				(font
@@ -24690,7 +24690,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2_TabPin1"
 			(at 76.2 246.38 0)
 			(effects
 				(font
@@ -24760,7 +24760,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 349.5548 96.52 0)
 			(effects
 				(font
@@ -24830,7 +24830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.052 171.45 90)
 			(effects
 				(font
@@ -24900,7 +24900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner"
 			(at 49.53 279.4 0)
 			(effects
 				(font
@@ -24964,7 +24964,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm"
 			(at 36.83 245.11 0)
 			(effects
 				(font
@@ -25032,7 +25032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:RJ45_Teensy"
 			(at 52.07 147.955 90)
 			(effects
 				(font
@@ -25133,7 +25133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -25268,7 +25268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Devices:PKE3316ZPI"
 			(at 382.27 167.64 0)
 			(effects
 				(font
@@ -25414,7 +25414,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -25689,7 +25689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 125.73 107.188 90)
 			(effects
 				(font
