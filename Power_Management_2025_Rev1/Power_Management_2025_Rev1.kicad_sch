@@ -1691,6 +1691,292 @@
 				)
 			)
 		)
+		(symbol "Device:Opamp_Dual"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Opamp_Dual"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual operational amplifier"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Name" "kicad_builtin_opamp_dual"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "SUBCKT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "dual opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* MSOP*3x3mm*P0.65mm* SSOP*2.95x2.8mm*P0.65mm* TSSOP*3x3mm*P0.65mm* VSSOP*P0.5mm* TO?99*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Opamp_Dual_1_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Dual_2_1"
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Opamp_Dual_3_1"
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -4422,211 +4708,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:OPAMP"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "${SIM.PARAMS}"
-				(at 3.81 -3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "SUBCKT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Name" "kicad_builtin_opamp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OPAMP_0_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "OPAMP_1_1"
-				(pin input line
-					(at -7.62 2.54 0)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -7.62 -2.54 0)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 -7.62 90)
-					(length 3.81)
-					(name "V-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_FET:BSS138"
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -5753,6 +5834,12 @@
 		(uuid "0144cf1c-701f-44f4-a2f8-34e98047299b")
 	)
 	(junction
+		(at 287.02 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03af7099-6998-4ff3-a04d-e6e2f70328eb")
+	)
+	(junction
 		(at 36.83 250.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5819,16 +5906,10 @@
 		(uuid "2a169e8e-f6bb-48d6-958c-89c3dfceaf0e")
 	)
 	(junction
-		(at 144.78 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "328f80cd-94cf-4383-9c3f-5c466c44d19a")
-	)
-	(junction
 		(at 214.63 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "33c90b15-83e3-40cf-b898-ddb6727ba38d")
+		(uuid "33635b2c-6b8d-4205-9c56-4385b3d5dde5")
 	)
 	(junction
 		(at 180.34 162.56)
@@ -5873,10 +5954,10 @@
 		(uuid "3f5591d6-eb84-4925-9dae-88ef1cce453c")
 	)
 	(junction
-		(at 287.02 185.42)
+		(at 110.49 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "406abdc6-e1b2-4e5d-8da2-3350435fc7d9")
+		(uuid "4014b5c0-0d41-494d-959b-1cbeb4cae465")
 	)
 	(junction
 		(at 139.7 105.41)
@@ -5925,12 +6006,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a191d48-5645-47dc-9752-d1f803118fa5")
-	)
-	(junction
-		(at 252.73 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c3d39bf-8df9-4812-a4f6-9e7deaf6e181")
 	)
 	(junction
 		(at 337.82 163.83)
@@ -5999,6 +6074,12 @@
 		(uuid "701b262c-d6b0-4ea0-ba4b-a5fd3bf2a7be")
 	)
 	(junction
+		(at 144.78 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "737398ae-daae-4069-9325-240b899192e0")
+	)
+	(junction
 		(at 199.39 248.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6035,12 +6116,6 @@
 		(uuid "8a76ae70-1d3f-48dd-bf98-b623a6338cf0")
 	)
 	(junction
-		(at 110.49 177.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b27108b-5bc3-4a61-bf41-95f0f9c04b00")
-	)
-	(junction
 		(at 175.26 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6065,6 +6140,12 @@
 		(uuid "9f884b7a-05b0-43b7-acec-4d7f770a073f")
 	)
 	(junction
+		(at 252.73 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a027c8e8-e905-4ce3-a789-68679f8ba344")
+	)
+	(junction
 		(at 190.5 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6081,12 +6162,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b0f7e86a-c406-4b74-b069-421e9e701c82")
-	)
-	(junction
-		(at 177.8 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b112b3ba-e9d1-4198-b73a-b80ed685925e")
 	)
 	(junction
 		(at 364.49 40.64)
@@ -6165,6 +6240,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb83c4ee-27f4-44ba-b769-e1e2caf2e05f")
+	)
+	(junction
+		(at 177.8 181.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cca5c929-aeaf-4e2b-88b7-9c5daefa9616")
 	)
 	(junction
 		(at 48.26 242.57)
@@ -6442,7 +6523,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 177.8) (xy 262.89 180.34)
+			(xy 275.59 151.13) (xy 275.59 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6589,16 +6670,6 @@
 			(type default)
 		)
 		(uuid "08f7e11e-208c-48b0-babe-be2399dc86e9")
-	)
-	(wire
-		(pts
-			(xy 105.41 161.29) (xy 105.41 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f2b39b-5316-4355-ab8b-813f5e113a96")
 	)
 	(wire
 		(pts
@@ -6799,16 +6870,6 @@
 			(type default)
 		)
 		(uuid "141bd462-6243-4029-985f-265217637ad4")
-	)
-	(wire
-		(pts
-			(xy 172.72 163.83) (xy 172.72 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143cd83d-1e41-4aad-ba9f-7f288362905d")
 	)
 	(wire
 		(pts
@@ -7032,7 +7093,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 179.07) (xy 149.86 180.34)
+			(xy 149.86 177.8) (xy 149.86 180.34)
 		)
 		(stroke
 			(width 0)
@@ -7102,7 +7163,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 163.83) (xy 147.32 160.02)
+			(xy 147.32 162.56) (xy 147.32 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7192,16 +7253,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 171.45) (xy 247.65 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e28783b-59ed-41a4-b73d-c5e8ce624cb3")
-	)
-	(wire
-		(pts
 			(xy 350.52 104.14) (xy 361.95 104.14)
 		)
 		(stroke
@@ -7242,7 +7293,17 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 181.61) (xy 219.71 182.88)
+			(xy 187.96 143.51) (xy 187.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2fa36994-40ad-4407-a6c5-bfd2edda57af")
+	)
+	(wire
+		(pts
+			(xy 219.71 180.34) (xy 219.71 182.88)
 		)
 		(stroke
 			(width 0)
@@ -7282,7 +7343,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 185.42) (xy 292.1 186.69)
+			(xy 292.1 184.15) (xy 292.1 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7772,6 +7833,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 146.05) (xy 133.35 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50227c62-eb4f-4221-bbfe-e44ad5a9b3c6")
+	)
+	(wire
+		(pts
 			(xy 199.39 245.11) (xy 199.39 248.92)
 		)
 		(stroke
@@ -7792,7 +7863,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 182.88) (xy 257.81 184.15)
+			(xy 257.81 181.61) (xy 257.81 184.15)
 		)
 		(stroke
 			(width 0)
@@ -8062,16 +8133,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 172.72) (xy 281.94 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62988632-5965-43bd-8524-acb54bd1391e")
-	)
-	(wire
-		(pts
 			(xy 166.37 182.88) (xy 166.37 181.61)
 		)
 		(stroke
@@ -8222,6 +8283,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 142.24) (xy 118.11 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a75152-4eb7-450f-b637-193669eecc14")
+	)
+	(wire
+		(pts
 			(xy 57.15 207.01) (xy 59.69 207.01)
 		)
 		(stroke
@@ -8279,6 +8350,16 @@
 			(type default)
 		)
 		(uuid "6e0a5fad-3738-4a3c-8943-68350cfdd5fb")
+	)
+	(wire
+		(pts
+			(xy 260.35 148.59) (xy 260.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1a7135-439a-4220-899b-72a1d331de48")
 	)
 	(wire
 		(pts
@@ -8462,7 +8543,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 176.53) (xy 224.79 179.07)
+			(xy 203.2 149.86) (xy 203.2 152.4)
 		)
 		(stroke
 			(width 0)
@@ -8509,16 +8590,6 @@
 			(type default)
 		)
 		(uuid "7d14b011-486d-40b1-8adb-0c833a5d850f")
-	)
-	(wire
-		(pts
-			(xy 209.55 167.64) (xy 209.55 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d7acdfa-626f-4408-a652-d48c8d218b36")
 	)
 	(wire
 		(pts
@@ -8772,7 +8843,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 170.18) (xy 289.56 166.37)
+			(xy 289.56 168.91) (xy 289.56 166.37)
 		)
 		(stroke
 			(width 0)
@@ -9152,16 +9223,6 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 180.34) (xy 297.18 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a72953b7-9427-43d3-8b11-3a72eea3f8bd")
-	)
-	(wire
-		(pts
 			(xy 120.65 264.16) (xy 125.73 264.16)
 		)
 		(stroke
@@ -9270,6 +9331,16 @@
 		)
 		(uuid "ac3311d4-13d6-43e9-8439-f435379ec11e")
 	)
+	(wire
+		(pts
+			(xy 144.78 177.8) (xy 144.78 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac9aa323-d31d-40ff-b3a1-cb3950a663bf")
+	)
 	(polyline
 		(pts
 			(xy 313.69 194.31) (xy 407.67 194.31)
@@ -9369,16 +9440,6 @@
 			(type default)
 		)
 		(uuid "b05cabfa-8142-40ea-ae49-1b1f81661cb0")
-	)
-	(wire
-		(pts
-			(xy 120.65 172.72) (xy 120.65 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b13b8355-5bb0-49bc-81b3-2ea232094e07")
 	)
 	(wire
 		(pts
@@ -9482,16 +9543,6 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 176.53) (xy 187.96 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baa9efe8-671a-4795-b954-be52bb3efb17")
-	)
-	(wire
-		(pts
 			(xy 293.37 237.49) (xy 293.37 234.95)
 		)
 		(stroke
@@ -9519,6 +9570,16 @@
 			(type default)
 		)
 		(uuid "bd880268-e514-4208-8c6c-21fe81610138")
+	)
+	(wire
+		(pts
+			(xy 252.73 181.61) (xy 252.73 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdae338a-6dbf-4946-96e0-972da529279a")
 	)
 	(wire
 		(pts
@@ -9592,7 +9653,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 166.37) (xy 217.17 162.56)
+			(xy 217.17 165.1) (xy 217.17 162.56)
 		)
 		(stroke
 			(width 0)
@@ -9672,16 +9733,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 173.99) (xy 154.94 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4be47b0-f5b5-4cfb-ab3f-a6b5f38de5ba")
-	)
-	(wire
-		(pts
 			(xy 280.67 195.58) (xy 280.67 200.66)
 		)
 		(stroke
@@ -9689,6 +9740,16 @@
 			(type default)
 		)
 		(uuid "c6cda3c9-0af5-4866-9b38-e4ae9fc4b0de")
+	)
+	(wire
+		(pts
+			(xy 287.02 184.15) (xy 287.02 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b26f60-ecd8-4af2-9f0f-76a504876d71")
 	)
 	(polyline
 		(pts
@@ -9882,6 +9943,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 180.34) (xy 214.63 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5ca39b7-463d-4834-adf0-8b71794f6cb7")
+	)
+	(wire
+		(pts
 			(xy 276.86 106.68) (xy 276.86 118.11)
 		)
 		(stroke
@@ -9922,7 +9993,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 167.64) (xy 255.27 163.83)
+			(xy 255.27 166.37) (xy 255.27 163.83)
 		)
 		(stroke
 			(width 0)
@@ -10402,16 +10473,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 161.29) (xy 139.7 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffa72cce-7d17-4fa1-b79c-4e34e13780ec")
-	)
-	(wire
-		(pts
 			(xy 132.08 105.41) (xy 129.54 105.41)
 		)
 		(stroke
@@ -10732,7 +10793,7 @@
 			)
 		)
 	)
-	(global_label "C_SENSE"
+	(global_label "CURRENT_SENSE"
 		(shape input)
 		(at 29.21 95.25 180)
 		(fields_autoplaced yes)
@@ -12517,6 +12578,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 255.27 173.99 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01346267-e0d8-4a61-81f1-65156e8f2a6f")
+		(property "Reference" "U6"
+			(at 261.62 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 261.62 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 255.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 255.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 255.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 255.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 255.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 255.27 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c128a4b9-564b-4ae7-8f67-e35ed6fe0479")
+		)
+		(pin "2"
+			(uuid "f650d4ce-2ea2-474b-af93-45264dab6083")
+		)
+		(pin "6"
+			(uuid "f85052c2-6c25-4e9c-b1e5-a4923f309291")
+		)
+		(pin "8"
+			(uuid "270d68ee-fa4f-4f52-9f4a-64a0110fd68d")
+		)
+		(pin "4"
+			(uuid "df6521d6-8b4d-4aa3-8229-f656ef24357f")
+		)
+		(pin "7"
+			(uuid "f43eac3d-2120-4f76-88a7-7fdd4a86fcfe")
+		)
+		(pin "1"
+			(uuid "b05f7443-8dfb-4b2b-b34b-a141386b10d5")
+		)
+		(pin "3"
+			(uuid "424e0fe2-808a-4dc1-911a-676e5f858258")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 124.46 276.86 0)
 		(unit 1)
@@ -12740,7 +12925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 43.18 212.09 0)
 			(effects
 				(font
@@ -12858,17 +13043,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 120.65 175.26 0)
-		(unit 1)
+		(lib_id "Device:Opamp_Dual")
+		(at 267.97 148.59 90)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "099feee6-0148-43cf-8429-d34ab61945f2")
-		(property "Reference" "#PWR023"
-			(at 120.65 181.61 0)
+		(uuid "0b2ac06d-81c0-46e3-983b-e69e6feec285")
+		(property "Reference" "U6"
+			(at 267.97 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 267.97 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 267.97 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12876,16 +13076,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 120.65 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 175.26 0)
+		(property "Datasheet" "~"
+			(at 267.97 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12893,8 +13085,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 120.65 175.26 0)
+		(property "Description" "Dual operational amplifier"
+			(at 267.97 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12902,23 +13094,71 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 120.65 175.26 0)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 267.97 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 267.97 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c128a4b9-564b-4ae7-8f67-e35ed6fe0479")
+		)
+		(pin "2"
+			(uuid "f650d4ce-2ea2-474b-af93-45264dab6083")
+		)
+		(pin "6"
+			(uuid "f85052c2-6c25-4e9c-b1e5-a4923f309291")
+		)
+		(pin "8"
+			(uuid "270d68ee-fa4f-4f52-9f4a-64a0110fd68d")
+		)
+		(pin "4"
+			(uuid "df6521d6-8b4d-4aa3-8229-f656ef24357f")
+		)
+		(pin "7"
+			(uuid "f43eac3d-2120-4f76-88a7-7fdd4a86fcfe")
 		)
 		(pin "1"
-			(uuid "72ad1b53-9052-43a8-968d-c0d2b2eaf036")
+			(uuid "b05f7443-8dfb-4b2b-b34b-a141386b10d5")
+		)
+		(pin "3"
+			(uuid "424e0fe2-808a-4dc1-911a-676e5f858258")
 		)
 		(instances
 			(project ""
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "#PWR023")
-					(unit 1)
+					(reference "U6")
+					(unit 3)
 				)
 			)
 		)
@@ -12949,7 +13189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 10.16 0)
 			(effects
 				(font
@@ -13067,6 +13307,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 260.35 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0dd58edd-c120-4ca4-9c8c-891357a42300")
+		(property "Reference" "#PWR028"
+			(at 260.35 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 260.35 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 260.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d5638e49-098f-439a-84f4-81e66722925c")
+		)
+		(instances
+			(project "Power_Management_2025_Rev1"
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 275.59 198.12 0)
 		(unit 1)
@@ -13158,7 +13464,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 81.28 0)
 			(effects
 				(font
@@ -13754,6 +14060,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 147.32 170.18 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1a0586db-164e-4530-acc6-053731ad4a6f")
+		(property "Reference" "U5"
+			(at 153.67 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 153.67 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 147.32 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "e209b16a-0a7e-488a-a7bb-a786ba1f68e0")
+		)
+		(pin "5"
+			(uuid "cc27a439-c749-4c89-93ba-6585d2b4b3e6")
+		)
+		(pin "6"
+			(uuid "b0e71728-1e58-424f-a510-f7dae25e9040")
+		)
+		(pin "3"
+			(uuid "98ee64ee-f03b-45c2-b45d-19b85e8eb68f")
+		)
+		(pin "2"
+			(uuid "564c0d5f-3a81-4238-8d48-34ed62493560")
+		)
+		(pin "7"
+			(uuid "926c6864-382c-416c-b17a-d6391cccdfca")
+		)
+		(pin "1"
+			(uuid "4ee8cd85-da6b-4cd6-bd81-da2884cf0e57")
+		)
+		(pin "4"
+			(uuid "0fe41b6b-3810-437b-8505-2a83fed9f52f")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 125.73 64.77 90)
 		(unit 1)
@@ -14123,7 +14553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 54.61 0)
 			(effects
 				(font
@@ -14200,7 +14630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 27.94 0)
 			(effects
 				(font
@@ -14415,7 +14845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 72.39 0)
 			(effects
 				(font
@@ -14558,7 +14988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 81.28 0)
 			(effects
 				(font
@@ -14635,7 +15065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 27.94 0)
 			(effects
 				(font
@@ -15217,7 +15647,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 45.72 0)
 			(effects
 				(font
@@ -15401,72 +15831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 297.18 182.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "37abe1ca-3919-467c-95aa-cd69c697db43")
-		(property "Reference" "#PWR028"
-			(at 297.18 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 297.18 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 297.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 297.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 297.18 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c5e56339-7557-41ab-98f2-6370b1d7c309")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 163.83 50.8 0)
 		(mirror x)
@@ -15492,7 +15856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 36.83 0)
 			(effects
 				(font
@@ -15539,6 +15903,128 @@
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "Conn5")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 125.73 143.51 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3abd6c83-6247-4999-a335-5e8f3dce15e1")
+		(property "Reference" "U5"
+			(at 125.73 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 125.73 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 125.73 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "591ca276-01eb-4de9-beac-b9d29f795d9a")
+		)
+		(pin "1"
+			(uuid "a910081f-0016-4393-ac1d-e32956e5599d")
+		)
+		(pin "4"
+			(uuid "4c353ce7-9f3d-4a4f-ab34-77d84c77f8f1")
+		)
+		(pin "2"
+			(uuid "58255a5b-2e4b-44d0-a076-9beaff9772c1")
+		)
+		(pin "3"
+			(uuid "0a1fa447-d80a-48b2-a492-64c0e58eab77")
+		)
+		(pin "6"
+			(uuid "57735c2b-4ac2-46a5-a741-9f7c4fafc4c2")
+		)
+		(pin "8"
+			(uuid "8327a60d-6669-45ce-9abe-42787444ad37")
+		)
+		(pin "7"
+			(uuid "f4fcf14b-e1ac-4e0d-b0dc-d20d33180eb8")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U5")
+					(unit 3)
 				)
 			)
 		)
@@ -15650,7 +16136,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 43.18 223.52 0)
 			(effects
 				(font
@@ -15696,120 +16182,6 @@
 			(project "Power_Management_2025_Rev1"
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "Conn19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 289.56 177.8 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3df6f3e6-961f-4157-954a-bd94b179eff6")
-		(property "Reference" "U7"
-			(at 297.18 176.1138 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 297.18 178.0189 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 289.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 289.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 289.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 289.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 289.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 289.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 289.56 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "80781f30-3d80-473d-92d1-42572573ca2e")
-		)
-		(pin "3"
-			(uuid "0501ef69-e75d-470d-999d-67cf22f9fe2f")
-		)
-		(pin "1"
-			(uuid "77d19bf4-fb55-414a-8a5f-517eccdf0609")
-		)
-		(pin "4"
-			(uuid "e5b3bb68-fbc8-44d1-a915-af147974b5da")
-		)
-		(pin "2"
-			(uuid "02f841c2-4cd9-42b5-9837-0b77e4f05a55")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -15929,7 +16301,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 90.17 0)
 			(effects
 				(font
@@ -15981,72 +16353,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 105.41 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "42ffd799-b399-4ce3-8141-cb866801ea32")
-		(property "Reference" "#PWR050"
-			(at 105.41 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 105.41 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 105.41 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "be05f821-abf8-4b5c-950d-f2e18700deb4")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 241.3 95.25 0)
 		(mirror x)
@@ -16072,7 +16378,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 81.28 0)
 			(effects
 				(font
@@ -16185,6 +16491,130 @@
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "#PWR035")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 113.03 170.18 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47d8033c-068a-4aab-8f78-c1f498851831")
+		(property "Reference" "U5"
+			(at 119.38 168.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 119.38 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 113.03 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "591ca276-01eb-4de9-beac-b9d29f795d9a")
+		)
+		(pin "1"
+			(uuid "a910081f-0016-4393-ac1d-e32956e5599d")
+		)
+		(pin "4"
+			(uuid "4c353ce7-9f3d-4a4f-ab34-77d84c77f8f1")
+		)
+		(pin "2"
+			(uuid "58255a5b-2e4b-44d0-a076-9beaff9772c1")
+		)
+		(pin "3"
+			(uuid "0a1fa447-d80a-48b2-a492-64c0e58eab77")
+		)
+		(pin "6"
+			(uuid "57735c2b-4ac2-46a5-a741-9f7c4fafc4c2")
+		)
+		(pin "8"
+			(uuid "8327a60d-6669-45ce-9abe-42787444ad37")
+		)
+		(pin "7"
+			(uuid "f4fcf14b-e1ac-4e0d-b0dc-d20d33180eb8")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -16621,7 +17051,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 72.39 0)
 			(effects
 				(font
@@ -16884,6 +17314,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 180.34 173.99 90)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "54540f8e-b205-4ef1-8c1a-e5e8b88ee356")
+		(property "Reference" "U4"
+			(at 186.69 172.7199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 186.69 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 180.34 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1a750cfe-1597-4207-97a6-449b739892b5")
+		)
+		(pin "6"
+			(uuid "5c7a0979-a900-48ff-afa8-094d52e63093")
+		)
+		(pin "2"
+			(uuid "53d3a8e7-a081-4f01-bdb2-72329e734d42")
+		)
+		(pin "1"
+			(uuid "c9e8a12e-f370-4d7d-8ddf-23d36a227d84")
+		)
+		(pin "3"
+			(uuid "3b1001a0-991e-4c4e-b210-97acc169118c")
+		)
+		(pin "7"
+			(uuid "8fb40450-7281-4314-9b9d-2446c8bb440d")
+		)
+		(pin "5"
+			(uuid "2165011a-3383-4150-a79b-c93340966963")
+		)
+		(pin "4"
+			(uuid "fcc7f2e9-b30f-4016-898d-37179ab3c1e2")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 241.3 195.58 0)
 		(unit 1)
@@ -17107,7 +17661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 36.83 0)
 			(effects
 				(font
@@ -17401,7 +17955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 45.72 0)
 			(effects
 				(font
@@ -17585,120 +18139,6 @@
 			(project ""
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 147.32 171.45 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a7253f2-1e80-4a12-bc8f-f0a74b9332e3")
-		(property "Reference" "U8"
-			(at 154.94 169.7638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 154.94 171.6689 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 147.32 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "5d9165fd-90cf-461c-8948-ba6690ab7af3")
-		)
-		(pin "3"
-			(uuid "60f04559-1afe-4014-a70a-de577dcc8ac3")
-		)
-		(pin "1"
-			(uuid "e7b9c660-fdb0-4a7c-ae7b-2409a7657d97")
-		)
-		(pin "4"
-			(uuid "dd20e9f7-8677-40b6-ac9a-7ef37feddf73")
-		)
-		(pin "2"
-			(uuid "ae6d46b3-9a59-48ef-8e06-30e75ac91ac2")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -18151,7 +18591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 54.61 0)
 			(effects
 				(font
@@ -18197,120 +18637,6 @@
 			(project "Power_Management_2025_Rev1"
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "Conn11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 113.03 170.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71c2a916-e2ad-4948-81af-46698aac7921")
-		(property "Reference" "U9"
-			(at 120.65 168.4938 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 120.65 170.3989 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 113.03 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "3c1c34dd-451c-4a82-948f-604288369df6")
-		)
-		(pin "3"
-			(uuid "24738ae3-856f-40a3-ba65-7b75c1daf4d4")
-		)
-		(pin "1"
-			(uuid "7e7a3702-cea6-4ed4-9e01-c28184333e5a")
-		)
-		(pin "4"
-			(uuid "fb595a31-90d6-4171-ac48-df1040552afb")
-		)
-		(pin "2"
-			(uuid "0d8fe97f-c31f-40ef-bf61-ab13ed0c39c4")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -18454,7 +18780,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 262.89 180.34 0)
+		(at 275.59 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18463,7 +18789,7 @@
 		(fields_autoplaced yes)
 		(uuid "79257cf3-1906-43f9-aea9-c2a323d3435d")
 		(property "Reference" "#PWR027"
-			(at 262.89 186.69 0)
+			(at 275.59 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18472,7 +18798,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 262.89 185.42 0)
+			(at 275.59 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18480,7 +18806,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.89 180.34 0)
+			(at 275.59 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18489,7 +18815,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 180.34 0)
+			(at 275.59 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18498,7 +18824,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 262.89 180.34 0)
+			(at 275.59 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18544,7 +18870,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 16.51 213.36 0)
 			(effects
 				(font
@@ -18942,72 +19268,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 187.96 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8186935b-651a-42b9-9a7e-205d42e903f9")
-		(property "Reference" "#PWR025"
-			(at 187.96 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 187.96 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 187.96 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ebcf5faf-70bf-4060-988d-3e5d6b368a8c")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MRDT_Connectors:Molex_SL_07")
 		(at 132.08 240.03 0)
 		(unit 1)
@@ -19159,7 +19419,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 139.7 161.29 0)
+		(at 118.11 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19168,7 +19428,7 @@
 		(fields_autoplaced yes)
 		(uuid "85d309f4-f237-4df4-9ca2-baa5da136cfc")
 		(property "Reference" "#PWR049"
-			(at 139.7 165.1 0)
+			(at 118.11 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19177,7 +19437,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 139.7 156.21 0)
+			(at 118.11 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19185,7 +19445,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 161.29 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19194,7 +19454,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 161.29 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19203,7 +19463,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 139.7 161.29 0)
+			(at 118.11 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19356,6 +19616,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 217.17 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "881d8262-17a8-40be-a5ee-3be417d52f89")
+		(property "Reference" "U4"
+			(at 223.52 171.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 223.52 173.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 217.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "1c868902-488a-4044-bccc-843ae17a4d39")
+		)
+		(pin "2"
+			(uuid "eafc0557-33d2-42b3-bd4d-d509ea3f9316")
+		)
+		(pin "5"
+			(uuid "6c18dee2-64b1-4512-8286-41fe8b00c79a")
+		)
+		(pin "1"
+			(uuid "0ee4ad73-b89f-4ec2-b71a-a1671af5ea2f")
+		)
+		(pin "7"
+			(uuid "0c8cb1a2-c8cf-434b-bfab-b508c534e005")
+		)
+		(pin "4"
+			(uuid "89eef7ae-e82e-4e50-b4da-5eb877290509")
+		)
+		(pin "3"
+			(uuid "7de597bf-be16-4508-a372-8127b7e30b00")
+		)
+		(pin "8"
+			(uuid "0f4e8946-69f0-4e7f-b8b8-c763fb2abb67")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 241.3 33.02 0)
 		(mirror x)
@@ -19381,7 +19765,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 19.05 0)
 			(effects
 				(font
@@ -19661,120 +20045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 255.27 175.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9047bfae-83ef-41a1-96fa-18e563ef06b7")
-		(property "Reference" "U4"
-			(at 262.89 173.5738 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 262.89 175.4789 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 255.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 255.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 255.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 255.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 255.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 255.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 255.27 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "4aacea7e-dff2-4909-b47b-2fbc6f016d9b")
-		)
-		(pin "3"
-			(uuid "568007e2-d68c-4764-87a5-9cfc997bb30a")
-		)
-		(pin "1"
-			(uuid "16323aad-7c6a-4a79-8333-8d53b028bd14")
-		)
-		(pin "4"
-			(uuid "757f401f-b0ee-4999-be66-e5a08574420a")
-		)
-		(pin "2"
-			(uuid "91c7d4cd-4904-4377-bc3c-34cbe703b9c2")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 289.56 100.33 0)
 		(unit 1)
@@ -19867,7 +20137,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 54.61 0)
 			(effects
 				(font
@@ -20414,7 +20684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 10.795 0)
 			(effects
 				(font
@@ -20526,72 +20796,6 @@
 			(project ""
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 281.94 172.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a67079b9-6752-480d-b0ed-369ffa3d676c")
-		(property "Reference" "#PWR045"
-			(at 281.94 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 281.94 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 281.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 281.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 281.94 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fffb381-2617-41d3-aec3-675f1ee1dbe6")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -21595,6 +21799,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 195.58 147.32 90)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b75c5f44-97b5-438c-b0ea-a300e92941af")
+		(property "Reference" "U4"
+			(at 195.58 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 195.58 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "1a750cfe-1597-4207-97a6-449b739892b5")
+		)
+		(pin "6"
+			(uuid "5c7a0979-a900-48ff-afa8-094d52e63093")
+		)
+		(pin "2"
+			(uuid "53d3a8e7-a081-4f01-bdb2-72329e734d42")
+		)
+		(pin "1"
+			(uuid "c9e8a12e-f370-4d7d-8ddf-23d36a227d84")
+		)
+		(pin "3"
+			(uuid "3b1001a0-991e-4c4e-b210-97acc169118c")
+		)
+		(pin "7"
+			(uuid "8fb40450-7281-4314-9b9d-2446c8bb440d")
+		)
+		(pin "5"
+			(uuid "2165011a-3383-4150-a79b-c93340966963")
+		)
+		(pin "4"
+			(uuid "fcc7f2e9-b30f-4016-898d-37179ab3c1e2")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 110.49 184.15 0)
 		(unit 1)
@@ -21690,7 +22016,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 16.51 224.79 0)
 			(effects
 				(font
@@ -21835,7 +22161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 72.39 0)
 			(effects
 				(font
@@ -21912,7 +22238,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 19.05 0)
 			(effects
 				(font
@@ -22055,7 +22381,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 90.17 0)
 			(effects
 				(font
@@ -22324,120 +22650,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 180.34 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c4417f51-f078-478e-b3c9-0af6c5db017a")
-		(property "Reference" "U6"
-			(at 187.96 172.3038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 187.96 174.2089 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 180.34 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "a429294e-cfad-4c18-b502-901ac72f65ef")
-		)
-		(pin "3"
-			(uuid "b0c6876e-0f98-4e33-a238-754cd153e0e3")
-		)
-		(pin "1"
-			(uuid "d0986be1-9f2a-443b-a9c2-a42beaf4770b")
-		)
-		(pin "4"
-			(uuid "618e695f-9d2d-458c-b245-885502e5cd5a")
-		)
-		(pin "2"
-			(uuid "434b6f68-88cc-485a-ac56-aa51a93ba898")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+BATT")
 		(at 369.57 214.63 0)
 		(unit 1)
@@ -22498,120 +22710,6 @@
 			(project "Power_Management_2025_Rev1"
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 217.17 173.99 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c8770594-f44c-48b1-afab-ef887a24e709")
-		(property "Reference" "U5"
-			(at 224.79 172.3038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 224.79 174.2089 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 217.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec__SUBCKT_Subcircuits"
-			(at 217.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Operational amplifier, single, node sequence=1:+ 2:- 3:OUT 4:V+ 5:V-"
-			(at 217.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=in+ 2=in- 3=vcc 4=vee 5=out"
-			(at 217.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 217.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD8_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 217.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp"
-			(at 217.17 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "120f6868-4799-40c5-aa87-007585e8bf37")
-		)
-		(pin "3"
-			(uuid "f30579b7-786e-40b8-b25e-045d845fc66d")
-		)
-		(pin "1"
-			(uuid "2d7e2180-0d7a-4f83-9d88-3b8aeb38a414")
-		)
-		(pin "4"
-			(uuid "30edfa14-9d41-4d37-9bc4-8e8260e243bf")
-		)
-		(pin "2"
-			(uuid "430768ac-7d4b-4ef7-a44d-31833808222e")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -22746,72 +22844,6 @@
 			(project ""
 				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 247.65 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cf08f1cf-2977-4fa2-93a8-2f1659fc71bb")
-		(property "Reference" "#PWR046"
-			(at 247.65 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 247.65 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.65 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 247.65 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 247.65 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4fe3717-c99b-4082-b09e-241c7c7675db")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -23152,72 +23184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 172.72 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d74507f0-d2ed-4723-ad46-428ff67090ba")
-		(property "Reference" "#PWR048"
-			(at 172.72 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 172.72 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 172.72 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7467769b-aa4f-46c7-8141-7755784abc77")
-		)
-		(instances
-			(project "Power_Management_2025_Rev1"
-				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 163.83 41.91 0)
 		(mirror x)
@@ -23243,7 +23209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 27.94 0)
 			(effects
 				(font
@@ -23432,7 +23398,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 209.55 167.64 0)
+		(at 187.96 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23441,7 +23407,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcb9a3fc-6a36-4c20-a5d9-c2053fe64a22")
 		(property "Reference" "#PWR047"
-			(at 209.55 171.45 0)
+			(at 187.96 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23450,7 +23416,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 209.55 162.56 0)
+			(at 187.96 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23458,7 +23424,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 167.64 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23467,7 +23433,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 167.64 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23476,7 +23442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 209.55 167.64 0)
+			(at 187.96 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23734,7 +23700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 36.83 0)
 			(effects
 				(font
@@ -23952,7 +23918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 45.72 0)
 			(effects
 				(font
@@ -24142,6 +24108,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 289.56 176.53 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e79b9543-a2da-4441-ba61-2cd1f4444a8a")
+		(property "Reference" "U6"
+			(at 295.91 175.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 295.91 177.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD7_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 289.56 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "c128a4b9-564b-4ae7-8f67-e35ed6fe0479")
+		)
+		(pin "2"
+			(uuid "f650d4ce-2ea2-474b-af93-45264dab6083")
+		)
+		(pin "6"
+			(uuid "f85052c2-6c25-4e9c-b1e5-a4923f309291")
+		)
+		(pin "8"
+			(uuid "270d68ee-fa4f-4f52-9f4a-64a0110fd68d")
+		)
+		(pin "4"
+			(uuid "df6521d6-8b4d-4aa3-8229-f656ef24357f")
+		)
+		(pin "7"
+			(uuid "f43eac3d-2120-4f76-88a7-7fdd4a86fcfe")
+		)
+		(pin "1"
+			(uuid "b05f7443-8dfb-4b2b-b34b-a141386b10d5")
+		)
+		(pin "3"
+			(uuid "424e0fe2-808a-4dc1-911a-676e5f858258")
+		)
+		(instances
+			(project ""
+				(path "/e068baf1-d1f0-499a-9461-2503f4f0f679"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 241.3 77.47 0)
 		(mirror x)
@@ -24167,7 +24257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 63.5 0)
 			(effects
 				(font
@@ -24378,7 +24468,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Stacked"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 160.02 63.5 0)
 			(effects
 				(font
@@ -24455,7 +24545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 237.49 90.17 0)
 			(effects
 				(font
@@ -25414,7 +25504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Anderson_1_Horizontal"
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 198.12 63.5 0)
 			(effects
 				(font
@@ -25467,7 +25557,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 179.07 0)
+		(at 203.2 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25476,7 +25566,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe42f202-73be-462c-b0e1-d975f9af211a")
 		(property "Reference" "#PWR026"
-			(at 224.79 185.42 0)
+			(at 203.2 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25485,7 +25575,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 184.15 0)
+			(at 203.2 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25493,7 +25583,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 179.07 0)
+			(at 203.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25502,7 +25592,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 179.07 0)
+			(at 203.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25511,7 +25601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 179.07 0)
+			(at 203.2 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25533,7 +25623,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 154.94 176.53 0)
+		(at 133.35 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25542,7 +25632,7 @@
 		(fields_autoplaced yes)
 		(uuid "febc1cd9-3d83-4251-931f-61994b445c06")
 		(property "Reference" "#PWR024"
-			(at 154.94 182.88 0)
+			(at 133.35 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25551,7 +25641,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 154.94 181.61 0)
+			(at 133.35 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25559,7 +25649,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 176.53 0)
+			(at 133.35 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25568,7 +25658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 154.94 176.53 0)
+			(at 133.35 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25577,7 +25667,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 154.94 176.53 0)
+			(at 133.35 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
