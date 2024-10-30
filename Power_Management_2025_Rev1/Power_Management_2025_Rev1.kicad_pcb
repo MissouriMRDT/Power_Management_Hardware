@@ -6060,7 +6060,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Devices:PKE3316ZPI"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00d3fe8b-d826-4376-a642-fe7ab48ebcfa")
@@ -6072,7 +6072,7 @@
 			)
 		)
 		(property "Datasheet" "https://flexpowermodules.com/resources/fpm-techspec-pke3000"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cefc2eaa-4fc6-4115-b844-be9ae97e7f0e")
@@ -6084,7 +6084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c95d7ce0-d512-4d8b-860d-49fcc10a9f7f")
@@ -8959,7 +8959,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R35"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "adf3d722-3fec-4523-9065-6f9068f84a22")
 			(effects
@@ -8970,7 +8970,7 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "2dbd3fe6-a47f-4367-8367-f40b9b0c0513")
 			(effects
@@ -9125,7 +9125,7 @@
 			(uuid "578cfffe-7602-42b3-a3db-e1b33eba64d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f777a951-afa8-45f5-baaf-177aafb891f9")
 			(effects
@@ -23956,7 +23956,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Devices:PKE3316ZPI"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "69d318ae-eb79-41ca-b1fc-19df6afa3cbf")
@@ -23968,7 +23968,7 @@
 			)
 		)
 		(property "Datasheet" "https://flexpowermodules.com/resources/fpm-techspec-pke3000"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "283c93c1-6263-465d-a631-f4360117c6e3")
@@ -23980,7 +23980,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "328c466a-3267-4ca5-ba03-eaa07154875c")
@@ -36968,7 +36968,7 @@
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D10"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(uuid "6efc8fd4-fbe2-436e-b697-f75487da8275")
 			(effects
@@ -36979,7 +36979,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "130f9e6d-e1cb-4d5d-b702-afc18516e17e")
 			(effects
@@ -37154,7 +37154,7 @@
 			(uuid "67f469c0-385f-479a-9d12-3343d3d543b6")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "78a3e7f3-b0b4-4a90-b288-98b385ef7196")
 			(effects
@@ -38955,7 +38955,7 @@
 		(descr "3-140-167-2")
 		(tags "Fuse")
 		(property "Reference" "F1"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "e1d8fc90-eaf5-40bd-b546-b554bbe046a3")
 			(effects
@@ -38966,7 +38966,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0276bf7a-0452-4830-b1e5-4baaec69e58c")
@@ -38978,7 +38978,7 @@
 			)
 		)
 		(property "Footprint" "KiCad:3140167"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c091383b-3a0f-4e13-8d0a-80dd8006d209")
@@ -38990,7 +38990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "241c3130-2deb-4aed-8b76-3cf255b8d10d")
@@ -39002,7 +39002,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2550b522-ac6e-4e42-8ce5-1e3ccf79d897")
@@ -39201,7 +39201,7 @@
 			(uuid "412402f9-e6d1-49d3-b2d6-838354ea7962")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "066703db-fcd4-42db-81a9-bcd35ede654e")
 			(effects
@@ -39726,7 +39726,7 @@
 		(descr "Allegro MicroSystems, CB-PFF Package (http://www.allegromicro.com/en/Products/Current-Sensor-ICs/Fifty-To-Two-Hundred-Amp-Integrated-Conductor-Sensor-ICs/ACS758.aspx) !PADS 4-5 DO NOT MATCH DATASHEET!")
 		(tags "Allegro CB-PFF")
 		(property "Reference" "U3"
-			(at 1.91 -16.7 360)
+			(at 1.91 -16.7 0)
 			(layer "F.SilkS")
 			(uuid "07e3c423-64a1-41b5-962c-553524a428b6")
 			(effects
