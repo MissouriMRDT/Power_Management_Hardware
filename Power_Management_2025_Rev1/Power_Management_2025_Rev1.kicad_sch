@@ -10979,7 +10979,7 @@
 			)
 		)
 	)
-	(global_label "IP+"
+	(global_label "PV+"
 		(shape output)
 		(at 33.02 189.23 90)
 		(fields_autoplaced yes)
@@ -10991,7 +10991,7 @@
 		)
 		(uuid "402a4ac8-8849-48dc-8610-d2bc3e6a6a13")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 182.7976 90)
+			(at 33.02 182.3138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11599,7 +11599,7 @@
 			)
 		)
 	)
-	(global_label "IP+"
+	(global_label "PV-"
 		(shape input)
 		(at 303.53 114.3 270)
 		(fields_autoplaced yes)
@@ -11611,7 +11611,7 @@
 		)
 		(uuid "93d54fa4-a4fb-40db-bcfb-080fc4f84829")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 303.53 120.7324 90)
+			(at 303.53 121.2162 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11731,7 +11731,7 @@
 			)
 		)
 	)
-	(global_label "IP-"
+	(global_label "PV-"
 		(shape output)
 		(at 76.2 238.76 90)
 		(fields_autoplaced yes)
@@ -11743,7 +11743,7 @@
 		)
 		(uuid "9c91aa70-fbf7-40bf-8e2f-f84d89357ea5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 232.3276 90)
+			(at 76.2 231.8438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +11866,7 @@
 			)
 		)
 	)
-	(global_label "IP+"
+	(global_label "PV+"
 		(shape input)
 		(at 17.78 240.03 90)
 		(fields_autoplaced yes)
@@ -11878,7 +11878,7 @@
 		)
 		(uuid "af48d8c6-38e6-4db5-8f76-f25713e1e997")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.78 233.5976 90)
+			(at 17.78 233.1138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12154,7 +12154,7 @@
 			)
 		)
 	)
-	(global_label "IP+"
+	(global_label "PV+"
 		(shape output)
 		(at 59.69 187.96 90)
 		(fields_autoplaced yes)
@@ -12166,7 +12166,7 @@
 		)
 		(uuid "caf920b4-4b1a-4cf9-8507-6b94dcd023f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.69 181.5276 90)
+			(at 59.69 181.0438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
