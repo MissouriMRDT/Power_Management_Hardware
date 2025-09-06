@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "PowerManagementBoard")(type "KiCad")(uri "${KIPRJMOD}/../lib/Footprints/PowerManagementBoard.pretty")(options "")(descr ""))
+)
