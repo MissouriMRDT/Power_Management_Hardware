@@ -5,6 +5,52 @@
 	(uuid "7eaa639d-7062-45e7-be05-1c2855431307")
 	(paper "A4")
 	(lib_symbols)
+	(junction
+		(at 69.85 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "feb065c2-4ef5-453b-9612-b30968642ecc")
+	)
+	(wire
+		(pts
+			(xy 69.85 48.26) (xy 69.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321a2eb7-089f-43cc-914d-78a497577c57")
+	)
+	(wire
+		(pts
+			(xy 67.31 48.26) (xy 69.85 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422f72f2-fec2-45fa-87a7-a0db6a494e7d")
+	)
+	(wire
+		(pts
+			(xy 69.85 48.26) (xy 74.93 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90034fd-6fd4-4cb1-9c6a-bcef2b9e4628")
+	)
+	(wire
+		(pts
+			(xy 69.85 44.45) (xy 67.31 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d73cff-99f9-4f28-9300-2634a872ef99")
+	)
 	(sheet
 		(at 22.86 72.39)
 		(size 44.45 33.02)
@@ -79,6 +125,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "Gnd" output
+			(at 67.31 52.07 0)
+			(uuid "fbbe8d83-d8cf-42aa-8d02-5d0d6e2e3569")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Vout" output
+			(at 67.31 48.26 0)
+			(uuid "1daa0a03-294b-42b8-91d9-71d56577d586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VoutPin" input
+			(at 67.31 44.45 0)
+			(uuid "392b94fd-d998-4702-8ec3-8a589794fe0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
