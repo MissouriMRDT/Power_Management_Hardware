@@ -94,6 +94,48 @@
 		)
 	)
 	(sheet
+		(at 97.79 26.67)
+		(size 16.51 15.24)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d051b168-830a-4a55-b5cd-142fa18015a1")
+		(property "Sheetname" "Switching Circuit"
+			(at 97.79 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "switches.kicad_sch"
+			(at 97.79 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 25.4)
 		(size 45.72 33.02)
 		(exclude_from_sim no)
