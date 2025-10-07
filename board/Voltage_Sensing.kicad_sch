@@ -2820,7 +2820,7 @@
 				)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "3v3"
 			(at 161.29 43.18 0)
 			(effects
 				(font
@@ -3710,7 +3710,7 @@
 				)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "3v3"
 			(at 134.62 44.45 0)
 			(effects
 				(font
@@ -4850,7 +4850,7 @@
 				)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "3v3"
 			(at 105.41 44.45 0)
 			(effects
 				(font
@@ -5058,7 +5058,7 @@
 				)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "3v3"
 			(at 196.85 43.18 0)
 			(effects
 				(font
@@ -6038,7 +6038,7 @@
 				)
 			)
 		)
-		(property "Value" "BZV55B3V3"
+		(property "Value" "3v3"
 			(at 76.2 45.72 0)
 			(effects
 				(font

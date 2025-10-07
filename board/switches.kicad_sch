@@ -1469,7 +1469,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a9668040-f653-4ffb-a913-483e96aa780d")
-		(property "Reference" "0.1u"
+		(property "Reference" "0.1u1"
 			(at 140.97 77.47 0)
 			(effects
 				(font
@@ -1523,7 +1523,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/d051b168-830a-4a55-b5cd-142fa18015a1"
-					(reference "0.1u")
+					(reference "0.1u1")
 					(unit 1)
 				)
 			)
