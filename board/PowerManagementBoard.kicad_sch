@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 22.86 116.84)
+		(size 44.45 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fd630e5-b3dd-45a9-8af7-edbcb212d4bf")
+		(property "Sheetname" "Big Current Sensor"
+			(at 22.86 116.1284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BCS.kicad_sch"
+			(at 22.86 139.0146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 97.79 26.67)
 		(size 16.51 15.24)
 		(exclude_from_sim no)
@@ -124,8 +166,8 @@
 			)
 		)
 		(pin "Vout" output
-			(at 67.31 48.26 0)
-			(uuid "1daa0a03-294b-42b8-91d9-71d56577d586")
+			(at 67.31 49.53 0)
+			(uuid "bb4413f2-f800-4386-8811-c5b2343de2ff")
 			(effects
 				(font
 					(size 1.27 1.27)
