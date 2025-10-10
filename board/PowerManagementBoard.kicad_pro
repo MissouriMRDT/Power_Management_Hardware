@@ -633,6 +633,10 @@
     [
       "e47a1f56-bf0f-4422-8cc9-80190c585d1d",
       "Buzzer Circuit"
+    ],
+    [
+      "4dc475e3-8611-4a67-a903-307f734d4f8b",
+      "TeensyandEthernetCircuit"
     ]
   ],
   "text_variables": {}
