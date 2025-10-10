@@ -310,8 +310,8 @@
 		)
 	)
 	(sheet
-		(at 97.79 26.67)
-		(size 16.51 15.24)
+		(at 83.82 26.67)
+		(size 39.37 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -326,7 +326,7 @@
 		)
 		(uuid "d051b168-830a-4a55-b5cd-142fa18015a1")
 		(property "Sheetname" "Switching Circuit"
-			(at 97.79 25.9584 0)
+			(at 83.82 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -335,7 +335,7 @@
 			)
 		)
 		(property "Sheetfile" "switches.kicad_sch"
-			(at 97.79 42.4946 0)
+			(at 83.82 59.0046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
