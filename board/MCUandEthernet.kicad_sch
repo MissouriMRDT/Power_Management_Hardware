@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "cf9f2fdd-8ccf-4009-beda-49ba47520125")
+	(uuid "ab374314-088c-45ec-b6c5-4ef4715dd20e")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:RJ45_LED_Shielded"
@@ -2459,6 +2459,12 @@
 		(uuid "7ea51036-fe87-451e-b683-59bab65cb100")
 	)
 	(junction
+		(at 72.39 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "996955b9-e966-42d9-bbfc-445d45de5215")
+	)
+	(junction
 		(at 151.13 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2624,7 +2630,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 144.78) (xy 72.39 139.7)
+			(xy 72.39 144.78) (xy 72.39 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2661,6 +2667,16 @@
 			(type default)
 		)
 		(uuid "4a486eb5-5d7f-4150-b973-d10389450d15")
+	)
+	(wire
+		(pts
+			(xy 68.58 119.38) (xy 73.66 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dbc579d-41fe-4f80-8707-176d1821191d")
 	)
 	(wire
 		(pts
@@ -2761,6 +2777,26 @@
 			(type default)
 		)
 		(uuid "92d64d1f-2bfb-49cf-a4e1-8c5973b53558")
+	)
+	(wire
+		(pts
+			(xy 68.58 142.24) (xy 72.39 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98c95b3f-238a-4246-aa17-7cee0d0deffc")
+	)
+	(wire
+		(pts
+			(xy 72.39 142.24) (xy 72.39 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99068f49-a4f9-4ec8-8e95-5d93018b665d")
 	)
 	(wire
 		(pts
@@ -3076,6 +3112,17 @@
 			(justify right)
 		)
 		(uuid "422c2df6-4061-47c6-9629-335fa7515fa3")
+	)
+	(hierarchical_label "BuzzerSignal"
+		(shape output)
+		(at 73.66 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b9ab9b7c-47a7-4f25-91a6-832cae18d176")
 	)
 	(hierarchical_label "CellSense4"
 		(shape input)

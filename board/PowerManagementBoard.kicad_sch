@@ -107,6 +107,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 179.07) (xy 25.4 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5992eb4c-a300-4ee2-ad20-c1c29143e6a5")
+	)
+	(wire
+		(pts
 			(xy 35.56 105.41) (xy 35.56 110.49)
 		)
 		(stroke
@@ -134,6 +144,16 @@
 			(type default)
 		)
 		(uuid "6a20c233-27ce-4a2c-83b4-dca2712d88bf")
+	)
+	(wire
+		(pts
+			(xy 22.86 153.67) (xy 22.86 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a295d1a-5c0d-4048-a5fb-d185b5054320")
 	)
 	(wire
 		(pts
@@ -254,6 +274,16 @@
 			(type default)
 		)
 		(uuid "b640e30c-9fc4-4b8a-b872-31671ccaedea")
+	)
+	(wire
+		(pts
+			(xy 24.13 153.67) (xy 22.86 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb2c5d8e-511e-499f-b325-76cbf1448d05")
 	)
 	(wire
 		(pts
@@ -392,6 +422,16 @@
 		(pin "CellSense6" input
 			(at 25.4 181.61 180)
 			(uuid "c59e2cc9-5a8b-448b-99b7-4bc6be646494")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BuzzerSignal" output
+			(at 25.4 179.07 180)
+			(uuid "ed80595a-4404-4ff2-8335-60e7119ca44e")
 			(effects
 				(font
 					(size 1.27 1.27)
