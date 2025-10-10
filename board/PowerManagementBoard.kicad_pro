@@ -629,6 +629,10 @@
     [
       "d051b168-830a-4a55-b5cd-142fa18015a1",
       "Switching Circuit"
+    ],
+    [
+      "e47a1f56-bf0f-4422-8cc9-80190c585d1d",
+      "Buzzer Circuit"
     ]
   ],
   "text_variables": {}

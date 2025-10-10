@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 24.13 120.65)
+		(size 45.72 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e47a1f56-bf0f-4422-8cc9-80190c585d1d")
+		(property "Sheetname" "Buzzer Circuit"
+			(at 24.13 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "BuzzerCircuit.kicad_sch"
+			(at 24.13 156.7946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 21.59 25.4)
 		(size 45.72 33.02)
 		(exclude_from_sim no)
