@@ -1319,7 +1319,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:DMN3008SFG"
+		(symbol "Transistor_FET:IPB180N10S4-02"
 			(pin_names
 				(hide yes)
 			)
@@ -1335,7 +1335,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "DMN3008SFG"
+			(property "Value" "IPB180N10S4-02"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1344,7 +1344,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
+			(property "Footprint" "Package_TO_SOT_SMD:TO-263-6"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1355,7 +1355,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3008SFG.pdf"
+			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPB180N10S4_02-DS-v01_00-en.pdf?fileId=db3a30433d1d0bbe013d2129cf8a2f88"
 				(at 5.08 -3.81 0)
 				(effects
 					(font
@@ -1365,7 +1365,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "17.6A Id, 30V Vds, N-Channel Power MOSFET, 4.4mOhm Ron, 86nC Qg (typ), PowerDI3333-8"
+			(property "Description" "180A Id, 100V Vds, OptiMOS-T2 N-Channel Power MOSFET, 2.5mOhm Ron, Qg (typ) 156nC, TO-263-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1374,7 +1374,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET"
+			(property "ki_keywords" "OptiMOS-T2 Power MOSFET N-MOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1383,7 +1383,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "Diodes*PowerDI3333*"
+			(property "ki_fp_filters" "TO?263?6*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1392,13 +1392,13 @@
 					(hide yes)
 				)
 			)
-			(symbol "DMN3008SFG_0_1"
+			(symbol "IPB180N10S4-02_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy 0.254 0)
+						(xy 0.254 1.905) (xy 0.254 -1.905)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1407,10 +1407,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -1559,7 +1559,7 @@
 					)
 				)
 			)
-			(symbol "DMN3008SFG_1_1"
+			(symbol "IPB180N10S4-02_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -1570,7 +1570,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1588,7 +1588,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1599,25 +1599,6 @@
 				(pin passive line
 					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(hide yes)
 					(name "S"
 						(effects
 							(font
@@ -1645,6 +1626,63 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(hide yes)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3655,6 +3693,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:IPB180N10S4-02")
+		(at 81.28 147.32 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "178efdeb-85b1-4b60-8efe-3e40478a2647")
+		(property "Reference" "Q9"
+			(at 80.264 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPB180N10S4-02"
+			(at 75.438 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-6"
+			(at 79.375 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPB180N10S4_02-DS-v01_00-en.pdf?fileId=db3a30433d1d0bbe013d2129cf8a2f88"
+			(at 77.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "180A Id, 100V Vds, OptiMOS-T2 N-Channel Power MOSFET, 2.5mOhm Ron, Qg (typ) 156nC, TO-263-6"
+			(at 81.28 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "7769738f-cae4-4e16-8ba9-17ebbca22cf9")
+		)
+		(pin "3"
+			(uuid "6f1e833c-04db-4c98-a085-09453ab9620e")
+		)
+		(pin "7"
+			(uuid "ec1ce184-ef2c-46f6-81b9-8db4238e19a6")
+		)
+		(pin "2"
+			(uuid "97453394-4657-488a-818d-c4a86032cbd3")
+		)
+		(pin "1"
+			(uuid "ba0c6667-6b2c-4ec2-8d83-540784e8f667")
+		)
+		(pin "4"
+			(uuid "85deb151-aa3e-40d1-8695-3e452691d6b7")
+		)
+		(pin "6"
+			(uuid "0b2a7cdd-50ce-4ac9-8864-89a59db6c4a9")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:SS16")
 		(at 129.54 100.33 270)
 		(unit 1)
@@ -4343,86 +4469,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:DMN3008SFG")
-		(at 81.28 147.32 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79d08d9e-653a-4cdb-a9b9-097425f5e3d9")
-		(property "Reference" "Q3"
-			(at 81.28 140.97 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN3008SFG"
-			(at 81.28 138.43 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
-			(at 79.375 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3008SFG.pdf"
-			(at 77.47 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "17.6A Id, 30V Vds, N-Channel Power MOSFET, 4.4mOhm Ron, 86nC Qg (typ), PowerDI3333-8"
-			(at 81.28 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "728bb0ef-5dff-4daf-8a7f-6c87cb8abce7")
-		)
-		(pin "1"
-			(uuid "7b62e96d-baf7-4ecb-91fd-d179c3bb51ad")
-		)
-		(pin "4"
-			(uuid "fafda414-dee9-4bb1-a674-ae15e5114dd4")
-		)
-		(pin "3"
-			(uuid "72e07c96-1424-4356-afb5-510d660ffcdc")
-		)
-		(pin "2"
-			(uuid "5a0a5470-4f50-47cb-bd28-ecb29271d55e")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "LM5050MK-1_NOPB_1")
 		(lib_id "LM5050MK-1_NOPB:LM5050MK-1_NOPB")
 		(at 78.74 99.06 0)
@@ -4499,6 +4545,94 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_FET:IPB180N10S4-02")
+		(at 78.74 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8d168c62-3254-4777-809d-30dbef7916df")
+		(property "Reference" "Q4"
+			(at 77.724 70.104 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPB180N10S4-02"
+			(at 72.644 67.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-6"
+			(at 76.835 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IPB180N10S4_02-DS-v01_00-en.pdf?fileId=db3a30433d1d0bbe013d2129cf8a2f88"
+			(at 74.93 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "180A Id, 100V Vds, OptiMOS-T2 N-Channel Power MOSFET, 2.5mOhm Ron, Qg (typ) 156nC, TO-263-6"
+			(at 78.74 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "b01463e6-1f03-4779-9e54-d52daa8482c3")
+		)
+		(pin "3"
+			(uuid "7647f6f3-9bc6-48c1-ada8-5fc5483fdd42")
+		)
+		(pin "7"
+			(uuid "6bf229ab-f270-449b-a375-462a029ff215")
+		)
+		(pin "2"
+			(uuid "67d0dba2-b862-4d33-a088-75ff490453f4")
+		)
+		(pin "1"
+			(uuid "3aa938b9-8e66-419c-bb64-d0ba8d84454e")
+		)
+		(pin "4"
+			(uuid "729ae6a6-a60e-4901-a9ad-b5d1324cd1d0")
+		)
+		(pin "6"
+			(uuid "ac10847f-e59e-4fc6-b1e2-70359caceeb2")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -5068,86 +5202,6 @@
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:DMN3008SFG")
-		(at 78.74 76.2 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d02f5659-b425-4afc-9634-f8bde2521224")
-		(property "Reference" "Q4"
-			(at 78.74 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "DMN3008SFG"
-			(at 78.74 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:Diodes_PowerDI3333-8"
-			(at 76.835 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/DMN3008SFG.pdf"
-			(at 74.93 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "17.6A Id, 30V Vds, N-Channel Power MOSFET, 4.4mOhm Ron, 86nC Qg (typ), PowerDI3333-8"
-			(at 78.74 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "7846b491-913c-44b1-97e1-2f520459c4d5")
-		)
-		(pin "1"
-			(uuid "c663e589-fc7d-4992-b129-c639118fdb15")
-		)
-		(pin "4"
-			(uuid "edb5a922-162f-4330-bd59-dd6c0a539629")
-		)
-		(pin "3"
-			(uuid "c08ade4c-1332-49ff-bc20-27a5b25949a9")
-		)
-		(pin "2"
-			(uuid "3af1b313-11c0-40eb-82e1-0572d7b72beb")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Q4")
 					(unit 1)
 				)
 			)

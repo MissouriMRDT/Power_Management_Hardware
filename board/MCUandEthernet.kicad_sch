@@ -2660,6 +2660,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 86.36) (xy 71.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46522a83-e9d8-4916-9265-80c0fe5b9c02")
+	)
+	(wire
+		(pts
 			(xy 165.1 162.56) (xy 151.13 162.56)
 		)
 		(stroke
@@ -2810,6 +2820,26 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 88.9) (xy 71.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d46499b-2263-425a-b8d1-4a765f44b171")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 71.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a30c6301-9081-486a-9ce5-a074f4c2e4a9")
+	)
+	(wire
+		(pts
 			(xy 73.66 59.69) (xy 71.12 59.69)
 		)
 		(stroke
@@ -2910,6 +2940,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 93.98) (xy 68.58 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf88e190-c6fa-4add-8f32-7c4a21124e86")
+	)
+	(wire
+		(pts
 			(xy 71.12 69.85) (xy 71.12 68.58)
 		)
 		(stroke
@@ -2927,6 +2967,16 @@
 			(type default)
 		)
 		(uuid "e192a60a-5470-4c0c-b042-349e537489b9")
+	)
+	(wire
+		(pts
+			(xy 71.12 81.28) (xy 68.58 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2a7634c-ef0b-49ba-9635-3affccd61db1")
 	)
 	(wire
 		(pts
@@ -3069,6 +3119,17 @@
 		)
 		(uuid "1591d312-f2a7-4588-8a36-9d20d215be67")
 	)
+	(hierarchical_label "Motor_Enable"
+		(shape output)
+		(at 71.12 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ac71ddf-4948-40fe-87f3-2f89535661da")
+	)
 	(hierarchical_label "CellSense2"
 		(shape input)
 		(at 24.13 116.84 180)
@@ -3112,6 +3173,50 @@
 			(justify right)
 		)
 		(uuid "422c2df6-4061-47c6-9629-335fa7515fa3")
+	)
+	(hierarchical_label "AUX_Enable"
+		(shape output)
+		(at 71.12 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "81e66c7d-8290-4add-ad2b-7209850729ab")
+	)
+	(hierarchical_label "LC_Enable"
+		(shape output)
+		(at 71.12 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8432ee00-6ca3-4bf8-8934-8a470348fdd0")
+	)
+	(hierarchical_label "NS_Enable"
+		(shape output)
+		(at 71.12 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b14c760-1497-4bf9-83cf-01812c703e0a")
+	)
+	(hierarchical_label "POE_Enable"
+		(shape output)
+		(at 71.12 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "aa367693-9327-4e0d-8d6a-acfea7e15702")
 	)
 	(hierarchical_label "BuzzerSignal"
 		(shape output)
