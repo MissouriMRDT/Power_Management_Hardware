@@ -257,6 +257,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 78.74) (xy 77.47 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4df5f17-4ca8-4cbf-8208-7bc1b9368620")
+	)
+	(wire
+		(pts
 			(xy 121.92 82.55) (xy 128.27 82.55)
 		)
 		(stroke
@@ -294,6 +304,16 @@
 			(type default)
 		)
 		(uuid "bf1347be-733f-48b8-be18-33a121b50878")
+	)
+	(wire
+		(pts
+			(xy 74.93 54.61) (xy 74.93 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87a839c-898d-419d-9f9f-add7a6c23377")
 	)
 	(wire
 		(pts
@@ -354,6 +374,16 @@
 			(type default)
 		)
 		(uuid "da3ff391-2aff-4dd0-902d-835d002c1ec4")
+	)
+	(wire
+		(pts
+			(xy 67.31 54.61) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea4e5505-52bf-4518-8770-ec11d6ba9bce")
 	)
 	(wire
 		(pts
@@ -557,6 +587,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "CSenseBatt" input
+			(at 77.47 78.74 180)
+			(uuid "ee6ce252-0916-4b19-ae6b-2025feaa7819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1072,6 +1112,16 @@
 		(pin "Vout" output
 			(at 67.31 49.53 0)
 			(uuid "bb4413f2-f800-4386-8811-c5b2343de2ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BattVout" output
+			(at 67.31 54.61 0)
+			(uuid "8e8ee192-d762-4837-bf84-f828ae9d78f4")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -2980,6 +2980,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 114.3) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3f2c9d5-c6aa-41c6-89ef-0000f9cf2ea9")
+	)
+	(wire
+		(pts
 			(xy 71.12 69.85) (xy 71.12 68.58)
 		)
 		(stroke
@@ -3258,6 +3268,17 @@
 			(justify left)
 		)
 		(uuid "aa367693-9327-4e0d-8d6a-acfea7e15702")
+	)
+	(hierarchical_label "CSenseBatt"
+		(shape input)
+		(at 73.66 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abb159a7-103f-4f7d-bdbb-a0dd555fe195")
 	)
 	(hierarchical_label "BuzzerSignal"
 		(shape output)

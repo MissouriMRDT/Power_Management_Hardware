@@ -3333,7 +3333,7 @@
 		)
 		(uuid "ff83213a-3bc6-42b4-a739-24bf6f83e3df")
 	)
-	(hierarchical_label "Vout"
+	(hierarchical_label "BattVout"
 		(shape output)
 		(at 207.01 99.06 0)
 		(effects
