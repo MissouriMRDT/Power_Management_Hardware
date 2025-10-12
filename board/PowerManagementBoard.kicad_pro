@@ -637,6 +637,10 @@
     [
       "4dc475e3-8611-4a67-a903-307f734d4f8b",
       "TeensyandEthernetCircuit"
+    ],
+    [
+      "553f5510-83a4-4a32-8cf5-5f8ae000bb74",
+      "Current-Sensinator"
     ]
   ],
   "text_variables": {}

@@ -2500,6 +2500,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 134.62) (xy 27.94 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d02625b-9547-4914-b3a5-f98c3fd323ff")
+	)
+	(wire
+		(pts
 			(xy 128.27 162.56) (xy 135.89 162.56)
 		)
 		(stroke
@@ -2740,6 +2750,16 @@
 	)
 	(wire
 		(pts
+			(xy 24.13 129.54) (xy 27.94 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d85ed57-c023-486f-8d5b-01c0f11405da")
+	)
+	(wire
+		(pts
 			(xy 73.66 69.85) (xy 71.12 69.85)
 		)
 		(stroke
@@ -2757,6 +2777,16 @@
 			(type default)
 		)
 		(uuid "784d7363-1f4c-4661-8a36-69bddf30577a")
+	)
+	(wire
+		(pts
+			(xy 24.13 132.08) (xy 27.94 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816de1ae-d9bc-4ac5-8aa6-a8cd85c16ac0")
 	)
 	(wire
 		(pts
@@ -3108,6 +3138,17 @@
 		)
 		(uuid "d594cb4b-b81d-4762-b4da-eabc2489caf0")
 	)
+	(hierarchical_label "CSensePOE"
+		(shape input)
+		(at 24.13 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09df08ac-6d7f-4ec3-8539-5fde94cfd46d")
+	)
 	(hierarchical_label "CellSense3"
 		(shape input)
 		(at 24.13 119.38 180)
@@ -3239,6 +3280,28 @@
 			(justify right)
 		)
 		(uuid "bfbd63f9-dd0b-45a3-b10d-a9642684ca4c")
+	)
+	(hierarchical_label "CSenseLC"
+		(shape input)
+		(at 24.13 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ce2687b6-c1c5-4f1f-b98b-8fb90e86e641")
+	)
+	(hierarchical_label "CSenseNS"
+		(shape input)
+		(at 24.13 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d18285ab-2201-4c8f-b824-6e07390c6bdb")
 	)
 	(symbol
 		(lib_id "power:GND")

@@ -117,6 +117,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 53.34) (xy 134.62 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71cb2c87-5373-4f90-b5ef-9145f369b6cb")
+	)
+	(wire
+		(pts
 			(xy 67.31 85.09) (xy 77.47 85.09)
 		)
 		(stroke
@@ -124,6 +134,36 @@
 			(type default)
 		)
 		(uuid "7518e8d0-9eb1-4c4b-a51e-aea84d563be1")
+	)
+	(wire
+		(pts
+			(xy 128.27 55.88) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78dcd739-a790-4959-85c4-051af28dbc20")
+	)
+	(wire
+		(pts
+			(xy 123.19 31.75) (xy 134.62 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81d8e215-e311-4989-87d3-6c9f740fa7ad")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 125.73 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a70f2b-632b-4ee9-899e-b96c1109322d")
 	)
 	(wire
 		(pts
@@ -147,6 +187,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 85.09) (xy 130.81 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f06039a-fbbd-4ed4-aac1-86ad806ad64b")
+	)
+	(wire
+		(pts
 			(xy 74.93 99.06) (xy 77.47 99.06)
 		)
 		(stroke
@@ -154,6 +204,36 @@
 			(type default)
 		)
 		(uuid "971a4cdd-dae6-4cf6-94af-0da7b9615e0e")
+	)
+	(wire
+		(pts
+			(xy 123.19 46.99) (xy 134.62 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98f4e9db-d21c-46a7-97f9-e3734e0075ce")
+	)
+	(wire
+		(pts
+			(xy 130.81 58.42) (xy 134.62 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb3a9c8-2b7a-4278-807b-6672d7ae797f")
+	)
+	(wire
+		(pts
+			(xy 123.19 40.64) (xy 134.62 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab1e2d0a-25ae-4853-b6b6-63cc04b83140")
 	)
 	(wire
 		(pts
@@ -177,6 +257,36 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 82.55) (xy 128.27 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a3fe1a-a14e-4cea-8f3a-e3a40b154796")
+	)
+	(wire
+		(pts
+			(xy 123.19 49.53) (xy 134.62 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e04f42-d40a-4a06-9bc0-37989283a669")
+	)
+	(wire
+		(pts
+			(xy 121.92 80.01) (xy 125.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad76f8e-1578-4e8d-b2c6-7f563824e4ee")
+	)
+	(wire
+		(pts
 			(xy 93.98 77.47) (xy 93.98 74.93)
 		)
 		(stroke
@@ -194,6 +304,26 @@
 			(type default)
 		)
 		(uuid "cb6b1af1-8255-48bb-b70f-674bda0edbc4")
+	)
+	(wire
+		(pts
+			(xy 123.19 29.21) (xy 134.62 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cec079de-d24e-4e52-ba6d-07d4c3f361ca")
+	)
+	(wire
+		(pts
+			(xy 134.62 55.88) (xy 128.27 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf7b5a03-2641-444d-bf7a-e633f87b4fb4")
 	)
 	(wire
 		(pts
@@ -217,6 +347,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 85.09) (xy 130.81 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da3ff391-2aff-4dd0-902d-835d002c1ec4")
+	)
+	(wire
+		(pts
 			(xy 96.52 77.47) (xy 96.52 73.66)
 		)
 		(stroke
@@ -224,6 +364,16 @@
 			(type default)
 		)
 		(uuid "f033c8b9-5027-4d00-bf53-5f76307298dc")
+	)
+	(wire
+		(pts
+			(xy 123.19 38.1) (xy 134.62 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ea7146-0515-4dc9-9e4c-9618de627220")
 	)
 	(sheet
 		(at 77.47 77.47)
@@ -379,10 +529,172 @@
 				(justify right)
 			)
 		)
+		(pin "CSenseLC" input
+			(at 121.92 80.01 0)
+			(uuid "fc6734f9-0ae4-4cd2-8cf2-628e64718964")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CSenseNS" input
+			(at 121.92 82.55 0)
+			(uuid "820629e0-98f6-4bc7-8b27-59d32a224642")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CSensePOE" input
+			(at 121.92 85.09 0)
+			(uuid "eb54b02c-3a69-4e7c-bf3d-3d9bf6e37be3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
 					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 25.4)
+		(size 21.59 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "553f5510-83a4-4a32-8cf5-5f8ae000bb74")
+		(property "Sheetname" "Current-Sensinator"
+			(at 134.62 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CurrentSensing.kicad_sch"
+			(at 134.62 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "LCin" input
+			(at 134.62 29.21 180)
+			(uuid "8c9162a6-6772-495a-8214-e5127c5d12c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCout" output
+			(at 134.62 31.75 180)
+			(uuid "fe6ab8e7-1374-4230-948f-8343786551d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LCVout" output
+			(at 134.62 53.34 180)
+			(uuid "6e65d6ce-7882-4870-a435-cb3c228bb228")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSin" input
+			(at 134.62 38.1 180)
+			(uuid "303a743a-4f9c-4fed-9327-d7e0d866edf8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSout" output
+			(at 134.62 40.64 180)
+			(uuid "8359619c-00ad-430b-996f-57f54d30e4a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NSVout" output
+			(at 134.62 55.88 180)
+			(uuid "06897f62-0309-484b-9a08-503346425dc7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POEin" input
+			(at 134.62 46.99 180)
+			(uuid "615ad00d-915e-4952-9896-aa8ed5b1cf68")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POEVout" output
+			(at 134.62 58.42 180)
+			(uuid "fc412fe8-90dc-4591-971a-53436ed55641")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "POEout" output
+			(at 134.62 49.53 180)
+			(uuid "5318150e-3d9d-459e-959a-2ecb9c682f52")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
+					(page "7")
 				)
 			)
 		)
@@ -490,8 +802,8 @@
 		)
 	)
 	(sheet
-		(at 83.82 26.67)
-		(size 39.37 31.75)
+		(at 83.82 25.4)
+		(size 39.37 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -506,7 +818,7 @@
 		)
 		(uuid "d051b168-830a-4a55-b5cd-142fa18015a1")
 		(property "Sheetname" "Switching Circuit"
-			(at 83.82 25.9584 0)
+			(at 83.82 24.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -524,7 +836,7 @@
 			)
 		)
 		(pin "AUX Power" output
-			(at 83.82 30.48 180)
+			(at 83.82 36.83 180)
 			(uuid "3b96b641-71b7-43ef-bfd4-d0431ec6c4aa")
 			(effects
 				(font
@@ -554,17 +866,17 @@
 			)
 		)
 		(pin "Low Current Power" output
-			(at 83.82 34.29 180)
+			(at 123.19 29.21 0)
 			(uuid "8daf23bf-f275-410d-9421-0c8def05d20b")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "Motor Power" output
-			(at 83.82 38.1 180)
+			(at 83.82 39.37 180)
 			(uuid "a9ba839a-eb75-4f43-b2ed-d4b68634e1f9")
 			(effects
 				(font
@@ -584,13 +896,13 @@
 			)
 		)
 		(pin "Network Power" output
-			(at 83.82 41.91 180)
+			(at 123.19 38.1 0)
 			(uuid "ce6ff7aa-9f61-49a8-927e-3264b748b57e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "NS_EN" input
@@ -604,13 +916,13 @@
 			)
 		)
 		(pin "POE Power" output
-			(at 83.82 45.72 180)
+			(at 123.19 46.99 0)
 			(uuid "12edd5bf-c0f9-4af6-b2c7-429af526d333")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "POE_EN" input
@@ -631,6 +943,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "LC Injector" input
+			(at 123.19 31.75 0)
+			(uuid "9c9f3e19-3564-4705-ac23-c1cc620287ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "NS Injector" input
+			(at 123.19 40.64 0)
+			(uuid "c4fc987d-8413-43cf-ae12-2e18f9dd0e94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POE Injector" input
+			(at 123.19 49.53 0)
+			(uuid "6821808c-a3db-41f0-bc42-25a4103f9b8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
