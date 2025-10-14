@@ -842,6 +842,48 @@
 		)
 	)
 	(sheet
+		(at 170.18 25.4)
+		(size 25.4 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a330d3b6-4e53-4d10-a34b-46d7b687198c")
+		(property "Sheetname" "POE"
+			(at 170.18 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "poe.kicad_sch"
+			(at 170.18 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 83.82 25.4)
 		(size 39.37 33.02)
 		(exclude_from_sim no)
