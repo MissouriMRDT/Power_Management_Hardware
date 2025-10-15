@@ -147,16 +147,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 31.75) (xy 134.62 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81d8e215-e311-4989-87d3-6c9f740fa7ad")
-	)
-	(wire
-		(pts
 			(xy 125.73 80.01) (xy 125.73 53.34)
 		)
 		(stroke
@@ -207,16 +197,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 46.99) (xy 134.62 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98f4e9db-d21c-46a7-97f9-e3734e0075ce")
-	)
-	(wire
-		(pts
 			(xy 130.81 58.42) (xy 134.62 58.42)
 		)
 		(stroke
@@ -224,16 +204,6 @@
 			(type default)
 		)
 		(uuid "9cb3a9c8-2b7a-4278-807b-6672d7ae797f")
-	)
-	(wire
-		(pts
-			(xy 123.19 40.64) (xy 134.62 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab1e2d0a-25ae-4853-b6b6-63cc04b83140")
 	)
 	(wire
 		(pts
@@ -277,16 +247,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 49.53) (xy 134.62 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9e04f42-d40a-4a06-9bc0-37989283a669")
-	)
-	(wire
-		(pts
 			(xy 121.92 80.01) (xy 125.73 80.01)
 		)
 		(stroke
@@ -324,16 +284,6 @@
 			(type default)
 		)
 		(uuid "cb6b1af1-8255-48bb-b70f-674bda0edbc4")
-	)
-	(wire
-		(pts
-			(xy 123.19 29.21) (xy 134.62 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cec079de-d24e-4e52-ba6d-07d4c3f361ca")
 	)
 	(wire
 		(pts
@@ -394,16 +344,6 @@
 			(type default)
 		)
 		(uuid "f033c8b9-5027-4d00-bf53-5f76307298dc")
-	)
-	(wire
-		(pts
-			(xy 123.19 38.1) (xy 134.62 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5ea7146-0515-4dc9-9e4c-9618de627220")
 	)
 	(sheet
 		(at 77.47 77.47)
@@ -651,16 +591,6 @@
 				(justify left)
 			)
 		)
-		(pin "LCout" output
-			(at 134.62 31.75 180)
-			(uuid "fe6ab8e7-1374-4230-948f-8343786551d9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCVout" output
 			(at 134.62 53.34 180)
 			(uuid "6e65d6ce-7882-4870-a435-cb3c228bb228")
@@ -674,16 +604,6 @@
 		(pin "NSin" input
 			(at 134.62 38.1 180)
 			(uuid "303a743a-4f9c-4fed-9327-d7e0d866edf8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NSout" output
-			(at 134.62 40.64 180)
-			(uuid "8359619c-00ad-430b-996f-57f54d30e4a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -721,14 +641,34 @@
 				(justify left)
 			)
 		)
-		(pin "POEout" output
-			(at 134.62 49.53 180)
-			(uuid "5318150e-3d9d-459e-959a-2ecb9c682f52")
+		(pin "LCout" output
+			(at 156.21 29.21 0)
+			(uuid "4c196499-28d7-401b-b0d1-07b327ef2a44")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+			)
+		)
+		(pin "NSout" output
+			(at 156.21 38.1 0)
+			(uuid "26368ced-4f75-4e1e-85e1-c752361f0612")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "POEout" output
+			(at 156.21 46.99 0)
+			(uuid "aeb6b9a1-b834-45fe-b4f9-0690e90d50ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -842,6 +782,88 @@
 		)
 	)
 	(sheet
+		(at 171.45 67.31)
+		(size 25.4 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7df83f93-7851-4dc4-9a38-c4dfcc370e8d")
+		(property "Sheetname" "Anderson"
+			(at 171.45 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "andersons.kicad_sch"
+			(at 171.45 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AUX" input
+			(at 171.45 72.39 180)
+			(uuid "c154ad9e-ae6c-43f0-bae6-e2dc7874b705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Low Current" input
+			(at 171.45 78.74 180)
+			(uuid "485ecae5-eaab-4351-b450-3a4228d486ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Motor" input
+			(at 171.45 83.82 180)
+			(uuid "55f77a8a-0f43-4cbc-bf5c-fed10a2d3139")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Network" input
+			(at 171.45 88.9 180)
+			(uuid "263d3330-fe64-4c66-b388-431b5ed7f617")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 170.18 25.4)
 		(size 25.4 27.94)
 		(exclude_from_sim no)
@@ -873,6 +895,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "m2" input
+			(at 170.18 46.99 180)
+			(uuid "bb0ef630-f55c-4c3c-88ce-a9bc16060432")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "m5" input
+			(at 170.18 40.64 180)
+			(uuid "0c863e46-53c3-41f1-a08c-6241583100ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "m9" input
+			(at 170.18 34.29 180)
+			(uuid "44655d03-52ba-4dac-a37a-f1e565017ae7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -947,16 +999,6 @@
 				(justify left)
 			)
 		)
-		(pin "Low Current Power" output
-			(at 123.19 29.21 0)
-			(uuid "8daf23bf-f275-410d-9421-0c8def05d20b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "Motor Power" output
 			(at 83.82 39.37 180)
 			(uuid "a9ba839a-eb75-4f43-b2ed-d4b68634e1f9")
@@ -977,16 +1019,6 @@
 				(justify left)
 			)
 		)
-		(pin "Network Power" output
-			(at 123.19 38.1 0)
-			(uuid "ce6ff7aa-9f61-49a8-927e-3264b748b57e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "NS_EN" input
 			(at 100.33 58.42 270)
 			(uuid "fd237b82-12a1-46ed-b8a0-1ab2f14d6891")
@@ -995,16 +1027,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "POE Power" output
-			(at 123.19 46.99 0)
-			(uuid "12edd5bf-c0f9-4af6-b2c7-429af526d333")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(pin "POE_EN" input
@@ -1027,9 +1049,9 @@
 				(justify left)
 			)
 		)
-		(pin "LC Injector" input
-			(at 123.19 31.75 0)
-			(uuid "9c9f3e19-3564-4705-ac23-c1cc620287ee")
+		(pin "Low Current Power" output
+			(at 123.19 29.21 0)
+			(uuid "5118e5c7-82a1-4a06-b8ad-95846ebc6833")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,9 +1059,9 @@
 				(justify right)
 			)
 		)
-		(pin "NS Injector" input
-			(at 123.19 40.64 0)
-			(uuid "c4fc987d-8413-43cf-ae12-2e18f9dd0e94")
+		(pin "m2" output
+			(at 123.19 34.29 0)
+			(uuid "c1707976-d8e2-4a46-ba52-372b8bee8ac2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1047,9 +1069,29 @@
 				(justify right)
 			)
 		)
-		(pin "POE Injector" input
-			(at 123.19 49.53 0)
-			(uuid "6821808c-a3db-41f0-bc42-25a4103f9b8a")
+		(pin "m5" output
+			(at 123.19 39.37 0)
+			(uuid "afb9a1cf-9118-4208-823b-8ec19091db72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "m9" output
+			(at 123.19 43.18 0)
+			(uuid "b55ba535-55ed-426c-857f-780533371eb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Network Power" output
+			(at 123.19 48.26 0)
+			(uuid "a5bdb1b9-5cc7-4169-9a7d-07f81326bc7d")
 			(effects
 				(font
 					(size 1.27 1.27)
