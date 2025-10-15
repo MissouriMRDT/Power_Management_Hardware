@@ -87,6 +87,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 105.41) (xy 113.03 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59b29397-6f38-4eb6-9bd8-b8198eb87ef6")
+	)
+	(wire
+		(pts
 			(xy 67.31 82.55) (xy 77.47 82.55)
 		)
 		(stroke
@@ -205,6 +215,16 @@
 		)
 		(uuid "9cb3a9c8-2b7a-4278-807b-6672d7ae797f")
 	)
+	(bus
+		(pts
+			(xy 115.57 105.41) (xy 115.57 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acf60010-3b53-4efd-b56a-d4a1a3af85e3")
+	)
 	(wire
 		(pts
 			(xy 99.06 72.39) (xy 95.25 72.39)
@@ -234,6 +254,16 @@
 			(type default)
 		)
 		(uuid "b4df5f17-4ca8-4cbf-8208-7bc1b9368620")
+	)
+	(wire
+		(pts
+			(xy 110.49 105.41) (xy 110.49 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b96f3568-abfb-4886-9f37-08221884da5d")
 	)
 	(wire
 		(pts
@@ -284,6 +314,16 @@
 			(type default)
 		)
 		(uuid "cb6b1af1-8255-48bb-b70f-674bda0edbc4")
+	)
+	(wire
+		(pts
+			(xy 107.95 105.41) (xy 107.95 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc68364a-98f9-4801-9dc3-fc48a8b4a005")
 	)
 	(wire
 		(pts
@@ -532,6 +572,46 @@
 		(pin "CSenseBatt" input
 			(at 77.47 78.74 180)
 			(uuid "ee6ce252-0916-4b19-ae6b-2025feaa7819")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D[0..7]" bidirectional
+			(at 115.57 105.41 270)
+			(uuid "1b7a10ae-a8a0-4d60-81f3-5c5cefdd30b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "E" output
+			(at 113.03 105.41 270)
+			(uuid "eb19925a-b5cc-4e76-9346-d9fd83dea567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RS" output
+			(at 110.49 105.41 270)
+			(uuid "187ace67-7dd9-448d-86a1-d000e1bb9aac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "RW" output
+			(at 107.95 105.41 270)
+			(uuid "ebe055e2-81a5-411b-a869-8165dccf1725")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,6 +1237,88 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 119.38)
+		(size 12.7 22.225)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fd2c549c-4731-406d-bb48-150ab9c2e47f")
+		(property "Sheetname" "LCD"
+			(at 104.6984 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 118.6946 141.605 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D[0..7]" bidirectional
+			(at 115.57 119.38 90)
+			(uuid "d3b4b65e-f32b-4890-9bc2-b0448db4ce03")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "E" input
+			(at 113.03 119.38 90)
+			(uuid "44aa6d65-e327-407b-8556-52aac104630a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RS" input
+			(at 110.49 119.38 90)
+			(uuid "ce053853-80ef-426f-b9d8-6f2a34a53dfc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RW" input
+			(at 107.95 119.38 90)
+			(uuid "1c1502ce-5d0b-4fa6-a417-3c3bbf2873c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
+					(page "10")
 				)
 			)
 		)
