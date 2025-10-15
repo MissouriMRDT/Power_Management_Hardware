@@ -2,7 +2,7 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "c5cf5b59-d969-4463-8341-2248d174a17f")
+	(uuid "b68e4404-5213-4e0d-b5b8-60a0aaf5c27f")
 	(paper "A4")
 	(lib_symbols
 		(symbol "MRDT_Connectors:AndersonPP"

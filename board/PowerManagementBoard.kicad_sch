@@ -581,29 +581,9 @@
 				(justify left top)
 			)
 		)
-		(pin "LCin" input
-			(at 134.62 29.21 180)
-			(uuid "8c9162a6-6772-495a-8214-e5127c5d12c8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "LCVout" output
 			(at 134.62 53.34 180)
 			(uuid "6e65d6ce-7882-4870-a435-cb3c228bb228")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "NSin" input
-			(at 134.62 38.1 180)
-			(uuid "303a743a-4f9c-4fed-9327-d7e0d866edf8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -621,16 +601,6 @@
 				(justify left)
 			)
 		)
-		(pin "POEin" input
-			(at 134.62 46.99 180)
-			(uuid "615ad00d-915e-4952-9896-aa8ed5b1cf68")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "POEVout" output
 			(at 134.62 58.42 180)
 			(uuid "fc412fe8-90dc-4591-971a-53436ed55641")
@@ -639,36 +609,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-		(pin "LCout" output
-			(at 156.21 29.21 0)
-			(uuid "4c196499-28d7-401b-b0d1-07b327ef2a44")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "NSout" output
-			(at 156.21 38.1 0)
-			(uuid "26368ced-4f75-4e1e-85e1-c752361f0612")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "POEout" output
-			(at 156.21 46.99 0)
-			(uuid "aeb6b9a1-b834-45fe-b4f9-0690e90d50ba")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 		(instances
