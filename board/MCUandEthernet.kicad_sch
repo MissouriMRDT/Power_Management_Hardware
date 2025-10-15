@@ -2500,16 +2500,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 134.62) (xy 27.94 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d02625b-9547-4914-b3a5-f98c3fd323ff")
-	)
-	(wire
-		(pts
 			(xy 128.27 162.56) (xy 135.89 162.56)
 		)
 		(stroke
@@ -2547,6 +2537,16 @@
 			(type default)
 		)
 		(uuid "13a9531d-324c-444e-a423-ca5d88cb2bd9")
+	)
+	(wire
+		(pts
+			(xy 68.58 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e4d713-8864-4bd7-80cd-8bc99435e828")
 	)
 	(wire
 		(pts
@@ -2750,16 +2750,6 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 129.54) (xy 27.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d85ed57-c023-486f-8d5b-01c0f11405da")
-	)
-	(wire
-		(pts
 			(xy 73.66 69.85) (xy 71.12 69.85)
 		)
 		(stroke
@@ -2780,13 +2770,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 132.08) (xy 27.94 132.08)
+			(xy 68.58 134.62) (xy 73.66 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "816de1ae-d9bc-4ac5-8aa6-a8cd85c16ac0")
+		(uuid "7e23dadd-fa55-478b-b539-fa8974e5b056")
 	)
 	(wire
 		(pts
@@ -2880,6 +2870,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 132.08) (xy 73.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aca6ab52-66a2-4fa8-8df0-6035eac7a7d8")
+	)
+	(wire
+		(pts
 			(xy 128.27 138.43) (xy 128.27 162.56)
 		)
 		(stroke
@@ -2887,6 +2887,16 @@
 			(type default)
 		)
 		(uuid "af7e5e7d-175f-4b6c-aaee-afd2e2db90fd")
+	)
+	(wire
+		(pts
+			(xy 68.58 129.54) (xy 73.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2888a50-2f75-4cdc-af5d-f473cf2f6143")
 	)
 	(wire
 		(pts
@@ -3150,12 +3160,12 @@
 	)
 	(hierarchical_label "CSensePOE"
 		(shape input)
-		(at 24.13 134.62 180)
+		(at 73.66 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "09df08ac-6d7f-4ec3-8539-5fde94cfd46d")
 	)
@@ -3302,25 +3312,36 @@
 		)
 		(uuid "bfbd63f9-dd0b-45a3-b10d-a9642684ca4c")
 	)
-	(hierarchical_label "CSenseLC"
+	(hierarchical_label "CSenseAUX"
 		(shape input)
-		(at 24.13 129.54 180)
+		(at 73.66 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
+		)
+		(uuid "c43650ff-9e01-4f96-8172-4e9af826050d")
+	)
+	(hierarchical_label "CSenseLC"
+		(shape input)
+		(at 73.66 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
 		)
 		(uuid "ce2687b6-c1c5-4f1f-b98b-8fb90e86e641")
 	)
 	(hierarchical_label "CSenseNS"
 		(shape input)
-		(at 24.13 132.08 180)
+		(at 73.66 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "d18285ab-2201-4c8f-b824-6e07390c6bdb")
 	)
