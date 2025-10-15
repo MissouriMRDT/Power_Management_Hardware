@@ -2590,16 +2590,6 @@
 		)
 		(uuid "0c0d0b45-07c6-4ee7-9976-6867ee2e8e1c")
 	)
-	(wire
-		(pts
-			(xy 24.13 134.62) (xy 27.94 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d02625b-9547-4914-b3a5-f98c3fd323ff")
-	)
 	(bus
 		(pts
 			(xy 24.13 86.36) (xy 24.13 88.9)
@@ -2722,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 129.54) (xy 73.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b404a8-35a4-41e2-b758-d9aba98b2ef0")
+	)
+	(wire
+		(pts
 			(xy 26.67 88.9) (xy 27.94 88.9)
 		)
 		(stroke
@@ -2749,6 +2749,16 @@
 			(type default)
 		)
 		(uuid "2c2bf30c-5e16-491d-a302-090cf684aa53")
+	)
+	(wire
+		(pts
+			(xy 68.58 134.62) (xy 73.66 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ca00316-9cee-4cf2-b04f-656f3ed899c0")
 	)
 	(wire
 		(pts
@@ -2792,6 +2802,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 127) (xy 73.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40f1f770-0010-4bab-a70a-4293fd69ab75")
+	)
+	(wire
+		(pts
 			(xy 68.58 86.36) (xy 71.12 86.36)
 		)
 		(stroke
@@ -2809,6 +2829,16 @@
 			(type default)
 		)
 		(uuid "4967e911-3b89-444f-a48d-8a119ea90723")
+	)
+	(wire
+		(pts
+			(xy 68.58 114.3) (xy 73.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49e8c61b-0c3f-4008-823c-75d92e20bbae")
 	)
 	(wire
 		(pts
@@ -2839,16 +2869,6 @@
 			(type default)
 		)
 		(uuid "4d56947e-abb2-40f5-86f6-6bea2fa10004")
-	)
-	(wire
-		(pts
-			(xy 68.58 119.38) (xy 73.66 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dbc579d-41fe-4f80-8707-176d1821191d")
 	)
 	(wire
 		(pts
@@ -2902,6 +2922,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 132.08) (xy 73.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c4d9582-3e95-4c27-83fc-4b99cfb7d22d")
+	)
+	(wire
+		(pts
 			(xy 133.35 148.59) (xy 133.35 153.67)
 		)
 		(stroke
@@ -2909,16 +2939,6 @@
 			(type default)
 		)
 		(uuid "6d715458-667f-41fd-893b-321e9717cc9f")
-	)
-	(wire
-		(pts
-			(xy 24.13 129.54) (xy 27.94 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d85ed57-c023-486f-8d5b-01c0f11405da")
 	)
 	(bus
 		(pts
@@ -2952,13 +2972,13 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 132.08) (xy 27.94 132.08)
+			(xy 68.58 119.38) (xy 73.66 119.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "816de1ae-d9bc-4ac5-8aa6-a8cd85c16ac0")
+		(uuid "7a9f68d6-2297-4f97-b9bc-87b89961d6c3")
 	)
 	(wire
 		(pts
@@ -2969,6 +2989,16 @@
 			(type default)
 		)
 		(uuid "883f74be-92d5-4cd6-8082-e603ab2f75ad")
+	)
+	(wire
+		(pts
+			(xy 68.58 124.46) (xy 73.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bc686de-0bef-451c-993f-3e1eed2ac2e9")
 	)
 	(wire
 		(pts
@@ -3222,13 +3252,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 114.3) (xy 73.66 114.3)
+			(xy 68.58 121.92) (xy 73.66 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3f2c9d5-c6aa-41c6-89ef-0000f9cf2ea9")
+		(uuid "d33ee0eb-1513-44ef-aa1e-1c572673b882")
 	)
 	(wire
 		(pts
@@ -3490,17 +3520,6 @@
 		)
 		(uuid "d594cb4b-b81d-4762-b4da-eabc2489caf0")
 	)
-	(hierarchical_label "CSensePOE"
-		(shape input)
-		(at 24.13 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "09df08ac-6d7f-4ec3-8539-5fde94cfd46d")
-	)
 	(hierarchical_label "CellSense3"
 		(shape input)
 		(at 24.13 119.38 180)
@@ -3556,6 +3575,17 @@
 		)
 		(uuid "21b2d902-a278-4481-8685-8a71a7615bc9")
 	)
+	(hierarchical_label "CSenseNS"
+		(shape input)
+		(at 73.66 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "23b4a16a-1340-416d-a752-385212d8c60f")
+	)
 	(hierarchical_label "CellSense1"
 		(shape input)
 		(at 24.13 114.3 180)
@@ -3578,6 +3608,28 @@
 		)
 		(uuid "4cc7c03d-dd76-4e63-800e-2b5a3f6d792d")
 	)
+	(hierarchical_label "CSenseLC"
+		(shape input)
+		(at 73.66 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5c9a814a-452d-4cb3-946c-a73ac77fb4c9")
+	)
+	(hierarchical_label "CSensem2"
+		(shape input)
+		(at 73.66 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65a2f28f-0927-46a1-a2ec-3daf9c4756fb")
+	)
 	(hierarchical_label "RW"
 		(shape output)
 		(at 25.4 96.52 180)
@@ -3588,6 +3640,28 @@
 			(justify right)
 		)
 		(uuid "674a7759-6a86-4c76-9893-8def4cc96b62")
+	)
+	(hierarchical_label "CSenseAUX"
+		(shape input)
+		(at 73.66 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d62b474-4b28-430e-99f1-9e6c229577a3")
+	)
+	(hierarchical_label "CSensem9"
+		(shape input)
+		(at 73.66 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "73ce475f-b9d7-4d98-9987-4e3c31344063")
 	)
 	(hierarchical_label "AUX_Enable"
 		(shape output)
@@ -3646,7 +3720,7 @@
 	)
 	(hierarchical_label "CSenseBatt"
 		(shape input)
-		(at 73.66 114.3 0)
+		(at 73.66 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3657,7 +3731,7 @@
 	)
 	(hierarchical_label "BuzzerSignal"
 		(shape output)
-		(at 73.66 119.38 0)
+		(at 73.66 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3677,17 +3751,6 @@
 		)
 		(uuid "bfbd63f9-dd0b-45a3-b10d-a9642684ca4c")
 	)
-	(hierarchical_label "CSenseLC"
-		(shape input)
-		(at 24.13 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce2687b6-c1c5-4f1f-b98b-8fb90e86e641")
-	)
 	(hierarchical_label "D[0..7]"
 		(shape bidirectional)
 		(at 19.05 71.12 180)
@@ -3699,16 +3762,16 @@
 		)
 		(uuid "d111b86e-a198-42e3-aa6f-efd2a19d6770")
 	)
-	(hierarchical_label "CSenseNS"
+	(hierarchical_label "CSensem5"
 		(shape input)
-		(at 24.13 132.08 180)
+		(at 73.66 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "d18285ab-2201-4c8f-b824-6e07390c6bdb")
+		(uuid "e4e818ea-406e-4e02-8169-a6604b689f8a")
 	)
 	(symbol
 		(lib_id "power:GND")
