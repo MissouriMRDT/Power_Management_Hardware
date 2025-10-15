@@ -1213,16 +1213,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Vout" output
-			(at 67.31 49.53 0)
-			(uuid "bb4413f2-f800-4386-8811-c5b2343de2ff")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "BattVout" output
 			(at 67.31 54.61 0)
 			(uuid "8e8ee192-d762-4837-bf84-f828ae9d78f4")
