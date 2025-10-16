@@ -2973,7 +2973,7 @@
 		)
 		(uuid "ffdde2d8-d498-4eaf-8294-c0c1503d8fb4")
 	)
-	(hierarchical_label "POE_EN"
+	(hierarchical_label "M9_EN"
 		(shape input)
 		(at 179.07 57.15 180)
 		(effects
@@ -3006,7 +3006,7 @@
 		)
 		(uuid "337fd7c1-67cc-4ce3-ba2f-41d885fe4a20")
 	)
-	(hierarchical_label "POE_EN"
+	(hierarchical_label "M2_EN"
 		(shape input)
 		(at 96.52 54.61 180)
 		(effects
@@ -3039,7 +3039,7 @@
 		)
 		(uuid "54874ef7-6c99-47db-84c1-fe6156c2ee83")
 	)
-	(hierarchical_label "m9"
+	(hierarchical_label "M9"
 		(shape output)
 		(at 226.06 68.58 270)
 		(effects
@@ -3072,7 +3072,7 @@
 		)
 		(uuid "69f91f7a-72e5-4521-bebb-ba03b4887549")
 	)
-	(hierarchical_label "m5"
+	(hierarchical_label "M5"
 		(shape output)
 		(at 224.79 125.73 270)
 		(effects
@@ -3094,7 +3094,7 @@
 		)
 		(uuid "835a571c-adec-4b09-a307-ed27734df568")
 	)
-	(hierarchical_label "POE_EN"
+	(hierarchical_label "M5_EN"
 		(shape input)
 		(at 177.8 114.3 180)
 		(effects
@@ -3116,7 +3116,7 @@
 		)
 		(uuid "dfb76a8c-33eb-440e-a623-d033ed4651f7")
 	)
-	(hierarchical_label "m2"
+	(hierarchical_label "M2"
 		(shape output)
 		(at 143.51 66.04 270)
 		(effects

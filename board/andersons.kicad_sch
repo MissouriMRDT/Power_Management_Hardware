@@ -320,6 +320,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 87.63) (xy 200.66 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db1649c-6279-4c40-bafe-ee67e4116935")
+	)
+	(wire
+		(pts
 			(xy 52.07 88.9) (xy 52.07 91.44)
 		)
 		(stroke
@@ -337,6 +347,36 @@
 			(type default)
 		)
 		(uuid "2822f791-ef96-4785-a179-b54fdf7f4c70")
+	)
+	(wire
+		(pts
+			(xy 200.66 52.07) (xy 200.66 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740f7c02-eaac-4313-96f1-36e22428e167")
+	)
+	(wire
+		(pts
+			(xy 161.29 52.07) (xy 161.29 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd20cccf-8559-40dd-a79b-0d488b7cc36a")
+	)
+	(wire
+		(pts
+			(xy 161.29 88.9) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c348db1d-ac9f-4cc3-8820-7f13993fb23b")
 	)
 	(wire
 		(pts
@@ -369,6 +409,28 @@
 		)
 		(uuid "0ad7a2d0-32c6-4027-b18d-997c2beb2181")
 	)
+	(hierarchical_label "Cam2"
+		(shape input)
+		(at 200.66 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "21066841-02e6-443a-9c0e-2e1292e13734")
+	)
+	(hierarchical_label "Cam1"
+		(shape input)
+		(at 161.29 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b8d1bf0-5d18-4f00-95b4-c9de374250d6")
+	)
 	(hierarchical_label "AUX"
 		(shape input)
 		(at 52.07 77.47 0)
@@ -380,7 +442,7 @@
 		)
 		(uuid "861c69c5-dec5-4ff8-8fdf-78421de2aaa6")
 	)
-	(hierarchical_label "Low Current"
+	(hierarchical_label "Core"
 		(shape input)
 		(at 115.57 77.47 0)
 		(effects
@@ -401,6 +463,182 @@
 			(justify left)
 		)
 		(uuid "c7d10c8a-7b76-4d74-b5eb-b6b30cc13d54")
+	)
+	(hierarchical_label "Nav"
+		(shape input)
+		(at 161.29 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e71268cf-c72b-4de5-9765-893285ef96a4")
+	)
+	(hierarchical_label "Jetson Cam"
+		(shape input)
+		(at 200.66 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec949b6b-f6b1-4ca4-b398-fad2db561358")
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 151.13 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00bc88e8-8c24-4ad0-ae4e-2fb3cdade4bf")
+		(property "Reference" "Conn6"
+			(at 153.67 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 153.67 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457845")
+		)
+		(pin "4"
+			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bb")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687731")
+		)
+		(pin "1"
+			(uuid "6acf556e-03ce-4eb1-a0cf-f773778ae3b6")
+		)
+		(pin "1"
+			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d324")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 151.13 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "010bdc1d-7d44-4be6-af45-f42c278f4f56")
+		(property "Reference" "Conn7"
+			(at 153.67 81.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 153.67 83.82 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 105.41 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457845")
+		)
+		(pin "4"
+			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bb")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687731")
+		)
+		(pin "1"
+			(uuid "79475298-137f-4686-9567-ddfb52b4d3de")
+		)
+		(pin "1"
+			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d324")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn7")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
@@ -475,6 +713,72 @@
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "Conn2")
 					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 200.66 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cfdb4ae-9431-4137-aaf8-3332beb501a1")
+		(property "Reference" "#PWR075"
+			(at 200.66 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f89bab2-8315-4e8e-be22-a1e4ae1d7910")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR075")
+					(unit 1)
 				)
 			)
 		)
@@ -690,6 +994,83 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 190.5 78.74 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33793f60-7f18-4bab-806e-4cf9ae84e538")
+		(property "Reference" "Conn9"
+			(at 193.04 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 193.04 71.12 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457847")
+		)
+		(pin "4"
+			(uuid "67b1cd89-dff0-416e-8807-6a62bfe5c88c")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687733")
+		)
+		(pin "1"
+			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e9")
+		)
+		(pin "1"
+			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d326")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn9")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 105.41 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -843,6 +1224,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 200.66 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48058c06-5a72-4018-9f29-b396d69ce53b")
+		(property "Reference" "#PWR074"
+			(at 200.66 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 200.66 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 200.66 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c6a843ef-c2d0-4dd0-a152-2cb0d2fe8be1")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR074")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 105.41 80.01 0)
 		(unit 4)
@@ -921,6 +1368,303 @@
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 190.5 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d2fbe81-6c55-41da-9821-b335bf745ebd")
+		(property "Reference" "Conn9"
+			(at 193.04 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 193.04 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 104.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457845")
+		)
+		(pin "4"
+			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bb")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687731")
+		)
+		(pin "1"
+			(uuid "02f925db-a7a6-46f6-8f6c-76dacfa7e7d3")
+		)
+		(pin "1"
+			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d324")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 151.13 80.01 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "598b609f-d194-4d62-b503-40f9979f388a")
+		(property "Reference" "Conn7"
+			(at 153.67 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 153.67 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457847")
+		)
+		(pin "4"
+			(uuid "6d9dd05a-6b91-4751-9cb0-6943df0f18e7")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687733")
+		)
+		(pin "1"
+			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e9")
+		)
+		(pin "1"
+			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d326")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn7")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6982b4b2-23e7-4be0-9aa0-bfe5fa086930")
+		(property "Reference" "#PWR072"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9039ee3-19be-4dfb-8ff3-726e8e92b010")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 151.13 43.18 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f2b5f34-4e0f-4c4c-a5b7-bea3167359aa")
+		(property "Reference" "Conn6"
+			(at 153.67 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 153.67 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457847")
+		)
+		(pin "4"
+			(uuid "19224da2-e0db-4ce6-9395-3f6a4cdeaff4")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687733")
+		)
+		(pin "1"
+			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e9")
+		)
+		(pin "1"
+			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d326")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn6")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
 		(at 104.14 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -991,6 +1735,149 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "Conn4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 161.29 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b197218c-df94-4672-b51a-8bc4a7e3fa5c")
+		(property "Reference" "#PWR073"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "724e685d-7903-4613-ae57-20280096aa01")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 190.5 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3bb4d39-4f64-410e-9656-490b30584f96")
+		(property "Reference" "Conn8"
+			(at 193.04 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 193.04 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457845")
+		)
+		(pin "4"
+			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bb")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687731")
+		)
+		(pin "1"
+			(uuid "0bce0930-a1aa-48e6-802d-13b15ed6a10a")
+		)
+		(pin "1"
+			(uuid "c56270e2-b977-41bb-8e8a-e30d69794ade")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn8")
 					(unit 1)
 				)
 			)
@@ -1201,6 +2088,83 @@
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "#PWR058")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Connectors:AndersonPP")
+		(at 190.5 43.18 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ebd34e25-196f-4830-b4ae-913dd24a2084")
+		(property "Reference" "Conn8"
+			(at 193.04 33.02 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "AndersonPP"
+			(at 193.04 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd64d776-7fac-4f39-abcb-ab5814457847")
+		)
+		(pin "4"
+			(uuid "a4838992-eccf-45d5-915e-0bb86f3c3201")
+		)
+		(pin "3"
+			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687733")
+		)
+		(pin "1"
+			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e9")
+		)
+		(pin "1"
+			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d326")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "Conn8")
+					(unit 4)
 				)
 			)
 		)

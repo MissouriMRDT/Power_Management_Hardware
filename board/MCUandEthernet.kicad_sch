@@ -2812,6 +2812,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 99.06) (xy 71.12 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451283f9-f295-410a-9451-1532c9ce2f83")
+	)
+	(wire
+		(pts
 			(xy 68.58 86.36) (xy 71.12 86.36)
 		)
 		(stroke
@@ -3109,6 +3119,16 @@
 			(type default)
 		)
 		(uuid "a9248ca6-0e7f-4e48-8982-70be81117b2c")
+	)
+	(wire
+		(pts
+			(xy 68.58 96.52) (xy 71.12 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aed2a915-d42a-4f57-8b5b-c14982f6c2ca")
 	)
 	(wire
 		(pts
@@ -3533,7 +3553,7 @@
 	)
 	(hierarchical_label "Motor_Enable"
 		(shape output)
-		(at 71.12 88.9 0)
+		(at 71.12 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3596,6 +3616,17 @@
 			(justify right)
 		)
 		(uuid "422c2df6-4061-47c6-9629-335fa7515fa3")
+	)
+	(hierarchical_label "M5_ENABLE"
+		(shape output)
+		(at 71.12 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "47bcd2a1-fe6e-4fce-808a-0548376fb097")
 	)
 	(hierarchical_label "E"
 		(shape output)
@@ -3676,7 +3707,7 @@
 	)
 	(hierarchical_label "LC_Enable"
 		(shape output)
-		(at 71.12 93.98 0)
+		(at 71.12 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3707,17 +3738,6 @@
 		)
 		(uuid "8d432e9d-0360-49de-902c-3458bfff1817")
 	)
-	(hierarchical_label "POE_Enable"
-		(shape output)
-		(at 71.12 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa367693-9327-4e0d-8d6a-acfea7e15702")
-	)
 	(hierarchical_label "CSenseBatt"
 		(shape input)
 		(at 73.66 119.38 0)
@@ -3728,6 +3748,17 @@
 			(justify left)
 		)
 		(uuid "abb159a7-103f-4f7d-bdbb-a0dd555fe195")
+	)
+	(hierarchical_label "M9_ENABLE"
+		(shape output)
+		(at 71.12 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac4980d1-2747-4bfd-802a-a90cc094f68a")
 	)
 	(hierarchical_label "BuzzerSignal"
 		(shape output)
@@ -3772,6 +3803,17 @@
 			(justify left)
 		)
 		(uuid "e4e818ea-406e-4e02-8169-a6604b689f8a")
+	)
+	(hierarchical_label "M2_ENABLE"
+		(shape output)
+		(at 71.12 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ebb95580-f498-413e-8f79-47ce16c0de4b")
 	)
 	(symbol
 		(lib_id "power:GND")
