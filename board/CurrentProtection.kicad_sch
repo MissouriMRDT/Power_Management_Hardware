@@ -4727,7 +4727,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "4.7k"
 			(at 195.58 95.25 90)
 			(effects
 				(font
