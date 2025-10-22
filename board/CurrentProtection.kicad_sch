@@ -3934,7 +3934,7 @@
 				)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GRNLED"
 			(at 190.8175 137.16 0)
 			(effects
 				(font
@@ -4283,7 +4283,7 @@
 				)
 			)
 		)
-		(property "Value" "5.62k"
+		(property "Value" "6.8k"
 			(at 176.53 138.43 90)
 			(effects
 				(font
