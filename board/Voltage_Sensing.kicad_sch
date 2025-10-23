@@ -816,6 +816,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+24V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+24V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+24V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+24V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+24V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -967,6 +1092,12 @@
 		(uuid "1fe2a755-e422-49d0-a33b-0f832af495ab")
 	)
 	(junction
+		(at 227.33 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "203882de-4d3a-49d0-b15f-a2a7d7374b74")
+	)
+	(junction
 		(at 180.34 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1001,6 +1132,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50f928d7-4516-463b-8042-bb6c1e953a65")
+	)
+	(junction
+		(at 227.33 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f916eac-6f25-4ef4-8a7e-dd66506d23c0")
 	)
 	(junction
 		(at 177.8 74.93)
@@ -1144,6 +1281,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 36.83) (xy 227.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0988604e-63d3-46cc-9a1d-d4c79f6716d0")
+	)
+	(wire
+		(pts
 			(xy 118.11 83.82) (xy 118.11 91.44)
 		)
 		(stroke
@@ -1211,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "16927c07-d727-4f4f-b379-7ed9a018c1a1")
+	)
+	(wire
+		(pts
+			(xy 242.57 36.83) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1837f026-2176-417b-bb39-e70674976b2d")
 	)
 	(wire
 		(pts
@@ -1511,6 +1668,16 @@
 			(type default)
 		)
 		(uuid "4290bd72-0aef-48e5-aebc-c2f1bd10e5e9")
+	)
+	(wire
+		(pts
+			(xy 212.09 53.34) (xy 212.09 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "457e7123-1196-462a-9d16-1dd7ab9ca788")
 	)
 	(wire
 		(pts
@@ -1944,6 +2111,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 38.1) (xy 212.09 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9131097d-50bc-4d75-aba8-72bf4d283c48")
+	)
+	(wire
+		(pts
 			(xy 163.83 111.76) (xy 163.83 121.92)
 		)
 		(stroke
@@ -2064,6 +2241,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 58.42) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3a5cbd2-668d-42c2-a0cd-a17ceff41427")
+	)
+	(wire
+		(pts
 			(xy 110.49 110.49) (xy 110.49 120.65)
 		)
 		(stroke
@@ -2144,6 +2331,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 58.42) (xy 227.33 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b151fa60-68fc-4502-b3db-0911b2706350")
+	)
+	(wire
+		(pts
 			(xy 144.78 91.44) (xy 146.05 91.44)
 		)
 		(stroke
@@ -2214,6 +2411,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 53.34) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3513340-a818-4c72-8203-6e3a0fc02fab")
+	)
+	(wire
+		(pts
+			(xy 212.09 58.42) (xy 227.33 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6415a78-6587-43cd-9f97-69c2f3fc7769")
+	)
+	(wire
+		(pts
 			(xy 129.54 29.21) (xy 129.54 25.4)
 		)
 		(stroke
@@ -2264,6 +2481,26 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 36.83) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd11c47b-ffd8-4028-838d-960bf36312a1")
+	)
+	(wire
+		(pts
+			(xy 242.57 39.37) (xy 242.57 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1b283be-76cb-4ca1-a304-722f7df7d89a")
+	)
+	(wire
+		(pts
 			(xy 115.57 120.65) (xy 115.57 127)
 		)
 		(stroke
@@ -2271,6 +2508,16 @@
 			(type default)
 		)
 		(uuid "d2d866c9-a776-4921-8660-a6619a3a7dff")
+	)
+	(wire
+		(pts
+			(xy 242.57 54.61) (xy 242.57 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d46280bf-e4a7-4bc8-8317-830bc77d387d")
 	)
 	(wire
 		(pts
@@ -2351,6 +2598,16 @@
 			(type default)
 		)
 		(uuid "eabd6ca4-6ced-4ad5-b161-1543b3b87dcf")
+	)
+	(wire
+		(pts
+			(xy 227.33 34.29) (xy 227.33 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edc3628f-6a05-4553-b0eb-a573d1963430")
 	)
 	(wire
 		(pts
@@ -2658,35 +2915,32 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 157.48 36.83 0)
-		(unit 1)
+		(at 153.67 93.98 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1268ee0e-fd13-4488-98fb-3901560058e9")
-		(property "Reference" "U9"
-			(at 158.7501 43.18 90)
+		(uuid "14425f16-3484-44b5-8c8e-3c858f6ded27")
+		(property "Reference" "U5"
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 156.2101 43.18 90)
+			(at 153.67 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2949,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2958,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2967,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2976,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2985,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2994,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,35 +3002,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "fa67f3c2-ef63-4373-b479-9dd0a0902d59")
-		)
-		(pin "7"
-			(uuid "5b21cc4f-3fbc-4250-896f-03d6b4bdb1d8")
-		)
-		(pin "4"
-			(uuid "ffe4ecf5-7d25-41e5-a449-9e1feba57192")
+		(pin "3"
+			(uuid "bef42b6c-0815-450f-a00f-a0b6d363e139")
 		)
 		(pin "2"
-			(uuid "c0e0218f-b90c-4f31-bdbd-25a39130ddcf")
+			(uuid "92e34025-febf-4025-8b93-f6054f390b60")
 		)
-		(pin "3"
-			(uuid "f25dd34b-032b-47b8-ab1b-5f7923581e1b")
+		(pin "1"
+			(uuid "941dddf0-3991-4505-89e2-f961a1d3700b")
 		)
 		(pin "5"
-			(uuid "58d96944-292d-471c-b6a1-e009cacddf31")
+			(uuid "60c1901c-9754-44c3-897b-a15d3e591d6c")
+		)
+		(pin "7"
+			(uuid "30e2479f-b5a7-4e4b-8785-2d467933c257")
 		)
 		(pin "6"
-			(uuid "09cea4ce-d800-437a-ac3e-4768b242fd69")
+			(uuid "25974ef7-ecf4-4722-9dd1-d5cdca88b2df")
 		)
 		(pin "8"
-			(uuid "6bd57b85-37c3-43d8-a524-133bc9718138")
+			(uuid "169f7492-1cab-404d-b130-f3dd80167dfd")
+		)
+		(pin "4"
+			(uuid "270d80a1-50f6-4119-a9f7-d529e8c1144a")
 		)
 		(instances
-			(project "PowerManagementBoard"
+			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
-					(reference "U9")
-					(unit 1)
+					(reference "U5")
+					(unit 2)
 				)
 			)
 		)
@@ -2869,7 +3123,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "1k"
 			(at 171.45 108.585 90)
 			(effects
 				(font
@@ -2927,7 +3181,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "23bc2f50-befc-449e-8672-b8b22e0f7780")
 		(property "Reference" "R12"
 			(at 153.6701 142.24 0)
@@ -2940,13 +3193,12 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 151.1301 142.24 0)
+			(at 151.1301 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -2999,7 +3251,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2e4da7b9-cd55-4240-aae4-45f192dbbbe3")
 		(property "Reference" "R33"
 			(at 154.9401 124.46 0)
@@ -3012,13 +3263,12 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 152.4001 124.46 0)
+			(at 152.4 124.206 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -3133,35 +3383,32 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 156.21 57.15 0)
-		(unit 1)
+		(at 151.13 129.54 0)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "348d6a05-ed1a-46ab-8076-20bdf8a7d73b")
-		(property "Reference" "U4"
-			(at 157.4801 63.5 90)
+		(uuid "3497ec00-7068-4272-8a35-50ceb7e64f01")
+		(property "Reference" "U6"
+			(at 151.13 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 154.9401 63.5 90)
+			(at 151.13 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 57.15 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3170,7 +3417,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 57.15 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3179,7 +3426,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 156.21 57.15 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3188,7 +3435,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 156.21 57.15 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3197,7 +3444,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 156.21 57.15 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3206,7 +3453,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 156.21 57.15 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3215,7 +3462,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 156.21 57.15 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3223,35 +3470,35 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "ae90e93f-1da5-4d89-b586-6efc48731650")
+		(pin "3"
+			(uuid "e03e003d-b8da-4edf-9235-d501394aa522")
 		)
 		(pin "7"
-			(uuid "5b21cc4f-3fbc-4250-896f-03d6b4bdb1d9")
+			(uuid "b04da4cd-de8f-4c09-9da0-729c11efdc06")
 		)
 		(pin "4"
-			(uuid "ffe4ecf5-7d25-41e5-a449-9e1feba57193")
+			(uuid "24bd3662-7475-4c05-9368-c83dd1e61fc9")
 		)
 		(pin "2"
-			(uuid "029759c6-cacc-4524-9d38-7cd50e090549")
+			(uuid "fad98ac0-eaf2-4007-867b-3f9e301032eb")
 		)
-		(pin "3"
-			(uuid "aeeadca5-1e87-418e-83a2-c4a0e82c9b8c")
-		)
-		(pin "5"
-			(uuid "58d96944-292d-471c-b6a1-e009cacddf32")
-		)
-		(pin "6"
-			(uuid "09cea4ce-d800-437a-ac3e-4768b242fd6a")
+		(pin "1"
+			(uuid "0f40fea2-1238-42d2-9466-e5a137d35afd")
 		)
 		(pin "8"
-			(uuid "6bd57b85-37c3-43d8-a524-133bc9718139")
+			(uuid "16363ca1-7a69-4d89-9ab9-0fbde6c166dc")
+		)
+		(pin "6"
+			(uuid "1a2e4107-e654-4561-9ab0-44c285e3e2a2")
+		)
+		(pin "5"
+			(uuid "34023a3d-f2fc-49e7-b7f3-b7c925f01210")
 		)
 		(instances
-			(project "PowerManagementBoard"
+			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
-					(reference "U4")
-					(unit 1)
+					(reference "U6")
+					(unit 2)
 				)
 			)
 		)
@@ -3393,131 +3640,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 153.67 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47db0a1b-22c2-4036-9bdb-7ad5a43cb991")
-		(property "Reference" "U7"
-			(at 154.9401 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 152.4001 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 153.67 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "826cb679-6071-4e02-bf90-55a63248852d")
-		)
-		(pin "7"
-			(uuid "5b21cc4f-3fbc-4250-896f-03d6b4bdb1da")
-		)
-		(pin "4"
-			(uuid "ffe4ecf5-7d25-41e5-a449-9e1feba57194")
-		)
-		(pin "2"
-			(uuid "fea4d74c-a064-4812-a21d-c1f375e00b75")
-		)
-		(pin "3"
-			(uuid "dac233de-324f-432e-9b8c-dd959cf14d65")
-		)
-		(pin "5"
-			(uuid "58d96944-292d-471c-b6a1-e009cacddf33")
-		)
-		(pin "6"
-			(uuid "09cea4ce-d800-437a-ac3e-4768b242fd6b")
-		)
-		(pin "8"
-			(uuid "6bd57b85-37c3-43d8-a524-133bc971813a")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 175.26 124.46 0)
 		(unit 1)
@@ -3579,6 +3701,128 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 152.4 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5467fb3b-42ba-4bf7-9d24-e7f94cfea606")
+		(property "Reference" "U6"
+			(at 152.4 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 152.4 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 152.4 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e03e003d-b8da-4edf-9235-d501394aa522")
+		)
+		(pin "7"
+			(uuid "b04da4cd-de8f-4c09-9da0-729c11efdc06")
+		)
+		(pin "4"
+			(uuid "24bd3662-7475-4c05-9368-c83dd1e61fc9")
+		)
+		(pin "2"
+			(uuid "fad98ac0-eaf2-4007-867b-3f9e301032eb")
+		)
+		(pin "1"
+			(uuid "0f40fea2-1238-42d2-9466-e5a137d35afd")
+		)
+		(pin "8"
+			(uuid "16363ca1-7a69-4d89-9ab9-0fbde6c166dc")
+		)
+		(pin "6"
+			(uuid "1a2e4107-e654-4561-9ab0-44c285e3e2a2")
+		)
+		(pin "5"
+			(uuid "34023a3d-f2fc-49e7-b7f3-b7c925f01210")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3724,6 +3968,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 214.63 45.72 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f354e06-829a-4171-8dff-8486e651caa7")
+		(property "Reference" "U4"
+			(at 213.36 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 213.36 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 214.63 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ddd5b96-85af-41e0-9e13-9093fa7073cd")
+		)
+		(pin "1"
+			(uuid "472a85a3-795e-4498-a1d3-4d7a49e94477")
+		)
+		(pin "3"
+			(uuid "9cfa69ab-0386-444c-bcd7-282f42036c9d")
+		)
+		(pin "5"
+			(uuid "8a043b9e-78c8-4fd7-bf5a-d8fcbe034e6c")
+		)
+		(pin "8"
+			(uuid "783762ef-23ff-4df5-b1bb-c0cf763e2b59")
+		)
+		(pin "7"
+			(uuid "af852a79-4faf-4415-9393-a3d81b1659ba")
+		)
+		(pin "4"
+			(uuid "be9c7394-4061-4091-837e-b772d5856fe2")
+		)
+		(pin "6"
+			(uuid "6420a4a0-aa49-4a7c-8e4f-b158d8690e23")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "U4")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 175.26 57.15 90)
 		(unit 1)
@@ -3741,7 +4109,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "1k"
 			(at 175.26 53.975 90)
 			(effects
 				(font
@@ -3787,6 +4155,130 @@
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "R8")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 245.11 46.99 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "685e5155-dd22-42c3-9b6d-6279f7bb7b27")
+		(property "Reference" "U6"
+			(at 243.84 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 243.84 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 245.11 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e03e003d-b8da-4edf-9235-d501394aa522")
+		)
+		(pin "7"
+			(uuid "b04da4cd-de8f-4c09-9da0-729c11efdc06")
+		)
+		(pin "4"
+			(uuid "24bd3662-7475-4c05-9368-c83dd1e61fc9")
+		)
+		(pin "2"
+			(uuid "fad98ac0-eaf2-4007-867b-3f9e301032eb")
+		)
+		(pin "1"
+			(uuid "0f40fea2-1238-42d2-9466-e5a137d35afd")
+		)
+		(pin "8"
+			(uuid "16363ca1-7a69-4d89-9ab9-0fbde6c166dc")
+		)
+		(pin "6"
+			(uuid "1a2e4107-e654-4561-9ab0-44c285e3e2a2")
+		)
+		(pin "5"
+			(uuid "34023a3d-f2fc-49e7-b7f3-b7c925f01210")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "U6")
+					(unit 3)
 				)
 			)
 		)
@@ -3868,7 +4360,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "73ea2244-7f29-434d-9d6d-a6aa05f0e790")
 		(property "Reference" "R17"
 			(at 157.4801 87.63 0)
@@ -3881,13 +4372,12 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 154.9401 87.63 0)
+			(at 154.9401 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4137,6 +4627,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 227.33 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "79ae4fda-b887-45c1-9c7f-2da5eaff454f")
+		(property "Reference" "#PWR092"
+			(at 227.33 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00ad9a2e-ef8f-49be-92fd-40fc482121a2")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 125.73 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4346,7 +4902,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "891ed4f4-e5cc-4392-907b-b0d0452a303a")
 		(property "Reference" "R7"
 			(at 158.7501 69.85 0)
@@ -4359,13 +4914,12 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 156.2101 69.85 0)
+			(at 156.2101 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -4686,6 +5240,128 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 154.94 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "996c01dc-d162-46bc-ae3b-e0a64f72cd34")
+		(property "Reference" "U4"
+			(at 154.94 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 154.94 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 154.94 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bef42b6c-0815-450f-a00f-a0b6d363e139")
+		)
+		(pin "2"
+			(uuid "92e34025-febf-4025-8b93-f6054f390b60")
+		)
+		(pin "1"
+			(uuid "941dddf0-3991-4505-89e2-f961a1d3700b")
+		)
+		(pin "5"
+			(uuid "60c1901c-9754-44c3-897b-a15d3e591d6c")
+		)
+		(pin "7"
+			(uuid "30e2479f-b5a7-4e4b-8785-2d467933c257")
+		)
+		(pin "6"
+			(uuid "25974ef7-ecf4-4722-9dd1-d5cdca88b2df")
+		)
+		(pin "8"
+			(uuid "169f7492-1cab-404d-b130-f3dd80167dfd")
+		)
+		(pin "4"
+			(uuid "270d80a1-50f6-4119-a9f7-d529e8c1144a")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 176.53 106.68 0)
 		(unit 1)
@@ -4816,131 +5492,6 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 152.4 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b9d686e-f299-48b2-85bf-e1b6b0a33976")
-		(property "Reference" "U8"
-			(at 153.6701 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 151.1301 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 152.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 152.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 152.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 152.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 152.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 152.4 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4b50f7e-fc12-40b6-a1f5-5e1b49ea2d59")
-		)
-		(pin "7"
-			(uuid "5b21cc4f-3fbc-4250-896f-03d6b4bdb1db")
-		)
-		(pin "4"
-			(uuid "ffe4ecf5-7d25-41e5-a449-9e1feba57195")
-		)
-		(pin "2"
-			(uuid "dab58536-314c-4e27-b9ca-d0a5e809de2b")
-		)
-		(pin "3"
-			(uuid "39226f9e-99a3-48ca-8617-af6fe1601056")
-		)
-		(pin "5"
-			(uuid "58d96944-292d-471c-b6a1-e009cacddf34")
-		)
-		(pin "6"
-			(uuid "09cea4ce-d800-437a-ac3e-4768b242fd6c")
-		)
-		(pin "8"
-			(uuid "6bd57b85-37c3-43d8-a524-133bc971813b")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
-					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -5102,7 +5653,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "1k"
 			(at 173.99 71.755 90)
 			(effects
 				(font
@@ -5373,7 +5924,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "1k"
 			(at 170.18 126.365 90)
 			(effects
 				(font
@@ -5487,131 +6038,6 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "R19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 151.13 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1a196f5-7639-43cd-bfd7-a724d313c810")
-		(property "Reference" "U5"
-			(at 152.4001 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 149.8601 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 151.13 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "211e10bd-e79d-4bcf-a0d7-64388f271ee3")
-		)
-		(pin "7"
-			(uuid "5b21cc4f-3fbc-4250-896f-03d6b4bdb1dc")
-		)
-		(pin "4"
-			(uuid "ffe4ecf5-7d25-41e5-a449-9e1feba57196")
-		)
-		(pin "2"
-			(uuid "6677db91-2d12-4a04-b941-9a77efdaa8bc")
-		)
-		(pin "3"
-			(uuid "6712e8ef-7866-4487-8e9e-683c8fea1639")
-		)
-		(pin "5"
-			(uuid "58d96944-292d-471c-b6a1-e009cacddf35")
-		)
-		(pin "6"
-			(uuid "09cea4ce-d800-437a-ac3e-4768b242fd6d")
-		)
-		(pin "8"
-			(uuid "6bd57b85-37c3-43d8-a524-133bc971813c")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -5976,7 +6402,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "1k"
 			(at 172.72 90.805 90)
 			(effects
 				(font
@@ -6101,7 +6527,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d93c7a97-8524-445e-937d-92ef8e4cc699")
 		(property "Reference" "R25"
 			(at 160.0201 49.53 0)
@@ -6114,13 +6539,12 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 157.4801 49.53 0)
+			(at 157.4801 49.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6160,6 +6584,128 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 157.48 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d980e492-64e1-4eeb-9f49-71e8478e6aec")
+		(property "Reference" "U18"
+			(at 157.48 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 157.48 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 157.48 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ddd5b96-85af-41e0-9e13-9093fa7073cd")
+		)
+		(pin "1"
+			(uuid "472a85a3-795e-4498-a1d3-4d7a49e94477")
+		)
+		(pin "3"
+			(uuid "9cfa69ab-0386-444c-bcd7-282f42036c9d")
+		)
+		(pin "5"
+			(uuid "8a043b9e-78c8-4fd7-bf5a-d8fcbe034e6c")
+		)
+		(pin "8"
+			(uuid "783762ef-23ff-4df5-b1bb-c0cf763e2b59")
+		)
+		(pin "7"
+			(uuid "af852a79-4faf-4415-9393-a3d81b1659ba")
+		)
+		(pin "4"
+			(uuid "be9c7394-4061-4091-837e-b772d5856fe2")
+		)
+		(pin "6"
+			(uuid "6420a4a0-aa49-4a7c-8e4f-b158d8690e23")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "U18")
 					(unit 1)
 				)
 			)
@@ -6242,7 +6788,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "da09f27a-9ca5-4329-981d-91bcb19bd1be")
 		(property "Reference" "R22"
 			(at 156.2101 106.68 0)
@@ -6255,13 +6800,12 @@
 			)
 		)
 		(property "Value" "39k"
-			(at 153.6701 106.68 0)
+			(at 153.6701 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -6302,6 +6846,130 @@
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "R22")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 229.87 45.72 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8756178-0dfa-47c7-ac70-40f6394f503e")
+		(property "Reference" "U5"
+			(at 228.6 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 228.6 46.9899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 229.87 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bef42b6c-0815-450f-a00f-a0b6d363e139")
+		)
+		(pin "2"
+			(uuid "92e34025-febf-4025-8b93-f6054f390b60")
+		)
+		(pin "1"
+			(uuid "941dddf0-3991-4505-89e2-f961a1d3700b")
+		)
+		(pin "5"
+			(uuid "60c1901c-9754-44c3-897b-a15d3e591d6c")
+		)
+		(pin "7"
+			(uuid "30e2479f-b5a7-4e4b-8785-2d467933c257")
+		)
+		(pin "6"
+			(uuid "25974ef7-ecf4-4722-9dd1-d5cdca88b2df")
+		)
+		(pin "8"
+			(uuid "169f7492-1cab-404d-b130-f3dd80167dfd")
+		)
+		(pin "4"
+			(uuid "270d80a1-50f6-4119-a9f7-d529e8c1144a")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "U5")
+					(unit 3)
 				)
 			)
 		)
@@ -6370,6 +7038,194 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Opamp_Dual")
+		(at 156.21 57.15 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec610ccf-a619-4caa-b332-ffc7c2cc1364")
+		(property "Reference" "U4"
+			(at 156.21 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Opamp_Dual"
+			(at 156.21 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual operational amplifier"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "kicad_builtin_opamp_dual"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
+			(at 156.21 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ddd5b96-85af-41e0-9e13-9093fa7073cd")
+		)
+		(pin "1"
+			(uuid "472a85a3-795e-4498-a1d3-4d7a49e94477")
+		)
+		(pin "3"
+			(uuid "9cfa69ab-0386-444c-bcd7-282f42036c9d")
+		)
+		(pin "5"
+			(uuid "8a043b9e-78c8-4fd7-bf5a-d8fcbe034e6c")
+		)
+		(pin "8"
+			(uuid "783762ef-23ff-4df5-b1bb-c0cf763e2b59")
+		)
+		(pin "7"
+			(uuid "af852a79-4faf-4415-9393-a3d81b1659ba")
+		)
+		(pin "4"
+			(uuid "be9c7394-4061-4091-837e-b772d5856fe2")
+		)
+		(pin "6"
+			(uuid "6420a4a0-aa49-4a7c-8e4f-b158d8690e23")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "U4")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 227.33 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f34599bb-030d-4ccc-aacc-58bfe9fe9612")
+		(property "Reference" "#PWR093"
+			(at 227.33 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 227.33 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 227.33 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c1d31347-8839-4faf-8a14-fe9015116145")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -6460,7 +7316,7 @@
 				)
 			)
 		)
-		(property "Value" "39k"
+		(property "Value" "1k"
 			(at 176.53 33.655 90)
 			(effects
 				(font
@@ -6588,131 +7444,6 @@
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
 					(reference "Conn1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Opamp_Dual")
-		(at 154.94 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe5b8570-4924-498f-95e2-efe6e1fa90e0")
-		(property "Reference" "U6"
-			(at 156.2101 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Opamp_Dual"
-			(at 153.6701 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual operational amplifier"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 154.94 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f2d18327-74a5-449f-9eba-ba40899573f2")
-		)
-		(pin "7"
-			(uuid "5b21cc4f-3fbc-4250-896f-03d6b4bdb1dd")
-		)
-		(pin "4"
-			(uuid "ffe4ecf5-7d25-41e5-a449-9e1feba57197")
-		)
-		(pin "2"
-			(uuid "42c9712b-374c-4d8c-bd6c-c75885957533")
-		)
-		(pin "3"
-			(uuid "0f2a6bf5-df06-4f64-b3f6-ece8cbda89f4")
-		)
-		(pin "5"
-			(uuid "58d96944-292d-471c-b6a1-e009cacddf36")
-		)
-		(pin "6"
-			(uuid "09cea4ce-d800-437a-ac3e-4768b242fd6e")
-		)
-		(pin "8"
-			(uuid "6bd57b85-37c3-43d8-a524-133bc971813d")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/77b38e11-7bca-4b0d-9192-77b02a5f3429"
-					(reference "U6")
 					(unit 1)
 				)
 			)
