@@ -1037,33 +1037,13 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 58.42) (xy 67.31 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18a6462e-7b2b-4949-97d4-3a2fa3bfad66")
-	)
-	(wire
-		(pts
-			(xy 67.31 57.15) (xy 107.95 57.15)
+			(xy 69.85 55.88) (xy 110.49 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1c010111-ce59-4d12-9383-2ffc5e7f195e")
-	)
-	(wire
-		(pts
-			(xy 107.95 55.88) (xy 110.49 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a02358b-f57c-4b51-ad69-d8de8410f1dc")
 	)
 	(wire
 		(pts
@@ -1117,7 +1097,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 58.42) (xy 67.31 60.96)
+			(xy 67.31 53.34) (xy 67.31 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1137,33 +1117,13 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 54.61) (xy 67.31 57.15)
+			(xy 69.85 53.34) (xy 69.85 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ed4a3d39-282d-4633-8e8b-9119b4bf8286")
-	)
-	(wire
-		(pts
-			(xy 69.85 54.61) (xy 69.85 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f14c0959-514e-48c1-986e-447d79385e2c")
-	)
-	(wire
-		(pts
-			(xy 107.95 57.15) (xy 107.95 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae2e7b7-0866-4ace-a664-92808e6a0e4b")
 	)
 	(hierarchical_label "BuzzerSignal"
 		(shape input)
@@ -1254,16 +1214,16 @@
 	)
 	(symbol
 		(lib_id "MRDT_Devices:Buzzer")
-		(at 72.39 49.53 90)
+		(at 64.77 48.26 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bfc33f00-5b3a-456a-8df1-8ddba8e5ddf5")
 		(property "Reference" "B1"
-			(at 73.66 46.3632 90)
+			(at 63.5 45.0932 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1272,7 +1232,7 @@
 			)
 		)
 		(property "Value" "Buzzer"
-			(at 73.66 48.9032 90)
+			(at 63.5 47.6332 90)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1281,7 +1241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 49.53 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1290,7 +1250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 49.53 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1299,7 +1259,7 @@
 			)
 		)
 		(property "Description" "Buzzer"
-			(at 72.39 49.53 0)
+			(at 64.77 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1550,7 +1510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "2.2k"
 			(at 113.03 62.2299 0)
 			(effects
 				(font
