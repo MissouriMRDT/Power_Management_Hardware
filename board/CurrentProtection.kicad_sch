@@ -3452,7 +3452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0498e9f8-b9f0-41d4-b0f8-c347dd59aa4f")
-		(property "Reference" "Conn10"
+		(property "Reference" "Conn12"
 			(at 21.59 90.17 0)
 			(effects
 				(font
@@ -3468,7 +3468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 15.24 114.3 0)
 			(effects
 				(font
@@ -3513,7 +3513,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Conn10")
+					(reference "Conn12")
 					(unit 4)
 				)
 			)
@@ -3910,7 +3910,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 15.24 176.53 0)
 			(effects
 				(font
@@ -4316,7 +4316,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "452a09b8-f31d-46e4-b33f-9b2d0d00cb54")
-		(property "Reference" "Conn10"
+		(property "Reference" "Conn12"
 			(at 21.59 96.52 0)
 			(effects
 				(font
@@ -4332,7 +4332,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 15.24 120.65 0)
 			(effects
 				(font
@@ -4377,7 +4377,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Conn10")
+					(reference "Conn12")
 					(unit 1)
 				)
 			)
@@ -5061,7 +5061,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
 			(at 15.24 187.96 0)
 			(effects
 				(font
