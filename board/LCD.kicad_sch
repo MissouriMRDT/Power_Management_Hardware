@@ -1600,7 +1600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://newhavendisplay.com/content/specs/NHD-0420H1Z-FL-GBW-33V3.pdf"
 			(at 93.98 88.9 0)
 			(effects
 				(font
