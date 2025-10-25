@@ -1374,7 +1374,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 99.06 64.77 0)
 			(effects
 				(font
@@ -1519,7 +1519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 111.506 61.214 90)
 			(effects
 				(font
