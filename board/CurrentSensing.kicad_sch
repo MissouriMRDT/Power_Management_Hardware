@@ -2595,7 +2595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACS37010LLZATR-030B3:IC_ACS37030LLZATR-040B3"
+		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
 			(at 85.09 211.76 0)
 			(effects
 				(font
@@ -3346,7 +3346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACS37010LLZATR-030B3:IC_ACS37030LLZATR-040B3"
+		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
 			(at 254 211.76 0)
 			(effects
 				(font
@@ -3891,7 +3891,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACS37010LLZATR-030B3:IC_ACS37030LLZATR-040B3"
+		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
 			(at 254 149.53 0)
 			(effects
 				(font
@@ -4356,7 +4356,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACS37010LLZATR-030B3:IC_ACS37030LLZATR-040B3"
+		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
 			(at 85.09 149.53 0)
 			(effects
 				(font
@@ -4488,7 +4488,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACS37010LLZATR-030B3:IC_ACS37030LLZATR-040B3"
+		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
 			(at 168.91 211.76 0)
 			(effects
 				(font
@@ -4755,7 +4755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ACS37010LLZATR-030B3:IC_ACS37030LLZATR-040B3"
+		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
 			(at 168.91 149.53 0)
 			(effects
 				(font

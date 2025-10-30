@@ -1590,7 +1590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LEDFootprint:LCD_NHD-0420H1Z-FL-GBW-33V3"
+		(property "Footprint" "PowerManagementBoard:LCD_NHD-0420H1Z-FL-GBW-33V3"
 			(at 93.98 88.9 0)
 			(effects
 				(font
