@@ -4683,7 +4683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5050MK-1_NOPB:SOT95P280X110-6N"
+		(property "Footprint" "PowerManagementBoard:SOT95P280X110-6N"
 			(at 78.74 99.06 0)
 			(effects
 				(font
@@ -5847,7 +5847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LM5050MK-1_NOPB:SOT95P280X110-6N"
+		(property "Footprint" "PowerManagementBoard:SOT95P280X110-6N"
 			(at 81.28 170.18 0)
 			(effects
 				(font
