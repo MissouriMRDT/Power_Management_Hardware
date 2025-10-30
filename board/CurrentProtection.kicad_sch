@@ -826,26 +826,27 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MRDT_Connectors:AndersonPP"
+		(symbol "MRDT_Drill_Holes:BATT_PWR_VIA"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
+				(offset 1.016)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Conn"
-				(at 3.81 -1.27 0)
+			(property "Reference" "V"
+				(at 3.81 1.27 0)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
 				)
 			)
-			(property "Value" "AndersonPP"
-				(at 2.54 6.35 0)
+			(property "Value" "BATT_PWR_VIA"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -853,7 +854,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at -3.81 -13.97 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -862,7 +863,7 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at -3.81 -13.97 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.524 1.524)
@@ -879,52 +880,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AndersonPP_0_1"
+			(symbol "BATT_PWR_VIA_0_1"
 				(polyline
 					(pts
-						(xy 0 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 0)
-					(end 5.08 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 0 0)
+						(xy 0 3.81) (xy -2.54 0) (xy 2.54 0) (xy 0 3.81)
 					)
 					(stroke
 						(width 0)
@@ -935,94 +894,14 @@
 					)
 				)
 			)
-			(symbol "AndersonPP_1_1"
+			(symbol "BATT_PWR_VIA_1_1"
 				(pin input line
-					(at 10.16 2.54 180)
+					(at 0 -5.08 90)
 					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "1"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_2_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "V+Log"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_3_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "V+Act"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_4_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "PV+"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_5_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 0.9906 0.9906)
 							)
 						)
 					)
@@ -2098,12 +1977,6 @@
 		(uuid "5465e404-8be6-4971-a286-eac3d06c81c1")
 	)
 	(junction
-		(at 44.45 193.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b1a1bbe-be0f-497f-b3f7-485aca967be1")
-	)
-	(junction
 		(at 49.53 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2132,12 +2005,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f563d1a-0528-4c4c-9865-6821a11bb359")
-	)
-	(junction
-		(at 41.91 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f948c88-6fbc-48bd-834d-7e5fa0ec7bac")
 	)
 	(junction
 		(at 90.17 144.78)
@@ -2403,16 +2270,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 160.02) (xy 34.29 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22c8f0af-65c2-4280-acb4-d425844e1e10")
-	)
-	(wire
-		(pts
 			(xy 119.38 193.04) (xy 81.28 193.04)
 		)
 		(stroke
@@ -2483,16 +2340,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 73.66) (xy 31.75 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cef93e5-3b37-4ce5-8a50-6dbd18a8d4b4")
-	)
-	(wire
-		(pts
 			(xy 116.84 73.66) (xy 129.54 73.66)
 		)
 		(stroke
@@ -2503,7 +2350,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 97.79) (xy 31.75 97.79)
+			(xy 26.67 73.66) (xy 41.91 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2643,16 +2490,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 121.92) (xy 31.75 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c2dc07e-b983-4caf-8d33-cef5411ead00")
-	)
-	(wire
-		(pts
 			(xy 69.85 73.66) (xy 73.66 73.66)
 		)
 		(stroke
@@ -2733,13 +2570,13 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 160.02) (xy 34.29 144.78)
+			(xy 30.48 144.78) (xy 44.45 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7ce0760e-3d7b-4243-97bd-7694954308f5")
+		(uuid "81208c14-e28e-4ea7-97de-5e62d01f2144")
 	)
 	(wire
 		(pts
@@ -2793,16 +2630,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 104.14) (xy 31.75 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88edbec6-de5f-449d-9bf0-ac1ebede5e86")
-	)
-	(wire
-		(pts
 			(xy 116.84 95.25) (xy 116.84 73.66)
 		)
 		(stroke
@@ -2840,16 +2667,6 @@
 			(type default)
 		)
 		(uuid "958e4148-c051-4df8-8969-ad7c180df7fa")
-	)
-	(wire
-		(pts
-			(xy 34.29 171.45) (xy 34.29 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961adf26-fdfc-4bac-bbc8-96d20eb12ac4")
 	)
 	(wire
 		(pts
@@ -2983,16 +2800,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 73.66) (xy 41.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5fd2957-06f9-4bab-9101-96bb405df095")
-	)
-	(wire
-		(pts
 			(xy 180.34 88.9) (xy 219.71 88.9)
 		)
 		(stroke
@@ -3020,16 +2827,6 @@
 			(type default)
 		)
 		(uuid "ca4dd865-59b0-481a-8b52-081af685bdc1")
-	)
-	(wire
-		(pts
-			(xy 29.21 171.45) (xy 34.29 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5e1f5e-e1cd-48af-ae79-06216fc69955")
 	)
 	(wire
 		(pts
@@ -3083,16 +2880,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 121.92) (xy 31.75 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4af52f1-432b-4759-bcb6-7bd00701da46")
-	)
-	(wire
-		(pts
 			(xy 116.84 102.87) (xy 116.84 121.92)
 		)
 		(stroke
@@ -3120,16 +2907,6 @@
 			(type default)
 		)
 		(uuid "d62642b4-8510-4dc1-bbd6-b78451f0c059")
-	)
-	(wire
-		(pts
-			(xy 34.29 144.78) (xy 44.45 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d671e65b-d72f-4d19-bfe2-995d6b9fe300")
 	)
 	(wire
 		(pts
@@ -3293,16 +3070,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 193.04) (xy 34.29 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f265ebcf-f2a1-4cf0-be1c-29873e556506")
-	)
-	(wire
-		(pts
 			(xy 119.38 144.78) (xy 105.41 144.78)
 		)
 		(stroke
@@ -3443,33 +3210,35 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 19.05 100.33 0)
-		(unit 4)
+		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
+		(at 30.48 139.7 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0498e9f8-b9f0-41d4-b0f8-c347dd59aa4f")
-		(property "Reference" "Conn12"
-			(at 21.59 90.17 0)
+		(uuid "09533a79-0baf-4131-9fd5-a3f9ba6dabb9")
+		(property "Reference" "V3"
+			(at 34.29 136.5249 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "AndersonPP"
-			(at 21.59 92.71 0)
+		(property "Value" "BATT_PWR_VIA"
+			(at 34.29 139.0649 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 15.24 114.3 0)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 30.48 139.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3478,7 +3247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.24 114.3 0)
+			(at 30.48 139.7 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3487,7 +3256,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 19.05 100.33 0)
+			(at 30.48 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,25 +3265,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "dcbc17c0-d0a6-4855-80be-a85a13824636")
-		)
-		(pin "4"
-			(uuid "131af63a-ed1d-4cb2-82d6-48749f10cb1b")
-		)
-		(pin "3"
-			(uuid "b0bfd21f-e177-46d4-a405-9f9cf37e58fd")
-		)
-		(pin "1"
-			(uuid "2f4e8c1b-e9af-4448-a0d8-d7f200ba8962")
-		)
-		(pin "2"
-			(uuid "81e44db0-1c40-4fd1-9737-5c1770ea9da3")
+			(uuid "8a96d134-3d48-40f8-9ab4-9ec4f1a6f35c")
 		)
 		(instances
-			(project ""
+			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Conn12")
-					(unit 4)
+					(reference "V3")
+					(unit 1)
 				)
 			)
 		)
@@ -3885,83 +3642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 19.05 162.56 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2d29c1a7-74c5-4651-acd8-fb39397ae369")
-		(property "Reference" "Conn11"
-			(at 21.59 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 21.59 154.94 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 15.24 176.53 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 15.24 176.53 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcbc17c0-d0a6-4855-80be-a85a13824637")
-		)
-		(pin "4"
-			(uuid "81ae830d-bd79-417c-990b-a4a92620126d")
-		)
-		(pin "3"
-			(uuid "b0bfd21f-e177-46d4-a405-9f9cf37e58fe")
-		)
-		(pin "1"
-			(uuid "2f4e8c1b-e9af-4448-a0d8-d7f200ba8963")
-		)
-		(pin "2"
-			(uuid "81e44db0-1c40-4fd1-9737-5c1770ea9da4")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Conn11")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 78.74 121.92 0)
 		(unit 1)
@@ -4301,83 +3981,6 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 19.05 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "452a09b8-f31d-46e4-b33f-9b2d0d00cb54")
-		(property "Reference" "Conn12"
-			(at 21.59 96.52 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 21.59 99.06 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 15.24 120.65 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 15.24 120.65 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dcbc17c0-d0a6-4855-80be-a85a13824638")
-		)
-		(pin "4"
-			(uuid "131af63a-ed1d-4cb2-82d6-48749f10cb1c")
-		)
-		(pin "3"
-			(uuid "b0bfd21f-e177-46d4-a405-9f9cf37e58ff")
-		)
-		(pin "1"
-			(uuid "2f4e8c1b-e9af-4448-a0d8-d7f200ba8964")
-		)
-		(pin "2"
-			(uuid "81e44db0-1c40-4fd1-9737-5c1770ea9da5")
-		)
-		(instances
-			(project ""
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Conn12")
 					(unit 1)
 				)
 			)
@@ -4739,6 +4342,73 @@
 		)
 	)
 	(symbol
+		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
+		(at 16.51 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "829148a7-29f5-4111-9420-94a08256489e")
+		(property "Reference" "V2"
+			(at 20.32 94.6149 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BATT_PWR_VIA"
+			(at 20.32 97.1549 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 16.51 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 97.79 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 16.51 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a2d952f2-e865-47db-98e2-073c9f398f34")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
+					(reference "V2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IPB180N10S4-02")
 		(at 78.74 76.2 270)
 		(mirror x)
@@ -5030,83 +4700,6 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 19.05 173.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f4f1068-2f83-482c-9fa3-2d5076a0a292")
-		(property "Reference" "Conn11"
-			(at 21.59 163.83 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 21.59 166.37 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 15.24 187.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 15.24 187.96 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 19.05 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "53ca30f0-0f7d-4065-a497-69c1ea1e311e")
-		)
-		(pin "4"
-			(uuid "131af63a-ed1d-4cb2-82d6-48749f10cb1d")
-		)
-		(pin "3"
-			(uuid "b0bfd21f-e177-46d4-a405-9f9cf37e5900")
-		)
-		(pin "1"
-			(uuid "2f4e8c1b-e9af-4448-a0d8-d7f200ba8965")
-		)
-		(pin "2"
-			(uuid "81e44db0-1c40-4fd1-9737-5c1770ea9da6")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
-					(reference "Conn11")
 					(unit 1)
 				)
 			)
@@ -5407,6 +5000,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 16.51 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc259374-9e3d-41c2-aad1-7fea198b7a33")
+		(property "Reference" "#PWR094"
+			(at 16.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 16.51 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 16.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 16.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 16.51 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5cfa562-7b02-4594-95e9-e885db194b5e")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+24V")
 		(at 166.37 100.33 0)
 		(unit 1)
@@ -5537,6 +5196,73 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
+		(at 26.67 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7b3ee67-39ed-41cd-b6cb-77f55224787f")
+		(property "Reference" "V1"
+			(at 30.48 65.4049 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BATT_PWR_VIA"
+			(at 30.48 67.9449 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 26.67 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "127e767d-6018-4d9e-962e-44da440f737a")
+		)
+		(instances
+			(project ""
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/fa17e088-8bc3-4875-b327-c5ed0adaa270"
+					(reference "V1")
 					(unit 1)
 				)
 			)

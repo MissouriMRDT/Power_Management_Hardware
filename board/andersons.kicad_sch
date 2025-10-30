@@ -216,6 +216,239 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "PowerManagementBoard:768250002"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 4.1656 5.3086 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "768250002"
+				(at 4.8006 -1.0414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MFR_NAME" "Molex Connector Corporation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER_PART_NUMBER" "768250002"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "768250002_0_0"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 12.7 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8382)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8382)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.7018)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3782)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -320,7 +553,27 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 87.63) (xy 200.66 90.17)
+			(xy 156.21 77.47) (xy 156.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00887fee-63a5-45dd-9e61-447869b6b7be")
+	)
+	(wire
+		(pts
+			(xy 156.21 40.64) (xy 156.21 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15cf9d0f-23d5-4eb7-86b1-ec3014c195a3")
+	)
+	(wire
+		(pts
+			(xy 200.66 82.55) (xy 200.66 90.17)
 		)
 		(stroke
 			(width 0)
@@ -330,7 +583,17 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 88.9) (xy 52.07 91.44)
+			(xy 200.66 76.2) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fa1a31d-6eaa-4675-bdde-89da59b2cd8d")
+	)
+	(wire
+		(pts
+			(xy 52.07 83.82) (xy 52.07 91.44)
 		)
 		(stroke
 			(width 0)
@@ -350,7 +613,97 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 52.07) (xy 200.66 54.61)
+			(xy 200.66 40.64) (xy 196.85 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b683346-08b1-4db6-82f2-1615bdbdeeb2")
+	)
+	(wire
+		(pts
+			(xy 161.29 77.47) (xy 156.21 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36a7cadb-c298-4ee6-aea4-aec8f328f21d")
+	)
+	(wire
+		(pts
+			(xy 161.29 40.64) (xy 156.21 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "376aa818-baa1-49e4-a8f9-6b143ed1c327")
+	)
+	(wire
+		(pts
+			(xy 200.66 46.99) (xy 196.85 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e1bc1cf-5102-4ecc-83cc-d084e8eca3e0")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 109.22 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52b9c5b0-e584-43ad-863f-dbb8f67b7530")
+	)
+	(wire
+		(pts
+			(xy 156.21 82.55) (xy 161.29 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a73042e-6515-4009-9951-548fa68b69be")
+	)
+	(wire
+		(pts
+			(xy 52.07 83.82) (xy 39.37 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cfb174f-66a7-42b3-b72a-8ef275882d82")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 110.49 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dab1d73-409f-4f93-8109-7ea69e8a4da8")
+	)
+	(wire
+		(pts
+			(xy 115.57 77.47) (xy 110.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "723a16ef-91cb-4747-aca6-7f0f62c3b8a8")
+	)
+	(wire
+		(pts
+			(xy 200.66 46.99) (xy 200.66 54.61)
 		)
 		(stroke
 			(width 0)
@@ -360,7 +713,57 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 161.29 54.61)
+			(xy 200.66 82.55) (xy 196.85 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7827f67a-5b3c-446f-a9a5-268110027252")
+	)
+	(wire
+		(pts
+			(xy 196.85 40.64) (xy 196.85 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841c97f0-cc7d-47f9-9edd-d8c1f5fb351a")
+	)
+	(wire
+		(pts
+			(xy 39.37 77.47) (xy 39.37 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94fcde4a-bc3a-45e6-a584-47c733282db8")
+	)
+	(wire
+		(pts
+			(xy 114.3 40.64) (xy 109.22 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "986c53c8-aa4d-45a2-add6-39a52b8273c1")
+	)
+	(wire
+		(pts
+			(xy 109.22 40.64) (xy 109.22 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66334b6-8dde-46aa-9ae1-c679514130f8")
+	)
+	(wire
+		(pts
+			(xy 161.29 45.72) (xy 161.29 54.61)
 		)
 		(stroke
 			(width 0)
@@ -370,7 +773,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 88.9) (xy 161.29 91.44)
+			(xy 161.29 82.55) (xy 161.29 91.44)
 		)
 		(stroke
 			(width 0)
@@ -380,7 +783,27 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 52.07) (xy 114.3 54.61)
+			(xy 52.07 77.47) (xy 39.37 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db50bbd4-9211-4e43-9058-b2c21d08db6c")
+	)
+	(wire
+		(pts
+			(xy 161.29 45.72) (xy 156.21 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db99369d-c766-43cb-af96-5492b60fa723")
+	)
+	(wire
+		(pts
+			(xy 114.3 48.26) (xy 114.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -390,7 +813,27 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 88.9) (xy 115.57 91.44)
+			(xy 196.85 76.2) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee381888-379e-46e4-acd8-5668312e3afc")
+	)
+	(wire
+		(pts
+			(xy 110.49 77.47) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f37703dc-0563-45de-9c01-a94129b22a0c")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 91.44)
 		)
 		(stroke
 			(width 0)
@@ -485,160 +928,6 @@
 			(justify left)
 		)
 		(uuid "ec949b6b-f6b1-4ca4-b398-fad2db561358")
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 151.13 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "00bc88e8-8c24-4ad0-ae4e-2fb3cdade4bf")
-		(property "Reference" "Conn6"
-			(at 153.67 44.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 153.67 46.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 147.32 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457845")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bb")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687731")
-		)
-		(pin "1"
-			(uuid "6acf556e-03ce-4eb1-a0cf-f773778ae3b6")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d324")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 151.13 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "010bdc1d-7d44-4be6-af45-f42c278f4f56")
-		(property "Reference" "Conn7"
-			(at 153.67 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 153.67 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457846")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bc")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687732")
-		)
-		(pin "1"
-			(uuid "79475298-137f-4686-9567-ddfb52b4d3de")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d325")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn7")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "MRDT_Connectors:AndersonPP")
@@ -850,51 +1139,43 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 104.14 43.18 0)
-		(unit 4)
+		(lib_id "PowerManagementBoard:768250002")
+		(at 156.21 45.72 180)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1a06b9f9-d0ad-43de-80c8-070238e77d94")
-		(property "Reference" "Conn4"
-			(at 106.68 33.02 0)
+		(uuid "1c14142f-3af7-49f5-825e-29b9f604ff2d")
+		(property "Reference" "J6"
+			(at 147.32 35.56 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AndersonPP"
-			(at 106.68 35.56 0)
+		(property "Value" "768250002"
+			(at 147.32 38.1 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 100.33 57.15 0)
+		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+			(at 156.21 45.72 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 100.33 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 43.18 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 156.21 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -902,26 +1183,46 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 156.21 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457844")
-		)
-		(pin "4"
-			(uuid "ebdad356-6baa-41c5-872d-3492acba28f0")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687730")
+			(uuid "8bdae9e5-3c0a-4998-8c0d-045f6bccb93f")
 		)
 		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e7")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d323")
+			(uuid "ff41df75-2893-4778-b46c-1291d839fbc3")
 		)
 		(instances
-			(project "PowerManagementBoard"
+			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn4")
-					(unit 4)
+					(reference "J6")
+					(unit 1)
 				)
 			)
 		)
@@ -993,237 +1294,6 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 190.5 78.74 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33793f60-7f18-4bab-806e-4cf9ae84e538")
-		(property "Reference" "Conn9"
-			(at 193.04 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 193.04 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 92.71 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457847")
-		)
-		(pin "4"
-			(uuid "67b1cd89-dff0-416e-8807-6a62bfe5c88c")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687733")
-		)
-		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e9")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d326")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn9")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 105.41 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43a5ec0c-b5b7-4ff3-8d92-4ff705952265")
-		(property "Reference" "Conn5"
-			(at 107.95 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 107.95 83.82 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 101.6 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457848")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bd")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687734")
-		)
-		(pin "1"
-			(uuid "0bce0930-a1aa-48e6-802d-13b15ed6a10a")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d327")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 41.91 80.01 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "44013af5-ea13-4a91-8857-18e58ecad571")
-		(property "Reference" "Conn3"
-			(at 44.45 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 44.45 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 38.1 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 38.1 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457849")
-		)
-		(pin "4"
-			(uuid "568cdcee-64b3-4108-a39d-d9b5d38f377b")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687735")
-		)
-		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e8")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d328")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn3")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 200.66 54.61 0)
 		(unit 1)
@@ -1290,128 +1360,43 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 105.41 80.01 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4a54fb4a-c8d1-41e4-ab21-5d34d8d3b0d5")
-		(property "Reference" "Conn5"
-			(at 107.95 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 107.95 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab581445784a")
-		)
-		(pin "4"
-			(uuid "64a00650-4e37-452a-b275-3f2d4e4ca25a")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687736")
-		)
-		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319ea")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d329")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn5")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 190.5 90.17 0)
+		(lib_id "PowerManagementBoard:768250002")
+		(at 109.22 48.26 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d2fbe81-6c55-41da-9821-b335bf745ebd")
-		(property "Reference" "Conn9"
-			(at 193.04 80.01 0)
+		(uuid "4dc6669f-76c4-446d-ae9b-2462d1b3d446")
+		(property "Reference" "J7"
+			(at 100.33 38.1 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AndersonPP"
-			(at 193.04 82.55 0)
+		(property "Value" "768250002"
+			(at 100.33 40.64 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 186.69 104.14 0)
+		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+			(at 109.22 48.26 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 186.69 104.14 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 90.17 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 109.22 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,103 +1404,46 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 109.22 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab581445784b")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9be")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687737")
+			(uuid "37b4f3a6-f107-4009-8559-f44980c744b8")
 		)
 		(pin "1"
-			(uuid "02f925db-a7a6-46f6-8f6c-76dacfa7e7d3")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d32a")
+			(uuid "70d1455c-12b3-453e-a6eb-9b59acd16864")
 		)
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn9")
+					(reference "J7")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 151.13 80.01 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "598b609f-d194-4d62-b503-40f9979f388a")
-		(property "Reference" "Conn7"
-			(at 153.67 69.85 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 153.67 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 93.98 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab581445784c")
-		)
-		(pin "4"
-			(uuid "6d9dd05a-6b91-4751-9cb0-6943df0f18e7")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687738")
-		)
-		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319eb")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d32b")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn7")
-					(unit 4)
 				)
 			)
 		)
@@ -1587,128 +1515,43 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 151.13 43.18 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f2b5f34-4e0f-4c4c-a5b7-bea3167359aa")
-		(property "Reference" "Conn6"
-			(at 153.67 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 153.67 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 147.32 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab581445784d")
-		)
-		(pin "4"
-			(uuid "19224da2-e0db-4ce6-9395-3f6a4cdeaff4")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e74687739")
-		)
-		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319ec")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d32c")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn6")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 104.14 54.61 0)
+		(lib_id "PowerManagementBoard:768250002")
+		(at 39.37 83.82 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98fbc1c8-9abb-4fce-8ec0-738ebce83c6e")
-		(property "Reference" "Conn4"
-			(at 106.68 44.45 0)
+		(uuid "6b665081-6196-4bbb-92c3-ae882f76e012")
+		(property "Reference" "J12"
+			(at 30.48 73.66 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AndersonPP"
-			(at 106.68 46.99 0)
+		(property "Value" "768250002"
+			(at 30.48 76.2 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 100.33 68.58 0)
+		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+			(at 39.37 83.82 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 100.33 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 54.61 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 39.37 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,25 +1559,134 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 39.37 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab581445784e")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9bf")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e7468773a")
+			(uuid "64a2f1bd-ad67-4f83-8597-7daed66f69aa")
 		)
 		(pin "1"
-			(uuid "111e15d3-0705-4858-b494-6a67d9ba5b2e")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d32d")
+			(uuid "8d4f0fb6-8b2d-47a7-85e3-3c0aa45fd603")
 		)
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn4")
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 110.49 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a51a2dac-3bbf-4582-b4c4-d6c8b894a1a1")
+		(property "Reference" "J9"
+			(at 101.6 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 101.6 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 110.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "12ec06a4-e99b-40b7-b55c-e6aa046bf1c7")
+		)
+		(pin "1"
+			(uuid "9ba580d5-efe4-4945-add7-d74256bcde9a")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1801,83 +1753,6 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "#PWR073")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 190.5 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b3bb4d39-4f64-410e-9656-490b30584f96")
-		(property "Reference" "Conn8"
-			(at 193.04 44.45 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 193.04 46.99 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 186.69 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab581445784f")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9c0")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e7468773b")
-		)
-		(pin "1"
-			(uuid "0bce0930-a1aa-48e6-802d-13b15ed6a10b")
-		)
-		(pin "1"
-			(uuid "c56270e2-b977-41bb-8e8a-e30d69794ade")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn8")
 					(unit 1)
 				)
 			)
@@ -2093,128 +1968,43 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 190.5 43.18 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ebd34e25-196f-4830-b4ae-913dd24a2084")
-		(property "Reference" "Conn8"
-			(at 193.04 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 193.04 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 186.69 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457851")
-		)
-		(pin "4"
-			(uuid "a4838992-eccf-45d5-915e-0bb86f3c3201")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e7468773d")
-		)
-		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319ee")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d32f")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn8")
-					(unit 4)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 41.91 91.44 0)
+		(lib_id "PowerManagementBoard:768250002")
+		(at 196.85 46.99 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f694da67-60c6-4a0b-9d66-ce4c2a48ad98")
-		(property "Reference" "Conn3"
-			(at 44.45 81.28 0)
+		(uuid "ce8ccf52-8f75-4fd5-b0df-090f26340da3")
+		(property "Reference" "J8"
+			(at 187.96 36.83 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AndersonPP"
-			(at 44.45 83.82 0)
+		(property "Value" "768250002"
+			(at 187.96 39.37 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 38.1 105.41 0)
+		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+			(at 196.85 46.99 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 38.1 105.41 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 91.44 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 196.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,25 +2012,223 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 196.85 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457852")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9c2")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e7468773e")
+			(uuid "38c81815-dfc6-4c9f-8a06-2aaae819aadb")
 		)
 		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319ef")
-		)
-		(pin "1"
-			(uuid "a47b8807-9f3b-4d0a-9826-ec660b138b75")
+			(uuid "308d17ae-f9f6-4a89-877b-d000eda5f1de")
 		)
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn3")
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 156.21 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d507544b-f12c-4e11-9adb-12ab14c6dbe6")
+		(property "Reference" "J10"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 147.32 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 156.21 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5896a27d-851c-4f58-982a-b7ef27dbeb8a")
+		)
+		(pin "1"
+			(uuid "63419506-33d1-42ff-a332-b2c9c557cd2f")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 196.85 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec24a990-e292-4063-b1bd-11d9014a16fa")
+		(property "Reference" "J11"
+			(at 187.96 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 187.96 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 196.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf0b5af5-7c65-446f-84d5-bb0ac95cda08")
+		)
+		(pin "1"
+			(uuid "600e2b6a-723f-474f-be3e-93f9cdffa1ed")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J11")
 					(unit 1)
 				)
 			)
