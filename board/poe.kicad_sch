@@ -2276,7 +2276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 34.29 119.38 0)
 			(effects
 				(font

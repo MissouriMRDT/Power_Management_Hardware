@@ -583,16 +583,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 196.85 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1fa1a31d-6eaa-4675-bdde-89da59b2cd8d")
-	)
-	(wire
-		(pts
 			(xy 52.07 83.82) (xy 52.07 91.44)
 		)
 		(stroke
@@ -630,6 +620,16 @@
 			(type default)
 		)
 		(uuid "36a7cadb-c298-4ee6-aea4-aec8f328f21d")
+	)
+	(wire
+		(pts
+			(xy 200.66 76.2) (xy 196.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374886f6-bb33-4b08-877e-6b0832a83faf")
 	)
 	(wire
 		(pts
@@ -753,6 +753,26 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 76.2) (xy 196.85 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa68edf6-c66e-4181-951d-2e08944fb8f0")
+	)
+	(wire
+		(pts
+			(xy 53.34 40.64) (xy 50.8 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae316073-f5b0-4c2a-a963-7db5ee4b072e")
+	)
+	(wire
+		(pts
 			(xy 109.22 40.64) (xy 109.22 45.72)
 		)
 		(stroke
@@ -810,16 +830,6 @@
 			(type default)
 		)
 		(uuid "eb4b53f1-a460-4df3-bdc6-cd05906594f7")
-	)
-	(wire
-		(pts
-			(xy 196.85 76.2) (xy 196.85 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee381888-379e-46e4-acd8-5668312e3afc")
 	)
 	(wire
 		(pts
@@ -898,7 +908,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 50.8 40.64 0)
+		(at 53.34 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1164,7 +1174,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 156.21 45.72 0)
 			(effects
 				(font
@@ -1385,7 +1395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 109.22 48.26 0)
 			(effects
 				(font
@@ -1540,7 +1550,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 39.37 83.82 0)
 			(effects
 				(font
@@ -1629,7 +1639,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 110.49 86.36 0)
 			(effects
 				(font
@@ -1993,7 +2003,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 196.85 46.99 0)
 			(effects
 				(font
@@ -2082,7 +2092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 156.21 82.55 0)
 			(effects
 				(font
@@ -2171,7 +2181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "768250002:CONN_SD-76825-0100_02_MOL"
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
 			(at 196.85 82.55 0)
 			(effects
 				(font
