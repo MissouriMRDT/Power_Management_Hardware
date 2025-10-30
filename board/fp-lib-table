@@ -4,4 +4,5 @@
   (lib (name "NHD-0420H1Z-FL-GBW-33V3")(type "KiCad")(uri "C:/Users/HP/Downloads/NHD-0420H1Z-FL-GBW-33V3")(options "")(descr ""))
   (lib (name "KiCad")(type "KiCad")(uri "C:/Users/HP/Downloads/LIB_AS358MTR-E1/AS358MTR-E1/KiCad")(options "")(descr ""))
   (lib (name "MOLEX")(type "KiCad")(uri "C:/Users/HP/Downloads/LIB_70555-0006/70555-0006/MOLEX")(options "")(descr ""))
+  (lib (name "ACS37010LLZATR-030B3")(type "KiCad")(uri "C:/Users/emili/Downloads/ACS37010LLZATR-030B3")(options "")(descr ""))
 )
