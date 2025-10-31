@@ -2350,6 +2350,16 @@
 		)
 		(uuid "f9d0af5d-05ea-430c-845e-99edc2481f49")
 	)
+	(label "LC"
+		(at 166.37 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "40fb1e80-4292-4f13-8d26-5c0a74cb1b36")
+	)
 	(symbol
 		(lib_id "Device:R_US")
 		(at 74.93 171.45 0)
