@@ -5,217 +5,6 @@
 	(uuid "b68e4404-5213-4e0d-b5b8-60a0aaf5c27f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "MRDT_Connectors:AndersonPP"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Conn"
-				(at 3.81 -1.27 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "AndersonPP"
-				(at 2.54 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -3.81 -13.97 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at -3.81 -13.97 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "AndersonPP_0_1"
-				(polyline
-					(pts
-						(xy 0 5.08) (xy 5.08 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 0 0)
-					(end 5.08 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 2.54)
-					(radius 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 5.08) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AndersonPP_1_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_2_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "V+Log"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_3_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "V+Act"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_4_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "PV+"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "AndersonPP_5_1"
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 5.08)
-					(name "~"
-						(effects
-							(font
-								(size 0.9906 0.9906)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "PowerManagementBoard:768250002"
 			(pin_names
 				(offset 1.016)
@@ -563,6 +352,36 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 130.81) (xy 100.33 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088a39ca-d144-4271-9c62-14faad08fddd")
+	)
+	(wire
+		(pts
+			(xy 201.93 132.08) (xy 196.85 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b01b4a9-089d-4411-b243-15042ab6a888")
+	)
+	(wire
+		(pts
+			(xy 68.58 130.81) (xy 68.58 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11100410-8cbd-40aa-8021-7e6813013af8")
+	)
+	(wire
+		(pts
 			(xy 156.21 40.64) (xy 156.21 43.18)
 		)
 		(stroke
@@ -570,6 +389,16 @@
 			(type default)
 		)
 		(uuid "15cf9d0f-23d5-4eb7-86b1-ec3014c195a3")
+	)
+	(wire
+		(pts
+			(xy 168.91 130.81) (xy 168.91 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ce5ccb-8b65-4372-a6e8-d8426e563dbc")
 	)
 	(wire
 		(pts
@@ -593,13 +422,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 52.07) (xy 50.8 54.61)
+			(xy 40.64 128.27) (xy 35.56 128.27)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2822f791-ef96-4785-a179-b54fdf7f4c70")
+		(uuid "2279c08d-3408-4b9e-bee9-28092fb1cbe1")
+	)
+	(wire
+		(pts
+			(xy 201.93 140.97) (xy 196.85 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2709e1e4-eae4-4c6d-9087-5e2caa6defea")
 	)
 	(wire
 		(pts
@@ -610,6 +449,26 @@
 			(type default)
 		)
 		(uuid "2b683346-08b1-4db6-82f2-1615bdbdeeb2")
+	)
+	(wire
+		(pts
+			(xy 173.99 139.7) (xy 173.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e760e7d-066e-473c-ab3c-535c453afe9f")
+	)
+	(wire
+		(pts
+			(xy 73.66 139.7) (xy 68.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ea57279-e493-4a72-b333-da0261f96085")
 	)
 	(wire
 		(pts
@@ -653,6 +512,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 137.16) (xy 40.64 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a1a600d-82db-417e-bc81-5da8fbdeeba0")
+	)
+	(wire
+		(pts
 			(xy 114.3 48.26) (xy 109.22 48.26)
 		)
 		(stroke
@@ -660,6 +529,26 @@
 			(type default)
 		)
 		(uuid "52b9c5b0-e584-43ad-863f-dbb8f67b7530")
+	)
+	(wire
+		(pts
+			(xy 138.43 130.81) (xy 133.35 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d29c15-54bc-40f8-a68c-b3b8e9b37a44")
+	)
+	(wire
+		(pts
+			(xy 133.35 130.81) (xy 133.35 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d602cb-7643-4ab4-85b3-bf44e4590863")
 	)
 	(wire
 		(pts
@@ -703,6 +592,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 139.7) (xy 168.91 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73feb273-5611-46c2-a4d3-cb8071d24bd8")
+	)
+	(wire
+		(pts
 			(xy 200.66 46.99) (xy 200.66 54.61)
 		)
 		(stroke
@@ -710,6 +609,16 @@
 			(type default)
 		)
 		(uuid "740f7c02-eaac-4313-96f1-36e22428e167")
+	)
+	(wire
+		(pts
+			(xy 73.66 130.81) (xy 68.58 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75bf5215-32e4-4cc8-bc0a-bcf944677673")
 	)
 	(wire
 		(pts
@@ -730,6 +639,36 @@
 			(type default)
 		)
 		(uuid "841c97f0-cc7d-47f9-9edd-d8c1f5fb351a")
+	)
+	(wire
+		(pts
+			(xy 105.41 139.7) (xy 100.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8442908c-416c-43bf-a8bf-143538188949")
+	)
+	(wire
+		(pts
+			(xy 138.43 139.7) (xy 138.43 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87187124-7920-449c-b5a4-335759c63e3d")
+	)
+	(wire
+		(pts
+			(xy 173.99 130.81) (xy 168.91 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91353901-70db-4f2d-b6d1-aff7397d9928")
 	)
 	(wire
 		(pts
@@ -763,13 +702,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 40.64) (xy 50.8 40.64)
+			(xy 201.93 140.97) (xy 201.93 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ae316073-f5b0-4c2a-a963-7db5ee4b072e")
+		(uuid "b0a704cc-e5c3-4d8c-9d05-71084de1454d")
 	)
 	(wire
 		(pts
@@ -803,6 +742,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 130.81) (xy 100.33 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c710afa3-ecac-40f8-89d1-fcd42ae47cbc")
+	)
+	(wire
+		(pts
+			(xy 196.85 132.08) (xy 196.85 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2085af2-a406-44e6-adb6-1e4366c90c23")
+	)
+	(wire
+		(pts
 			(xy 52.07 77.47) (xy 39.37 77.47)
 		)
 		(stroke
@@ -820,6 +779,26 @@
 			(type default)
 		)
 		(uuid "db99369d-c766-43cb-af96-5492b60fa723")
+	)
+	(wire
+		(pts
+			(xy 35.56 128.27) (xy 35.56 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dde68a97-5a82-4745-addf-0d0fb1850546")
+	)
+	(wire
+		(pts
+			(xy 40.64 137.16) (xy 35.56 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5fae831-9d5c-46ac-a7b3-11455d36b56a")
 	)
 	(wire
 		(pts
@@ -843,6 +822,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 139.7) (xy 73.66 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbcc8313-3dd6-405c-ae7e-a426aa0c13b5")
+	)
+	(wire
+		(pts
 			(xy 115.57 86.36) (xy 115.57 91.44)
 		)
 		(stroke
@@ -850,6 +839,26 @@
 			(type default)
 		)
 		(uuid "fc70273f-3787-4df9-931c-854516ee1112")
+	)
+	(wire
+		(pts
+			(xy 105.41 139.7) (xy 105.41 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd1d8540-5451-4364-9857-6fcdd823cb19")
+	)
+	(wire
+		(pts
+			(xy 138.43 139.7) (xy 133.35 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe700fc9-145e-430f-a84e-4709f81a9e4a")
 	)
 	(hierarchical_label "Network"
 		(shape input)
@@ -873,6 +882,28 @@
 		)
 		(uuid "21066841-02e6-443a-9c0e-2e1292e13734")
 	)
+	(hierarchical_label "Motor"
+		(shape input)
+		(at 173.99 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "48e2167e-d285-4be7-ba9b-58c05b3473f8")
+	)
+	(hierarchical_label "Motor"
+		(shape input)
+		(at 73.66 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "56bd0476-f9ea-4c80-9486-e26ea3e1780f")
+	)
 	(hierarchical_label "Cam1"
 		(shape input)
 		(at 161.29 77.47 0)
@@ -895,6 +926,28 @@
 		)
 		(uuid "861c69c5-dec5-4ff8-8fdf-78421de2aaa6")
 	)
+	(hierarchical_label "Motor"
+		(shape input)
+		(at 138.43 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92b0fbcc-097f-4a53-8370-9b17d3741809")
+	)
+	(hierarchical_label "Motor"
+		(shape input)
+		(at 201.93 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bef6a083-6419-47af-917a-73aaac866d94")
+	)
 	(hierarchical_label "Core"
 		(shape input)
 		(at 115.57 77.47 0)
@@ -908,7 +961,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 53.34 40.64 0)
+		(at 40.64 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -916,6 +969,17 @@
 			(justify left)
 		)
 		(uuid "c7d10c8a-7b76-4d74-b5eb-b6b30cc13d54")
+	)
+	(hierarchical_label "Motor"
+		(shape input)
+		(at 105.41 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c996c194-bdbc-4d39-92d0-f8e7d82b5ace")
 	)
 	(hierarchical_label "Nav"
 		(shape input)
@@ -938,83 +1002,6 @@
 			(justify left)
 		)
 		(uuid "ec949b6b-f6b1-4ca4-b398-fad2db561358")
-	)
-	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 40.64 43.18 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06837a3e-6d77-41b2-a73d-5a73b55456eb")
-		(property "Reference" "Conn2"
-			(at 43.18 33.02 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "AndersonPP"
-			(at 43.18 35.56 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 36.83 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 36.83 57.15 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457843")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9ba")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e7468772f")
-		)
-		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319e6")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d322")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn2")
-					(unit 4)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -1077,72 +1064,6 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0fc75dc6-cd3f-4839-b2a9-0ffadb3f7dcb")
-		(property "Reference" "#PWR055"
-			(at 50.8 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a659704-4a44-4fa9-b795-7b3ffff3942b")
-		)
-		(instances
-			(project ""
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -1239,6 +1160,161 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 201.93 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e76462f-5ebd-452a-a374-347d4bb24498")
+		(property "Reference" "#PWR0100"
+			(at 201.93 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "968881c1-d5f4-4f9a-92ef-2535d2868dbc")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 196.85 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "271794d7-9719-41bc-99bf-9b34fc6dc527")
+		(property "Reference" "J18"
+			(at 187.96 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 187.96 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 196.85 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb9fc7db-5f7c-4fad-b379-1439adaa1d83")
+		)
+		(pin "1"
+			(uuid "8ad660cc-64f1-477c-a31b-9cb46a68fb65")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 52.07 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1298,6 +1374,227 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33029bb6-da63-489e-9cd4-8d9ce4b53b99")
+		(property "Reference" "#PWR096"
+			(at 40.64 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d54459e4-2b15-48b8-8afa-7f7f28250f2e")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 168.91 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396165c3-c987-48c0-bf81-cd99764166a7")
+		(property "Reference" "J17"
+			(at 160.02 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 160.02 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 168.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e490cf10-92c5-4ce6-a664-315b4aeedbf3")
+		)
+		(pin "1"
+			(uuid "44ebe3ea-c081-4cc9-b193-d3abada41b59")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4106752c-7dfe-421b-be27-c2d0a85068a3")
+		(property "Reference" "#PWR098"
+			(at 138.43 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3a4ee309-4f7c-4dfc-9dc7-9ca0d6697ad0")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -1453,6 +1750,72 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "55fa9194-cd05-4a74-abef-0f9fb5712186")
+		(property "Reference" "#PWR097"
+			(at 105.41 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fa422fef-0330-4f0e-87fc-25eabf3f1feb")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -1704,6 +2067,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 173.99 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d386ed-1609-4b46-b85f-4acf8aabb6d1")
+		(property "Reference" "#PWR099"
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "df10d869-4c32-4d49-8a53-8aaab8cd82af")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 161.29 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1835,51 +2264,43 @@
 		)
 	)
 	(symbol
-		(lib_id "MRDT_Connectors:AndersonPP")
-		(at 40.64 54.61 0)
+		(lib_id "PowerManagementBoard:768250002")
+		(at 133.35 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b9221e2a-47aa-4377-9b41-d598063e5272")
-		(property "Reference" "Conn2"
-			(at 43.18 44.45 0)
+		(uuid "cb83b322-5917-4e20-90dc-26131c970939")
+		(property "Reference" "J16"
+			(at 124.46 129.54 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AndersonPP"
-			(at 43.18 46.99 0)
+		(property "Value" "768250002"
+			(at 124.46 132.08 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:Square_Anderson_2_H_Side_By_Side_PV"
-			(at 36.83 68.58 0)
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
+			(at 133.35 139.7 0)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 36.83 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 40.64 54.61 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 133.35 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1887,25 +2308,45 @@
 				(hide yes)
 			)
 		)
+		(property "Description" ""
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 133.35 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "cd64d776-7fac-4f39-abcb-ab5814457850")
-		)
-		(pin "4"
-			(uuid "dc475aad-7d60-4b1d-910a-c40eaf60f9c1")
-		)
-		(pin "3"
-			(uuid "f4eb93bd-b3f3-4c64-819c-f62e7468773c")
+			(uuid "7f8f5123-92d8-4f7a-aa73-7b02ffd8e70e")
 		)
 		(pin "1"
-			(uuid "1b2c8a7f-53a0-4f24-8bb7-e61d3d2319ed")
-		)
-		(pin "1"
-			(uuid "b82a2e5d-d0a7-4a89-a45c-493d6956d32e")
+			(uuid "195cd2f1-4259-44c1-8734-d1c525f45691")
 		)
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "Conn2")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -2061,6 +2502,95 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 68.58 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1a0b633-f52a-4d08-b124-7605ca02691b")
+		(property "Reference" "J14"
+			(at 59.69 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 59.69 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 68.58 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cb7d9d59-3471-41e2-9c03-f8d181e2a7a3")
+		)
+		(pin "1"
+			(uuid "a287a9e5-7e9e-45e2-a9f5-18099961501c")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -2239,6 +2769,250 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
 					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 100.33 139.7 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc36be5e-2818-487c-a26b-6baff045f682")
+		(property "Reference" "J15"
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 100.33 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3bca385-c51d-4368-8446-84c17ccdeba5")
+		)
+		(pin "1"
+			(uuid "5e3f3d56-86fb-41c3-98dd-3e0dc01961a3")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 73.66 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdc5f046-8ba8-484e-ab67-ba421a413dc3")
+		(property "Reference" "#PWR055"
+			(at 73.66 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 73.66 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 73.66 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58e0829c-22b7-418e-9ef7-363665621646")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PowerManagementBoard:768250002")
+		(at 35.56 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdcaa19f-6feb-4c23-b5b9-b1e0135ff891")
+		(property "Reference" "J13"
+			(at 26.67 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "768250002"
+			(at 26.67 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR_NAME" "Molex Connector Corporation"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER_PART_NUMBER" "768250002"
+			(at 35.56 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7f28913b-f22b-4145-9cc2-0f6b3bd66624")
+		)
+		(pin "1"
+			(uuid "07980b6f-7f1d-466d-be3d-850c857d740e")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
+					(reference "J13")
 					(unit 1)
 				)
 			)
