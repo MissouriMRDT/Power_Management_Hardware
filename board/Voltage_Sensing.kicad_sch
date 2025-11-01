@@ -3714,7 +3714,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5467fb3b-42ba-4bf7-9d24-e7f94cfea606")
 		(property "Reference" "U6"
 			(at 152.4 101.6 0)
@@ -3725,7 +3724,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 152.4 104.14 0)
+			(at 160.528 109.474 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,7 +7391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MRDT_Connectors:MOLEX_SL_07_Horizontal"
+		(property "Footprint" "MRDT_Connectors:MOLEX_SL_07_Vertical"
 			(at 88.9 109.22 0)
 			(effects
 				(font
