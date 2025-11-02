@@ -6733,7 +6733,7 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "1ca2edcb-e23d-4e77-a5a2-9f4f6b8ab423")
-		(at 193.563 137.761)
+		(at 190.5 137.761)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R34"
@@ -8835,7 +8835,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Corner"
 		(layer "F.Cu")
 		(uuid "21f755ba-97f5-4c95-b23e-504970eb0e6e")
-		(at 197.7503 150.7377)
+		(at 193.47688 146.88312)
 		(property "Reference" "H1"
 			(at 4.00812 -3.50812 0)
 			(layer "F.SilkS")
@@ -23861,7 +23861,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Corner"
 		(layer "F.Cu")
 		(uuid "71c07a42-ef1d-4b5a-8bc8-c700e607a756")
-		(at 36.0793 36.3107)
+		(at 34.1743 40.1207)
 		(property "Reference" "H3"
 			(at 4.00812 -3.50812 0)
 			(layer "F.SilkS")
@@ -29418,7 +29418,7 @@
 	(footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "889af511-7b8d-42e4-9702-31b703f4a475")
-		(at 193.663 139.761)
+		(at 190.6 139.761)
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED handsolder")
 		(property "Reference" "D1"
@@ -36652,7 +36652,7 @@
 	(footprint "Package_TO_SOT_SMD:SOT-23"
 		(layer "F.Cu")
 		(uuid "a6e89677-4762-4267-88fb-ce6611c214a4")
-		(at 192.913 142.9235 90)
+		(at 189.85 142.9235 90)
 		(descr "SOT, 3 Pin (JEDEC TO-236 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=TO-236), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
@@ -36985,7 +36985,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Corner"
 		(layer "F.Cu")
 		(uuid "a787a664-0209-45cf-9953-deb1ca847d4c")
-		(at 43.4227 151.7537 90)
+		(at 42.74312 146.88312 90)
 		(property "Reference" "H2"
 			(at 4.00812 -3.50812 90)
 			(layer "F.SilkS")
@@ -38131,7 +38131,7 @@
 	(footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6"
 		(layer "F.Cu")
 		(uuid "ac011bd6-7657-4780-9257-9a86cfa2dd9e")
-		(at 185.563 135.061 -90)
+		(at 182.245 135.061 -90)
 		(descr "Generic Buzzer, D12mm height 9.5mm with RM7.6mm")
 		(tags "buzzer")
 		(property "Reference" "B1"
@@ -38767,7 +38767,7 @@
 	(footprint "MRDT_Drill_Holes:BATT_PWR_VIA"
 		(layer "F.Cu")
 		(uuid "afb0a999-eebd-487b-bd83-dfe76c2cde12")
-		(at 49.403 136.906 180)
+		(at 49.53 133.35 180)
 		(property "Reference" "V1"
 			(at 0 10.16 0)
 			(layer "F.Fab")
@@ -43130,7 +43130,7 @@
 	(footprint "MRDT_Drill_Holes:4_40_Hole_Corner"
 		(layer "F.Cu")
 		(uuid "dcb60f93-ccc8-4e74-86a3-5508008551b9")
-		(at 198.17588 36.64712)
+		(at 194.1943 40.1207)
 		(property "Reference" "H4"
 			(at 4.00812 -3.50812 0)
 			(layer "F.SilkS")
@@ -48898,6 +48898,76 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 202.438 33.02)
+		(end 201.676 146.812)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "4803561a-98a4-47a4-b43f-17d06cefe349")
+	)
+	(gr_line
+		(start 201.676 146.812)
+		(end 39.087387 147.123226)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "990091f4-73c5-4eac-bf3e-00c23d9c0054")
+	)
+	(gr_line
+		(start 33.655 31.75)
+		(end 202.565 31.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "80eb53db-b4fe-47cd-aa10-cd713032a9c6")
+	)
+	(gr_line
+		(start 34.925 147.32)
+		(end 33.655 31.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "86b9c3da-febb-4857-a942-3689d0023db9")
+	)
+	(gr_line
+		(start 202.565 33.02)
+		(end 201.93 146.685)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a1f6a2bf-13f2-4040-96be-900870587cd9")
+	)
+	(gr_line
+		(start 201.93 146.685)
+		(end 34.925 147.32)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dfc0ef64-4481-47a4-9f58-435abf3ca54a")
+	)
+	(gr_line
+		(start 202.565 31.75)
+		(end 202.565 33.02)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f5109694-2cbb-438f-808c-3d116450f681")
 	)
 	(segment
 		(start 146.888 68.226)
