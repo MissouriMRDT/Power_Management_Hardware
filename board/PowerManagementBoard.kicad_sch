@@ -1442,16 +1442,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 33.02) (xy 177.8 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13f3c270-cf47-4447-9e03-217e445de8db")
-	)
-	(wire
-		(pts
 			(xy 64.77 170.18) (xy 64.77 175.26)
 		)
 		(stroke
@@ -2132,7 +2122,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 35.56) (xy 177.8 35.56)
+			(xy 165.1 33.02) (xy 177.8 33.02)
 		)
 		(stroke
 			(width 0)
@@ -4294,16 +4284,6 @@
 				(justify left)
 			)
 		)
-		(pin "m5out" output
-			(at 165.1 33.02 0)
-			(uuid "eae7321c-ebee-4697-b348-9a2e06d416d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "m5Vout" output
 			(at 139.7 59.69 180)
 			(uuid "bd4d3afd-d915-4efe-9fed-c6c1a04473ec")
@@ -4325,7 +4305,7 @@
 			)
 		)
 		(pin "m9out" output
-			(at 165.1 35.56 0)
+			(at 165.1 33.02 0)
 			(uuid "d343c301-1847-4f59-9ca5-5377875aa9b6")
 			(effects
 				(font
@@ -4650,18 +4630,8 @@
 				(justify left)
 			)
 		)
-		(pin "M5" input
-			(at 177.8 33.02 180)
-			(uuid "b1cbfd09-aa19-4ac5-9ed7-86639275a179")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "M9" input
-			(at 177.8 35.56 180)
+			(at 177.8 33.02 180)
 			(uuid "2bf2302e-46f6-43ac-9ba5-8d0d6ab77b78")
 			(effects
 				(font

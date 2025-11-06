@@ -2915,7 +2915,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 153.67 93.98 0)
+		(at 154.94 74.93 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2924,7 +2924,7 @@
 		(fields_autoplaced yes)
 		(uuid "14425f16-3484-44b5-8c8e-3c858f6ded27")
 		(property "Reference" "U5"
-			(at 153.67 83.82 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2932,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 153.67 86.36 0)
+			(at 154.94 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2940,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:SOIC127P600X175-8N"
-			(at 153.67 93.98 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2949,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0005046231/DIOD-S-A0005046231-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 153.67 93.98 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +2958,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 153.67 93.98 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2967,7 +2967,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 153.67 93.98 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2976,7 +2976,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 153.67 93.98 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +2985,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 153.67 93.98 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +2994,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 153.67 93.98 0)
+			(at 154.94 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3383,16 +3383,15 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 151.13 129.54 0)
+		(at 152.4 111.76 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3497ec00-7068-4272-8a35-50ceb7e64f01")
 		(property "Reference" "U6"
-			(at 151.13 119.38 0)
+			(at 152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3399,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 151.13 121.92 0)
+			(at 162.306 107.188 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3407,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:SOIC127P600X175-8N"
-			(at 151.13 129.54 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,7 +3416,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0005046231/DIOD-S-A0005046231-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 151.13 129.54 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,7 +3425,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 151.13 129.54 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3435,7 +3434,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 151.13 129.54 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,7 +3443,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 151.13 129.54 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3453,7 +3452,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 151.13 129.54 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3462,7 +3461,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 151.13 129.54 0)
+			(at 152.4 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +3707,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 152.4 111.76 0)
+		(at 151.13 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3716,7 +3715,7 @@
 		(dnp no)
 		(uuid "5467fb3b-42ba-4bf7-9d24-e7f94cfea606")
 		(property "Reference" "U6"
-			(at 152.4 101.6 0)
+			(at 151.13 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,7 +3723,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 160.528 109.474 0)
+			(at 159.258 127.254 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3732,7 +3731,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:SOIC127P600X175-8N"
-			(at 152.4 111.76 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3741,7 +3740,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0005046231/DIOD-S-A0005046231-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 152.4 111.76 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3750,7 +3749,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 152.4 111.76 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3758,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 152.4 111.76 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3768,7 +3767,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 152.4 111.76 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3777,7 +3776,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 152.4 111.76 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,7 +3785,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 152.4 111.76 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5239,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 154.94 74.93 0)
+		(at 156.21 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5249,7 +5248,7 @@
 		(fields_autoplaced yes)
 		(uuid "996c01dc-d162-46bc-ae3b-e0a64f72cd34")
 		(property "Reference" "U4"
-			(at 154.94 64.77 0)
+			(at 156.21 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5257,7 +5256,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 154.94 67.31 0)
+			(at 156.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5265,7 +5264,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:SOIC127P600X175-8N"
-			(at 154.94 74.93 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5274,7 +5273,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0005046231/DIOD-S-A0005046231-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 154.94 74.93 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,7 +5282,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 154.94 74.93 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5292,7 +5291,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 154.94 74.93 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5301,7 +5300,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 154.94 74.93 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5310,7 +5309,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 154.94 74.93 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5319,7 +5318,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 154.94 74.93 0)
+			(at 156.21 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6590,16 +6589,15 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 157.48 36.83 0)
+		(at 153.67 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d980e492-64e1-4eeb-9f49-71e8478e6aec")
 		(property "Reference" "U5"
-			(at 157.48 26.67 0)
+			(at 153.67 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6607,7 +6605,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 157.48 29.21 0)
+			(at 160.528 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6615,7 +6613,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:SOIC127P600X175-8N"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6622,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0005046231/DIOD-S-A0005046231-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6633,7 +6631,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6640,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6649,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6658,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6667,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 157.48 36.83 0)
+			(at 153.67 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7044,7 +7042,7 @@
 	)
 	(symbol
 		(lib_id "Device:Opamp_Dual")
-		(at 156.21 57.15 0)
+		(at 157.48 36.83 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7053,7 +7051,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec610ccf-a619-4caa-b332-ffc7c2cc1364")
 		(property "Reference" "U4"
-			(at 156.21 46.99 0)
+			(at 157.48 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7059,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 156.21 49.53 0)
+			(at 157.48 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7067,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:SOIC127P600X175-8N"
-			(at 156.21 57.15 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7076,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/DIOD/DIOD-S-A0005046231/DIOD-S-A0005046231-1.pdf?hkey=6D3A4C79FDBF58556ACFDE234799DDF0"
-			(at 156.21 57.15 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7085,7 @@
 			)
 		)
 		(property "Description" "Dual operational amplifier"
-			(at 156.21 57.15 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7094,7 @@
 			)
 		)
 		(property "Sim.Library" "${KICAD9_SYMBOL_DIR}/Simulation_SPICE.sp"
-			(at 156.21 57.15 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +7103,7 @@
 			)
 		)
 		(property "Sim.Name" "kicad_builtin_opamp_dual"
-			(at 156.21 57.15 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7112,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 156.21 57.15 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7121,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=out1 2=in1- 3=in1+ 4=vee 5=in2+ 6=in2- 7=out2 8=vcc"
-			(at 156.21 57.15 0)
+			(at 157.48 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)

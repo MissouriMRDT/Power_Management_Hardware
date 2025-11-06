@@ -3262,6 +3262,36 @@
 		)
 		(uuid "ff83213a-3bc6-42b4-a739-24bf6f83e3df")
 	)
+	(label "Batt_to_CS"
+		(at 199.39 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ad4ebeb-9ed2-45ce-92eb-936578de9000")
+	)
+	(label "Batt1"
+		(at 33.02 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "862111ed-2ea0-4ad3-8ec1-44e30d8f7abd")
+	)
+	(label "Batt2"
+		(at 35.56 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da558fbb-5101-4968-a1e7-c0e2957ee106")
+	)
 	(hierarchical_label "BattVout"
 		(shape output)
 		(at 247.65 99.06 0)
