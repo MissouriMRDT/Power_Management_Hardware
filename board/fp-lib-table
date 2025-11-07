@@ -4,4 +4,5 @@
   (lib (name "ACS37010LLZATR-030B3")(type "KiCad")(uri "C:/GitHub/MDRT/PowerManagement_Hardware/lib/Footprints/ACS37010LLZATR-030B3")(options "")(descr ""))
   (lib (name "LEDFootprint")(type "KiCad")(uri "C:/GitHub/MDRT/PowerManagement_Hardware/lib/Footprints/LEDFootprint.pretty")(options "")(descr ""))
   (lib (name "SS-73100-082")(type "KiCad")(uri "C:/GitHub/MDRT/PowerManagement_Hardware/lib/Footprints/SS-73100-082")(options "")(descr ""))
+  (lib (name "Graphic")(type "KiCad")(uri "C:/Users/emili/Documents/GitHub/PowerManagement_Hardware/lib/Footprints/Graphic")(options "")(descr ""))
 )
