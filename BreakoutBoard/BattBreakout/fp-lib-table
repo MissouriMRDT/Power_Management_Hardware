@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Graphic")(type "KiCad")(uri "C:/Users/HP/OneDrive/Documents/Github/PowerManagement_Hardware/lib/Footprints/Graphic")(options "")(descr ""))
+  (lib (name "PowerManagementBoard")(type "KiCad")(uri "C:/Users/HP/OneDrive/Documents/Github/PowerManagement_Hardware/lib/Footprints/PowerManagementBoard.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "C:/Users/HP/OneDrive/Documents/Github/PowerManagement_Hardware/lib/Footprints.pretty")(options "")(descr ""))
+)

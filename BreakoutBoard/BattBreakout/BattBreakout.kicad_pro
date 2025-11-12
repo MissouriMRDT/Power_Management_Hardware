@@ -56,11 +56,6 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.254,
-          "via_gap": 0.254,
-          "width": 0.254
         }
       ],
       "drc_exclusions": [],
@@ -193,13 +188,7 @@
       ],
       "track_widths": [
         0.0,
-        0.254,
-        0.508,
-        1.27,
-        2.54,
-        4.9276,
-        7.62,
-        115.57
+        0.254
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -465,22 +454,17 @@
       "single_global_label": "ignore",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
-      "undefined_netclass": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
       "wire_dangling": "error"
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "PowerManagementBoard"
-    ],
-    "pinned_symbol_libs": [
-      "PowerManagementBoard"
-    ]
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PowerManagementBoard.kicad_pro",
+    "filename": "BattBreakout.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -498,7 +482,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -589,162 +573,12 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description_1",
-          "name": "Description_1",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER_PART_NUMBER",
-          "name": "MANUFACTURER_PART_NUMBER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MFR_NAME",
-          "name": "MFR_NAME",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MP",
-          "name": "MP",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Part_Number",
-          "name": "Manufacturer_Part_Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Package",
-          "name": "Package",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Price",
-          "name": "Price",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Library",
-          "name": "Sim.Library",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Name",
-          "name": "Sim.Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
+      "name": "Default Editing",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -790,44 +624,8 @@
   },
   "sheets": [
     [
-      "7eaa639d-7062-45e7-be05-1c2855431307",
+      "bb3e6dbb-4287-4440-8630-eed0689c78bc",
       "Root"
-    ],
-    [
-      "fa17e088-8bc3-4875-b327-c5ed0adaa270",
-      "Current Protection"
-    ],
-    [
-      "77b38e11-7bca-4b0d-9192-77b02a5f3429",
-      "Voltage Sensing"
-    ],
-    [
-      "d051b168-830a-4a55-b5cd-142fa18015a1",
-      "Switching Circuit"
-    ],
-    [
-      "e47a1f56-bf0f-4422-8cc9-80190c585d1d",
-      "Buzzer Circuit"
-    ],
-    [
-      "4dc475e3-8611-4a67-a903-307f734d4f8b",
-      "TeensyandEthernetCircuit"
-    ],
-    [
-      "553f5510-83a4-4a32-8cf5-5f8ae000bb74",
-      "Current-Sensinator"
-    ],
-    [
-      "a330d3b6-4e53-4d10-a34b-46d7b687198c",
-      "POE"
-    ],
-    [
-      "7df83f93-7851-4dc4-9a38-c4dfcc370e8d",
-      "Anderson"
-    ],
-    [
-      "fd2c549c-4731-406d-bb48-150ab9c2e47f",
-      "LCD"
     ]
   ],
   "text_variables": {}
