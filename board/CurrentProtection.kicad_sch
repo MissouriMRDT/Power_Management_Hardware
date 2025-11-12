@@ -1677,7 +1677,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 73.66) (xy 63.5 73.66)
+			(xy 153.67 73.66) (xy 140.97 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3072,7 +3072,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
-		(at 63.5 68.58 0)
+		(at 140.97 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3081,7 +3081,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7b3ee67-39ed-41cd-b6cb-77f55224787f")
 		(property "Reference" "V1"
-			(at 67.31 65.4049 0)
+			(at 144.78 65.4049 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3090,7 +3090,7 @@
 			)
 		)
 		(property "Value" "BATT_PWR_VIA"
-			(at 67.31 67.9449 0)
+			(at 144.78 67.9449 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
-			(at 63.5 68.58 0)
+			(at 140.97 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3108,7 +3108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 68.58 0)
+			(at 140.97 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3117,7 +3117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 68.58 0)
+			(at 140.97 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
