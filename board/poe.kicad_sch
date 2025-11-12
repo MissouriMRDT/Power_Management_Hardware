@@ -986,12 +986,6 @@
 		(uuid "19bf233a-ce36-44a9-bf7e-40176e51832f")
 	)
 	(junction
-		(at 83.82 38.6595)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2be18107-31f0-4105-b821-09c6d0d9dd6d")
-	)
-	(junction
 		(at 83.82 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1002,6 +996,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "386bb049-736a-497a-bba9-99826732e4aa")
+	)
+	(junction
+		(at 83.82 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c94d84aa-edf2-4b8c-8113-69040b723344")
 	)
 	(junction
 		(at 83.82 85.09)
@@ -1093,13 +1093,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 38.6595) (xy 83.82 46.99)
+			(xy 83.82 34.29) (xy 83.82 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27d1076b-d761-4495-bbfa-6b31b59825f5")
+		(uuid "10a54c90-3591-4931-be5e-6a0ac77a039a")
 	)
 	(wire
 		(pts
@@ -1263,6 +1263,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 38.1) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640c8c53-3542-42dc-8fec-3685563a3d8b")
+	)
+	(wire
+		(pts
 			(xy 85.09 52.07) (xy 85.09 74.93)
 		)
 		(stroke
@@ -1330,16 +1340,6 @@
 			(type default)
 		)
 		(uuid "87283140-9153-47ca-b9f0-69b555295261")
-	)
-	(wire
-		(pts
-			(xy 83.82 34.29) (xy 83.82 38.6595)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a3da3c7-5fd1-4a41-b09d-3ed952cc5f6b")
 	)
 	(wire
 		(pts
@@ -1781,7 +1781,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 38.1 34.29 0)
 			(effects
 				(font
@@ -1947,6 +1947,71 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5bf61b29-eb12-430c-824a-46083bba35de")
+		(property "Reference" "TP3"
+			(at 80.518 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.518 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 83.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "37b039ab-decd-4779-a7df-ce02f8a3f8c4")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -2273,71 +2338,6 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 83.82 38.6595 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffe606b4-12fc-4f11-b8ca-aebecc9ff737")
-		(property "Reference" "TP3"
-			(at 80.518 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 80.518 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
-			(at 83.82 33.5795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 33.5795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 83.82 38.6595 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e118864f-df0e-4e1b-8535-229d2c616e31")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
-					(reference "TP3")
 					(unit 1)
 				)
 			)

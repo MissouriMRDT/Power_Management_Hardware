@@ -1494,12 +1494,6 @@
 		(uuid "03088880-e143-4ae9-83f5-7e18a8fec98e")
 	)
 	(junction
-		(at 153.67 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1833d60b-ecec-4453-bb2a-6ce4c5a0e760")
-	)
-	(junction
 		(at 260.35 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1516,6 +1510,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21cd5cda-9ceb-4142-8beb-bb176766b1b1")
+	)
+	(junction
+		(at 153.67 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40c01c9e-92c7-43e4-af5c-5b02f122b340")
 	)
 	(junction
 		(at 241.3 109.22)
@@ -1677,6 +1677,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 73.66) (xy 63.5 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "596dd9b3-e2ec-448e-a038-1dbb4ccd5f01")
+	)
+	(wire
+		(pts
 			(xy 168.91 73.66) (xy 182.88 73.66)
 		)
 		(stroke
@@ -1807,16 +1817,6 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 73.66) (xy 153.67 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d00953ee-1b4b-425a-a81c-38ca604051c5")
-	)
-	(wire
-		(pts
 			(xy 167.64 138.43) (xy 167.64 142.24)
 		)
 		(stroke
@@ -1876,7 +1876,7 @@
 		(uuid "4ad4ebeb-9ed2-45ce-92eb-936578de9000")
 	)
 	(label "Batt1"
-		(at 33.02 73.66 0)
+		(at 153.67 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2186,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Value" "GRNLED"
+		(property "Value" "GRN"
 			(at 190.8175 137.16 0)
 			(effects
 				(font
@@ -2339,7 +2339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 214.63 101.6 0)
 			(effects
 				(font
@@ -3072,7 +3072,7 @@
 	)
 	(symbol
 		(lib_id "MRDT_Drill_Holes:BATT_PWR_VIA")
-		(at 26.67 68.58 0)
+		(at 63.5 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3081,7 +3081,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7b3ee67-39ed-41cd-b6cb-77f55224787f")
 		(property "Reference" "V1"
-			(at 30.48 65.4049 0)
+			(at 67.31 65.4049 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3090,7 +3090,7 @@
 			)
 		)
 		(property "Value" "BATT_PWR_VIA"
-			(at 30.48 67.9449 0)
+			(at 67.31 67.9449 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3099,7 +3099,7 @@
 			)
 		)
 		(property "Footprint" "MRDT_Drill_Holes:BATT_PWR_VIA"
-			(at 26.67 68.58 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3108,7 +3108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 68.58 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -3117,7 +3117,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 26.67 68.58 0)
+			(at 63.5 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)

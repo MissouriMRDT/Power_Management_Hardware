@@ -3942,6 +3942,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 72.39 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b5469b7-bddc-4d92-9414-05c35b0b2dde")
+		(property "Reference" "TP4"
+			(at 69.088 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 69.088 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 72.39 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 72.39 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "41e17e2b-0250-4d2e-96e7-34865881a3d6")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/d051b168-830a-4a55-b5cd-142fa18015a1"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 80.01 194.31 0)
 		(unit 1)
@@ -5951,71 +6016,6 @@
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/d051b168-830a-4a55-b5cd-142fa18015a1"
 					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 72.39 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "910d06bb-d3f6-46e5-b530-42678d99dbd5")
-		(property "Reference" "TP4"
-			(at 69.088 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 69.088 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D1.1mm_L10.2mm_W3.5mm_Flat"
-			(at 72.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 72.39 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "88d885e9-e19b-4ed2-841e-a3ffbe385334")
-		)
-		(instances
-			(project "PowerManagementBoard"
-				(path "/7eaa639d-7062-45e7-be05-1c2855431307/d051b168-830a-4a55-b5cd-142fa18015a1"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
