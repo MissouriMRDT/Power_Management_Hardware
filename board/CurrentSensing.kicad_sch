@@ -714,7 +714,7 @@
 	)
 	(text "AUX Current Sensor"
 		(exclude_from_sim no)
-		(at 232.664 95.504 0)
+		(at 143.764 95.504 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -734,7 +734,7 @@
 	)
 	(text "Network Switch Current Sensor"
 		(exclude_from_sim no)
-		(at 153.67 96.52 0)
+		(at 223.52 35.56 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -744,7 +744,7 @@
 	)
 	(text "m9 Current Sensor"
 		(exclude_from_sim no)
-		(at 232.664 33.274 0)
+		(at 142.494 34.544 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -753,7 +753,7 @@
 		(uuid "e801033c-4738-4f9a-b411-d2f4d1629ee9")
 	)
 	(junction
-		(at 204.47 46.99)
+		(at 114.3 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35069176-70c1-47f7-8e03-074ea3199b79")
@@ -765,7 +765,7 @@
 		(uuid "3df05394-7483-4371-b2b0-d5e67646f2f7")
 	)
 	(junction
-		(at 204.47 109.22)
+		(at 115.57 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f5979a3-6661-47b6-b294-ee04b0ba0fc7")
@@ -783,13 +783,13 @@
 		(uuid "5ff305fe-dfce-4fe0-b029-a5a19c11c54a")
 	)
 	(junction
-		(at 128.27 130.81)
+		(at 198.12 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68e73251-8bcd-432f-959a-c240d6c6fa50")
 	)
 	(junction
-		(at 213.36 130.81)
+		(at 124.46 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1486e8a-a540-4ea6-8f35-920c45ecd26b")
@@ -807,23 +807,23 @@
 		(uuid "ab3aaafe-7ed9-48ea-8b3b-108fd0e65814")
 	)
 	(junction
-		(at 213.36 68.58)
+		(at 123.19 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08a1260-c50e-47e0-9052-cef68e045a68")
 	)
 	(junction
-		(at 119.38 109.22)
+		(at 189.23 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e98b49eb-0cef-4cc4-8925-fa1a0b3aca31")
 	)
 	(no_connect
-		(at 144.78 119.38)
+		(at 214.63 58.42)
 		(uuid "7a20d819-b8b0-43b8-82de-6ef23f89859d")
 	)
 	(no_connect
-		(at 229.87 119.38)
+		(at 140.97 119.38)
 		(uuid "acfa2739-62e3-4dbd-bea9-52b3f2b02aba")
 	)
 	(no_connect
@@ -831,7 +831,7 @@
 		(uuid "b0334787-6259-4d4e-af92-f34e422dcdcc")
 	)
 	(no_connect
-		(at 229.87 57.15)
+		(at 139.7 58.42)
 		(uuid "ea6b101a-bb59-4b01-894d-d1414cb7dde3")
 	)
 	(no_connect
@@ -860,7 +860,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 107.95) (xy 119.38 109.22)
+			(xy 189.23 46.99) (xy 189.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -870,7 +870,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 68.58) (xy 222.25 54.61)
+			(xy 132.08 69.85) (xy 132.08 55.88)
 		)
 		(stroke
 			(width 0)
@@ -880,7 +880,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 116.84) (xy 144.78 116.84)
+			(xy 207.01 55.88) (xy 214.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -900,7 +900,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 45.72) (xy 227.33 59.69)
+			(xy 137.16 46.99) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -920,7 +920,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 107.95) (xy 142.24 121.92)
+			(xy 212.09 46.99) (xy 212.09 60.96)
 		)
 		(stroke
 			(width 0)
@@ -930,7 +930,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 59.69) (xy 229.87 59.69)
+			(xy 137.16 60.96) (xy 139.7 60.96)
 		)
 		(stroke
 			(width 0)
@@ -960,7 +960,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 123.19) (xy 119.38 130.81)
+			(xy 189.23 62.23) (xy 189.23 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1000,7 +1000,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 68.58) (xy 222.25 68.58)
+			(xy 123.19 69.85) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1020,7 +1020,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 46.99) (xy 224.79 62.23)
+			(xy 134.62 48.26) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1070,7 +1070,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 116.84) (xy 176.53 116.84)
+			(xy 242.57 55.88) (xy 246.38 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1080,7 +1080,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 130.81) (xy 222.25 130.81)
+			(xy 124.46 130.81) (xy 133.35 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1100,7 +1100,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 107.95) (xy 204.47 109.22)
+			(xy 115.57 107.95) (xy 115.57 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1120,7 +1120,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 124.46) (xy 224.79 124.46)
+			(xy 140.97 124.46) (xy 135.89 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1130,7 +1130,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 139.7 109.22)
+			(xy 189.23 48.26) (xy 209.55 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1140,7 +1140,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 116.84) (xy 229.87 116.84)
+			(xy 133.35 116.84) (xy 140.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1160,7 +1160,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 121.92) (xy 229.87 121.92)
+			(xy 138.43 121.92) (xy 140.97 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1170,7 +1170,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 46.99) (xy 204.47 53.34)
+			(xy 114.3 48.26) (xy 114.3 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1180,7 +1180,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 54.61) (xy 261.62 54.61)
+			(xy 167.64 55.88) (xy 171.45 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1200,7 +1200,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 124.46) (xy 139.7 124.46)
+			(xy 214.63 63.5) (xy 209.55 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1210,7 +1210,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 57.15) (xy 261.62 57.15)
+			(xy 167.64 58.42) (xy 171.45 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1230,7 +1230,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 130.81) (xy 128.27 133.35)
+			(xy 198.12 69.85) (xy 198.12 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1240,7 +1240,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 130.81) (xy 137.16 130.81)
+			(xy 198.12 69.85) (xy 207.01 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1250,7 +1250,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 121.92) (xy 144.78 121.92)
+			(xy 212.09 60.96) (xy 214.63 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1260,7 +1260,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 45.72) (xy 204.47 46.99)
+			(xy 114.3 46.99) (xy 114.3 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1280,7 +1280,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 130.81) (xy 137.16 116.84)
+			(xy 207.01 69.85) (xy 207.01 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1310,7 +1310,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 130.81) (xy 222.25 116.84)
+			(xy 133.35 130.81) (xy 133.35 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1330,7 +1330,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 68.58) (xy 213.36 71.12)
+			(xy 123.19 69.85) (xy 123.19 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1340,7 +1340,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 128.27) (xy 128.27 130.81)
+			(xy 198.12 67.31) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1350,7 +1350,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 62.23) (xy 224.79 62.23)
+			(xy 139.7 63.5) (xy 134.62 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1370,7 +1370,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 130.81) (xy 128.27 130.81)
+			(xy 189.23 69.85) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1380,7 +1380,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 68.58) (xy 213.36 68.58)
+			(xy 114.3 69.85) (xy 123.19 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1400,7 +1400,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 109.22) (xy 139.7 124.46)
+			(xy 209.55 48.26) (xy 209.55 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1410,7 +1410,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 109.22) (xy 119.38 115.57)
+			(xy 189.23 48.26) (xy 189.23 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1420,7 +1420,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 116.84) (xy 261.62 116.84)
+			(xy 168.91 116.84) (xy 172.72 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1430,7 +1430,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 46.99) (xy 224.79 46.99)
+			(xy 114.3 48.26) (xy 134.62 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1440,7 +1440,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 107.95) (xy 227.33 121.92)
+			(xy 138.43 107.95) (xy 138.43 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1460,7 +1460,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 54.61) (xy 229.87 54.61)
+			(xy 132.08 55.88) (xy 139.7 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1470,7 +1470,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 119.38) (xy 176.53 119.38)
+			(xy 242.57 58.42) (xy 246.38 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1510,7 +1510,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 130.81) (xy 213.36 130.81)
+			(xy 115.57 130.81) (xy 124.46 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1520,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 130.81) (xy 213.36 133.35)
+			(xy 124.46 130.81) (xy 124.46 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1540,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 123.19) (xy 204.47 130.81)
+			(xy 115.57 123.19) (xy 115.57 130.81)
 		)
 		(stroke
 			(width 0)
@@ -1560,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 119.38) (xy 261.62 119.38)
+			(xy 168.91 119.38) (xy 172.72 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1570,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 109.22) (xy 204.47 115.57)
+			(xy 115.57 109.22) (xy 115.57 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1580,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 109.22) (xy 224.79 124.46)
+			(xy 135.89 109.22) (xy 135.89 124.46)
 		)
 		(stroke
 			(width 0)
@@ -1590,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 109.22) (xy 224.79 109.22)
+			(xy 115.57 109.22) (xy 135.89 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1600,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 60.96) (xy 204.47 68.58)
+			(xy 114.3 62.23) (xy 114.3 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1610,7 +1610,7 @@
 	)
 	(hierarchical_label "AUXout"
 		(shape output)
-		(at 261.62 116.84 0)
+		(at 172.72 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1621,7 +1621,7 @@
 	)
 	(hierarchical_label "m9out"
 		(shape output)
-		(at 261.62 54.61 0)
+		(at 171.45 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1632,7 +1632,7 @@
 	)
 	(hierarchical_label "m9Vout"
 		(shape output)
-		(at 227.33 45.72 90)
+		(at 137.16 46.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1643,7 +1643,7 @@
 	)
 	(hierarchical_label "AUXVout"
 		(shape output)
-		(at 227.33 107.95 90)
+		(at 138.43 107.95 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1654,7 +1654,7 @@
 	)
 	(hierarchical_label "NSout"
 		(shape output)
-		(at 176.53 116.84 0)
+		(at 246.38 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1676,7 +1676,7 @@
 	)
 	(hierarchical_label "AUXin"
 		(shape input)
-		(at 261.62 119.38 0)
+		(at 172.72 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1687,7 +1687,7 @@
 	)
 	(hierarchical_label "NSVout"
 		(shape output)
-		(at 142.24 107.95 90)
+		(at 212.09 46.99 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 	)
 	(hierarchical_label "m9in"
 		(shape input)
-		(at 261.62 57.15 0)
+		(at 171.45 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1753,7 +1753,7 @@
 	)
 	(hierarchical_label "NSin"
 		(shape input)
-		(at 176.53 119.38 0)
+		(at 246.38 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1976,7 +1976,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 133.35 0)
+		(at 198.12 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1985,7 +1985,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d231dba-7051-4139-bb70-15b7b8dcdccd")
 		(property "Reference" "#PWR067"
-			(at 128.27 139.7 0)
+			(at 198.12 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1994,7 +1994,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 138.43 0)
+			(at 198.12 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2002,7 +2002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 133.35 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,7 +2011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 133.35 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 133.35 0)
+			(at 198.12 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,7 +2042,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 119.38 107.95 0)
+		(at 189.23 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2050,7 +2050,7 @@
 		(dnp no)
 		(uuid "35865229-3109-4a6f-aed3-3d1a2830149e")
 		(property "Reference" "#PWR066"
-			(at 119.38 111.76 0)
+			(at 189.23 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2059,7 +2059,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 119.38 102.87 0)
+			(at 189.23 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 107.95 0)
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +2076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 107.95 0)
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 119.38 107.95 0)
+			(at 189.23 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2107,7 +2107,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 119.38 0)
+		(at 115.57 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2115,7 +2115,7 @@
 		(dnp no)
 		(uuid "3ffc0268-6f2c-4755-bb40-afcacf89a8b3")
 		(property "Reference" "C23"
-			(at 207.01 118.11 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2124,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 207.01 120.65 0)
+			(at 118.11 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2133,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 205.4352 123.19 0)
+			(at 116.5352 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2142,7 +2142,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 119.38 0)
+			(at 115.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2151,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 119.38 0)
+			(at 115.57 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2176,7 @@
 	)
 	(symbol
 		(lib_id "ACS37010LLZATR-030B3:ACS37010LLZATR-030B3")
-		(at 229.87 116.84 0)
+		(at 140.97 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2185,7 +2185,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b069548-d342-429b-a09f-2cebdd1d89ca")
 		(property "Reference" "IC4"
-			(at 243.84 109.22 0)
+			(at 154.94 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2193,7 @@
 			)
 		)
 		(property "Value" "ACS37010LLZATR-030B3"
-			(at 243.84 111.76 0)
+			(at 154.94 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2201,7 +2201,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
-			(at 254 211.76 0)
+			(at 165.1 211.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2211,7 +2211,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.allegromicro.com/~/media/Files/Datasheets/ACS37010-2-Datasheet"
-			(at 254 311.76 0)
+			(at 165.1 311.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2221,7 +2221,7 @@
 			)
 		)
 		(property "Description" "450 kHz, High Accuracy Current Sensor With FAULT or Reference Output in SOIC-6 Package"
-			(at 229.87 116.84 0)
+			(at 140.97 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2230,7 @@
 			)
 		)
 		(property "Height" "1.82"
-			(at 254 511.76 0)
+			(at 165.1 511.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2240,7 @@
 			)
 		)
 		(property "Mouser Part Number" "250-37010LLZATR030B3"
-			(at 254 611.76 0)
+			(at 165.1 611.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2250,7 +2250,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS37010LLZATR-030B3?qs=HoCaDK9Nz5cma9fYiN5p5Q%3D%3D"
-			(at 254 711.76 0)
+			(at 165.1 711.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2260,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Allegro Microsystems"
-			(at 254 811.76 0)
+			(at 165.1 811.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2270,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ACS37010LLZATR-030B3"
-			(at 254 911.76 0)
+			(at 165.1 911.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2377,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 119.38 119.38 0)
+		(at 189.23 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2385,7 +2385,7 @@
 		(dnp no)
 		(uuid "635b1226-b4fd-42ca-90ca-b8b8b5d94e59")
 		(property "Reference" "C17"
-			(at 121.92 118.11 0)
+			(at 191.77 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2394,7 +2394,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 121.92 120.65 0)
+			(at 191.77 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2403,7 +2403,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 120.3452 123.19 0)
+			(at 190.1952 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,7 +2412,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 119.38 0)
+			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2421,7 +2421,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 119.38 119.38 0)
+			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2512,7 +2512,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 204.47 57.15 0)
+		(at 114.3 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2520,7 +2520,7 @@
 		(dnp no)
 		(uuid "70d1ac92-5fb9-4701-8b2e-5a63a23c20f1")
 		(property "Reference" "C18"
-			(at 207.01 55.88 0)
+			(at 116.84 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2529,7 +2529,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 207.01 58.42 0)
+			(at 116.84 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2538,7 +2538,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 205.4352 60.96 0)
+			(at 115.2652 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2547,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 57.15 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2556,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 204.47 57.15 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2581,7 +2581,7 @@
 	)
 	(symbol
 		(lib_id "ACS37010LLZATR-030B3:ACS37010LLZATR-030B3")
-		(at 229.87 54.61 0)
+		(at 139.7 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2590,7 +2590,7 @@
 		(fields_autoplaced yes)
 		(uuid "754c978a-8cd5-4671-80af-fd70d14230db")
 		(property "Reference" "IC6"
-			(at 243.84 46.99 0)
+			(at 153.67 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2598,7 @@
 			)
 		)
 		(property "Value" "ACS37010LLZATR-030B3"
-			(at 243.84 49.53 0)
+			(at 153.67 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
-			(at 254 149.53 0)
+			(at 163.83 150.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2616,7 +2616,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.allegromicro.com/~/media/Files/Datasheets/ACS37010-2-Datasheet"
-			(at 254 249.53 0)
+			(at 163.83 250.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2626,7 +2626,7 @@
 			)
 		)
 		(property "Description" "450 kHz, High Accuracy Current Sensor With FAULT or Reference Output in SOIC-6 Package"
-			(at 229.87 54.61 0)
+			(at 139.7 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2635,7 +2635,7 @@
 			)
 		)
 		(property "Height" "1.82"
-			(at 254 449.53 0)
+			(at 163.83 450.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2645,7 +2645,7 @@
 			)
 		)
 		(property "Mouser Part Number" "250-37010LLZATR030B3"
-			(at 254 549.53 0)
+			(at 163.83 550.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2655,7 +2655,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS37010LLZATR-030B3?qs=HoCaDK9Nz5cma9fYiN5p5Q%3D%3D"
-			(at 254 649.53 0)
+			(at 163.83 650.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +2665,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Allegro Microsystems"
-			(at 254 749.53 0)
+			(at 163.83 750.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ACS37010LLZATR-030B3"
-			(at 254 849.53 0)
+			(at 163.83 850.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2713,7 +2713,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 71.12 0)
+		(at 123.19 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2722,7 +2722,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c9cfed3-9671-4f8f-8cdd-425c39fedcc3")
 		(property "Reference" "#PWR069"
-			(at 213.36 77.47 0)
+			(at 123.19 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2731,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 76.2 0)
+			(at 123.19 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 71.12 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2748,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 71.12 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2757,7 +2757,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 71.12 0)
+			(at 123.19 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,7 +2779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 213.36 133.35 0)
+		(at 124.46 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2788,7 +2788,7 @@
 		(fields_autoplaced yes)
 		(uuid "8758003a-42bb-4c99-8325-72ead9cbfe6e")
 		(property "Reference" "#PWR071"
-			(at 213.36 139.7 0)
+			(at 124.46 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2797,7 +2797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 138.43 0)
+			(at 124.46 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2805,7 +2805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 133.35 0)
+			(at 124.46 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2814,7 +2814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 133.35 0)
+			(at 124.46 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2823,7 +2823,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 133.35 0)
+			(at 124.46 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2912,7 +2912,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 45.72 0)
+		(at 114.3 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2920,7 +2920,7 @@
 		(dnp no)
 		(uuid "9228b8ea-7e73-4105-8fad-81e89293b8b9")
 		(property "Reference" "#PWR068"
-			(at 204.47 49.53 0)
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +2929,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 204.47 40.64 0)
+			(at 114.3 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2937,7 +2937,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 45.72 0)
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2946,7 +2946,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 45.72 0)
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2955,7 +2955,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 45.72 0)
+			(at 114.3 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3109,7 @@
 	)
 	(symbol
 		(lib_id "ACS37010LLZATR-030B3:ACS37010LLZATR-030B3")
-		(at 144.78 116.84 0)
+		(at 214.63 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3118,7 +3118,7 @@
 		(fields_autoplaced yes)
 		(uuid "9d42e749-1f4b-403b-8c23-129b9ed40724")
 		(property "Reference" "IC3"
-			(at 158.75 109.22 0)
+			(at 228.6 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3126,7 +3126,7 @@
 			)
 		)
 		(property "Value" "ACS37010LLZATR-030B3"
-			(at 158.75 111.76 0)
+			(at 228.6 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,7 +3134,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:IC_ACS37030LLZATR-040B3"
-			(at 168.91 211.76 0)
+			(at 238.76 150.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3144,7 +3144,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.allegromicro.com/~/media/Files/Datasheets/ACS37010-2-Datasheet"
-			(at 168.91 311.76 0)
+			(at 238.76 250.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3154,7 @@
 			)
 		)
 		(property "Description" "450 kHz, High Accuracy Current Sensor With FAULT or Reference Output in SOIC-6 Package"
-			(at 144.78 116.84 0)
+			(at 214.63 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3163,7 +3163,7 @@
 			)
 		)
 		(property "Height" "1.82"
-			(at 168.91 511.76 0)
+			(at 238.76 450.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3173,7 +3173,7 @@
 			)
 		)
 		(property "Mouser Part Number" "250-37010LLZATR030B3"
-			(at 168.91 611.76 0)
+			(at 238.76 550.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3183,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Allegro-MicroSystems/ACS37010LLZATR-030B3?qs=HoCaDK9Nz5cma9fYiN5p5Q%3D%3D"
-			(at 168.91 711.76 0)
+			(at 238.76 650.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3193,7 +3193,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Allegro Microsystems"
-			(at 168.91 811.76 0)
+			(at 238.76 750.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3203,7 +3203,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ACS37010LLZATR-030B3"
-			(at 168.91 911.76 0)
+			(at 238.76 850.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +3306,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 107.95 0)
+		(at 115.57 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3314,7 +3314,7 @@
 		(dnp no)
 		(uuid "d6cc2e12-4544-4324-8954-58114b2762f5")
 		(property "Reference" "#PWR070"
-			(at 204.47 111.76 0)
+			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3323,7 +3323,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 204.47 102.87 0)
+			(at 115.57 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3331,7 +3331,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3340,7 +3340,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3349,7 +3349,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 107.95 0)
+			(at 115.57 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)

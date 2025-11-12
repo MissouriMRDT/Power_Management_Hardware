@@ -342,7 +342,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 77.47) (xy 156.21 80.01)
+			(xy 185.42 76.2) (xy 185.42 78.74)
 		)
 		(stroke
 			(width 0)
@@ -352,7 +352,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 130.81) (xy 100.33 130.81)
+			(xy 139.7 109.22) (xy 134.62 109.22)
 		)
 		(stroke
 			(width 0)
@@ -362,7 +362,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 132.08) (xy 196.85 132.08)
+			(xy 236.22 110.49) (xy 231.14 110.49)
 		)
 		(stroke
 			(width 0)
@@ -372,7 +372,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 130.81) (xy 68.58 137.16)
+			(xy 102.87 109.22) (xy 102.87 115.57)
 		)
 		(stroke
 			(width 0)
@@ -382,7 +382,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 40.64) (xy 156.21 43.18)
+			(xy 185.42 44.45) (xy 185.42 46.99)
 		)
 		(stroke
 			(width 0)
@@ -392,7 +392,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 130.81) (xy 168.91 137.16)
+			(xy 203.2 109.22) (xy 203.2 115.57)
 		)
 		(stroke
 			(width 0)
@@ -402,7 +402,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 82.55) (xy 200.66 90.17)
+			(xy 229.87 81.28) (xy 229.87 88.9)
 		)
 		(stroke
 			(width 0)
@@ -412,7 +412,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 83.82) (xy 52.07 91.44)
+			(xy 91.44 52.07) (xy 91.44 59.69)
 		)
 		(stroke
 			(width 0)
@@ -422,7 +422,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 128.27) (xy 35.56 128.27)
+			(xy 74.93 106.68) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -432,7 +432,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 140.97) (xy 196.85 140.97)
+			(xy 236.22 119.38) (xy 231.14 119.38)
 		)
 		(stroke
 			(width 0)
@@ -442,7 +442,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 40.64) (xy 196.85 40.64)
+			(xy 229.87 44.45) (xy 226.06 44.45)
 		)
 		(stroke
 			(width 0)
@@ -452,7 +452,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 139.7) (xy 173.99 144.78)
+			(xy 208.28 118.11) (xy 208.28 123.19)
 		)
 		(stroke
 			(width 0)
@@ -462,7 +462,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 139.7) (xy 68.58 139.7)
+			(xy 107.95 118.11) (xy 102.87 118.11)
 		)
 		(stroke
 			(width 0)
@@ -472,7 +472,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 77.47) (xy 156.21 77.47)
+			(xy 190.5 76.2) (xy 185.42 76.2)
 		)
 		(stroke
 			(width 0)
@@ -482,7 +482,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 76.2) (xy 196.85 76.2)
+			(xy 229.87 74.93) (xy 226.06 74.93)
 		)
 		(stroke
 			(width 0)
@@ -492,7 +492,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 40.64) (xy 156.21 40.64)
+			(xy 190.5 44.45) (xy 185.42 44.45)
 		)
 		(stroke
 			(width 0)
@@ -502,7 +502,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 46.99) (xy 196.85 46.99)
+			(xy 229.87 50.8) (xy 226.06 50.8)
 		)
 		(stroke
 			(width 0)
@@ -512,7 +512,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 137.16) (xy 40.64 142.24)
+			(xy 74.93 115.57) (xy 74.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -522,7 +522,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 109.22 48.26)
+			(xy 143.51 52.07) (xy 138.43 52.07)
 		)
 		(stroke
 			(width 0)
@@ -532,7 +532,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 130.81) (xy 133.35 130.81)
+			(xy 172.72 109.22) (xy 167.64 109.22)
 		)
 		(stroke
 			(width 0)
@@ -542,7 +542,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 130.81) (xy 133.35 137.16)
+			(xy 167.64 109.22) (xy 167.64 115.57)
 		)
 		(stroke
 			(width 0)
@@ -552,7 +552,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 82.55) (xy 161.29 82.55)
+			(xy 185.42 81.28) (xy 190.5 81.28)
 		)
 		(stroke
 			(width 0)
@@ -562,7 +562,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 83.82) (xy 39.37 83.82)
+			(xy 91.44 52.07) (xy 78.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +572,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 110.49 86.36)
+			(xy 144.78 85.09) (xy 139.7 85.09)
 		)
 		(stroke
 			(width 0)
@@ -582,7 +582,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 77.47) (xy 110.49 77.47)
+			(xy 144.78 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -592,7 +592,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 139.7) (xy 168.91 139.7)
+			(xy 208.28 118.11) (xy 203.2 118.11)
 		)
 		(stroke
 			(width 0)
@@ -602,7 +602,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 46.99) (xy 200.66 54.61)
+			(xy 229.87 50.8) (xy 229.87 58.42)
 		)
 		(stroke
 			(width 0)
@@ -612,7 +612,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 130.81) (xy 68.58 130.81)
+			(xy 107.95 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -622,7 +622,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 82.55) (xy 196.85 82.55)
+			(xy 229.87 81.28) (xy 226.06 81.28)
 		)
 		(stroke
 			(width 0)
@@ -632,7 +632,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 40.64) (xy 196.85 44.45)
+			(xy 226.06 44.45) (xy 226.06 48.26)
 		)
 		(stroke
 			(width 0)
@@ -642,7 +642,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 139.7) (xy 100.33 139.7)
+			(xy 139.7 118.11) (xy 134.62 118.11)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +652,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 139.7) (xy 138.43 144.78)
+			(xy 172.72 118.11) (xy 172.72 123.19)
 		)
 		(stroke
 			(width 0)
@@ -662,7 +662,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 130.81) (xy 168.91 130.81)
+			(xy 208.28 109.22) (xy 203.2 109.22)
 		)
 		(stroke
 			(width 0)
@@ -672,7 +672,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 77.47) (xy 39.37 81.28)
+			(xy 78.74 45.72) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -682,7 +682,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 40.64) (xy 109.22 40.64)
+			(xy 143.51 44.45) (xy 138.43 44.45)
 		)
 		(stroke
 			(width 0)
@@ -692,7 +692,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 76.2) (xy 196.85 80.01)
+			(xy 226.06 74.93) (xy 226.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -702,7 +702,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 140.97) (xy 201.93 146.05)
+			(xy 236.22 119.38) (xy 236.22 124.46)
 		)
 		(stroke
 			(width 0)
@@ -712,7 +712,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 40.64) (xy 109.22 45.72)
+			(xy 138.43 44.45) (xy 138.43 49.53)
 		)
 		(stroke
 			(width 0)
@@ -722,7 +722,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 161.29 54.61)
+			(xy 190.5 49.53) (xy 190.5 58.42)
 		)
 		(stroke
 			(width 0)
@@ -732,7 +732,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 82.55) (xy 161.29 91.44)
+			(xy 190.5 81.28) (xy 190.5 90.17)
 		)
 		(stroke
 			(width 0)
@@ -742,7 +742,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 130.81) (xy 100.33 137.16)
+			(xy 134.62 109.22) (xy 134.62 115.57)
 		)
 		(stroke
 			(width 0)
@@ -752,7 +752,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 132.08) (xy 196.85 138.43)
+			(xy 231.14 110.49) (xy 231.14 116.84)
 		)
 		(stroke
 			(width 0)
@@ -762,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 77.47) (xy 39.37 77.47)
+			(xy 91.44 45.72) (xy 78.74 45.72)
 		)
 		(stroke
 			(width 0)
@@ -772,7 +772,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 45.72) (xy 156.21 45.72)
+			(xy 190.5 49.53) (xy 185.42 49.53)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +782,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 128.27) (xy 35.56 134.62)
+			(xy 69.85 106.68) (xy 69.85 113.03)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 137.16) (xy 35.56 137.16)
+			(xy 74.93 115.57) (xy 69.85 115.57)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +802,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 48.26) (xy 114.3 54.61)
+			(xy 143.51 52.07) (xy 143.51 58.42)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +812,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 77.47) (xy 110.49 83.82)
+			(xy 139.7 76.2) (xy 139.7 82.55)
 		)
 		(stroke
 			(width 0)
@@ -822,7 +822,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 139.7) (xy 73.66 144.78)
+			(xy 107.95 118.11) (xy 107.95 123.19)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 86.36) (xy 115.57 91.44)
+			(xy 144.78 85.09) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +842,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 139.7) (xy 105.41 144.78)
+			(xy 139.7 118.11) (xy 139.7 123.19)
 		)
 		(stroke
 			(width 0)
@@ -852,7 +852,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 139.7) (xy 133.35 139.7)
+			(xy 172.72 118.11) (xy 167.64 118.11)
 		)
 		(stroke
 			(width 0)
@@ -862,7 +862,7 @@
 	)
 	(hierarchical_label "Network"
 		(shape input)
-		(at 114.3 40.64 0)
+		(at 143.51 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -873,7 +873,7 @@
 	)
 	(hierarchical_label "Cam2"
 		(shape input)
-		(at 200.66 40.64 0)
+		(at 229.87 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -884,7 +884,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 173.99 130.81 0)
+		(at 208.28 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -895,7 +895,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 73.66 130.81 0)
+		(at 107.95 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -906,7 +906,7 @@
 	)
 	(hierarchical_label "Cam1"
 		(shape input)
-		(at 161.29 77.47 0)
+		(at 190.5 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -917,7 +917,7 @@
 	)
 	(hierarchical_label "AUX"
 		(shape input)
-		(at 52.07 77.47 0)
+		(at 91.44 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -928,7 +928,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 138.43 130.81 0)
+		(at 172.72 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -939,7 +939,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 201.93 132.08 0)
+		(at 236.22 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -950,7 +950,7 @@
 	)
 	(hierarchical_label "Core"
 		(shape input)
-		(at 115.57 77.47 0)
+		(at 144.78 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -961,7 +961,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 40.64 128.27 0)
+		(at 74.93 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -972,7 +972,7 @@
 	)
 	(hierarchical_label "Motor"
 		(shape input)
-		(at 105.41 130.81 0)
+		(at 139.7 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -983,7 +983,7 @@
 	)
 	(hierarchical_label "Nav"
 		(shape input)
-		(at 161.29 40.64 0)
+		(at 190.5 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -994,7 +994,7 @@
 	)
 	(hierarchical_label "Jetson Cam"
 		(shape input)
-		(at 200.66 76.2 0)
+		(at 229.87 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1005,7 +1005,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 90.17 0)
+		(at 229.87 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1014,7 +1014,7 @@
 		(fields_autoplaced yes)
 		(uuid "0cfdb4ae-9431-4137-aaf8-3332beb501a1")
 		(property "Reference" "#PWR075"
-			(at 200.66 96.52 0)
+			(at 229.87 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1023,7 +1023,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 95.25 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 90.17 0)
+			(at 229.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1040,7 +1040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 90.17 0)
+			(at 229.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1049,7 +1049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 90.17 0)
+			(at 229.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1071,7 +1071,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 156.21 45.72 180)
+		(at 185.42 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1080,7 +1080,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c14142f-3af7-49f5-825e-29b9f604ff2d")
 		(property "Reference" "J6"
-			(at 147.32 35.56 0)
+			(at 176.53 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1088,7 +1088,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 147.32 38.1 0)
+			(at 176.53 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1096,7 +1096,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 156.21 45.72 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +1106,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 156.21 45.72 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,7 +1115,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 45.72 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +1124,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 156.21 45.72 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1134,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 156.21 45.72 0)
+			(at 185.42 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,7 +1160,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 201.93 146.05 0)
+		(at 236.22 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1169,7 +1169,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e76462f-5ebd-452a-a374-347d4bb24498")
 		(property "Reference" "#PWR0100"
-			(at 201.93 152.4 0)
+			(at 236.22 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1178,7 +1178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 201.93 151.13 0)
+			(at 236.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 146.05 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 146.05 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1204,7 +1204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 146.05 0)
+			(at 236.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1226,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 196.85 140.97 180)
+		(at 231.14 119.38 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1235,7 +1235,7 @@
 		(fields_autoplaced yes)
 		(uuid "271794d7-9719-41bc-99bf-9b34fc6dc527")
 		(property "Reference" "J18"
-			(at 187.96 130.81 0)
+			(at 222.25 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1243,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 187.96 133.35 0)
+			(at 222.25 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1251,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 196.85 140.97 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,7 +1261,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 196.85 140.97 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1270,7 +1270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 140.97 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1279,7 +1279,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 196.85 140.97 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1289,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 196.85 140.97 0)
+			(at 231.14 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1315,7 +1315,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 91.44 0)
+		(at 91.44 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1324,7 +1324,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fc08bfc-c000-4238-bb61-c0109d28484c")
 		(property "Reference" "#PWR056"
-			(at 52.07 97.79 0)
+			(at 91.44 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1333,7 +1333,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 96.52 0)
+			(at 91.44 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1341,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 91.44 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1350,7 +1350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 91.44 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1359,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 91.44 0)
+			(at 91.44 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1381,7 +1381,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 142.24 0)
+		(at 74.93 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1390,7 +1390,7 @@
 		(fields_autoplaced yes)
 		(uuid "33029bb6-da63-489e-9cd4-8d9ce4b53b99")
 		(property "Reference" "#PWR096"
-			(at 40.64 148.59 0)
+			(at 74.93 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,7 +1399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 147.32 0)
+			(at 74.93 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1407,7 +1407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 142.24 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1416,7 +1416,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 142.24 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1425,7 +1425,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 142.24 0)
+			(at 74.93 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1447,7 +1447,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 168.91 139.7 180)
+		(at 203.2 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1456,7 +1456,7 @@
 		(fields_autoplaced yes)
 		(uuid "396165c3-c987-48c0-bf81-cd99764166a7")
 		(property "Reference" "J17"
-			(at 160.02 129.54 0)
+			(at 194.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1464,7 +1464,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 160.02 132.08 0)
+			(at 194.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1472,7 +1472,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 168.91 139.7 0)
+			(at 203.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1482,7 +1482,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 168.91 139.7 0)
+			(at 203.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1491,7 +1491,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 168.91 139.7 0)
+			(at 203.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1500,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 168.91 139.7 0)
+			(at 203.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1510,7 +1510,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 168.91 139.7 0)
+			(at 203.2 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1536,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 144.78 0)
+		(at 172.72 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1545,7 +1545,7 @@
 		(fields_autoplaced yes)
 		(uuid "4106752c-7dfe-421b-be27-c2d0a85068a3")
 		(property "Reference" "#PWR098"
-			(at 138.43 151.13 0)
+			(at 172.72 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1554,7 +1554,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 149.86 0)
+			(at 172.72 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1562,7 +1562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 144.78 0)
+			(at 172.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1571,7 +1571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 144.78 0)
+			(at 172.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1580,7 +1580,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 144.78 0)
+			(at 172.72 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1602,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 200.66 54.61 0)
+		(at 229.87 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1611,7 +1611,7 @@
 		(fields_autoplaced yes)
 		(uuid "48058c06-5a72-4018-9f29-b396d69ce53b")
 		(property "Reference" "#PWR074"
-			(at 200.66 60.96 0)
+			(at 229.87 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 200.66 59.69 0)
+			(at 229.87 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1628,7 +1628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 54.61 0)
+			(at 229.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1637,7 +1637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 54.61 0)
+			(at 229.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1646,7 +1646,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 200.66 54.61 0)
+			(at 229.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1668,7 +1668,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 109.22 48.26 180)
+		(at 138.43 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1677,7 +1677,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dc6669f-76c4-446d-ae9b-2462d1b3d446")
 		(property "Reference" "J7"
-			(at 100.33 38.1 0)
+			(at 129.54 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1685,7 +1685,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 100.33 40.64 0)
+			(at 129.54 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1693,7 +1693,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 109.22 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1703,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 109.22 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1712,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1721,7 +1721,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 109.22 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +1731,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 109.22 48.26 0)
+			(at 138.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1757,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 144.78 0)
+		(at 139.7 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1766,7 +1766,7 @@
 		(fields_autoplaced yes)
 		(uuid "55fa9194-cd05-4a74-abef-0f9fb5712186")
 		(property "Reference" "#PWR097"
-			(at 105.41 151.13 0)
+			(at 139.7 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 149.86 0)
+			(at 139.7 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1783,7 +1783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 144.78 0)
+			(at 139.7 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1792,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 144.78 0)
+			(at 139.7 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1801,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 144.78 0)
+			(at 139.7 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1823,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 54.61 0)
+		(at 190.5 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1832,7 +1832,7 @@
 		(fields_autoplaced yes)
 		(uuid "6982b4b2-23e7-4be0-9aa0-bfe5fa086930")
 		(property "Reference" "#PWR072"
-			(at 161.29 60.96 0)
+			(at 190.5 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1841,7 +1841,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 59.69 0)
+			(at 190.5 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1849,7 +1849,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 54.61 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1858,7 +1858,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 54.61 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1867,7 +1867,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 54.61 0)
+			(at 190.5 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 39.37 83.82 180)
+		(at 78.74 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1898,7 +1898,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b665081-6196-4bbb-92c3-ae882f76e012")
 		(property "Reference" "J12"
-			(at 30.48 73.66 0)
+			(at 69.85 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,7 +1906,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 30.48 76.2 0)
+			(at 69.85 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,7 +1914,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 39.37 83.82 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,7 +1924,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 39.37 83.82 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1933,7 +1933,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 39.37 83.82 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 39.37 83.82 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 39.37 83.82 0)
+			(at 78.74 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1978,7 +1978,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 110.49 86.36 180)
+		(at 139.7 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1987,7 +1987,7 @@
 		(fields_autoplaced yes)
 		(uuid "a51a2dac-3bbf-4582-b4c4-d6c8b894a1a1")
 		(property "Reference" "J9"
-			(at 101.6 76.2 0)
+			(at 130.81 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1995,7 +1995,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 101.6 78.74 0)
+			(at 130.81 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2003,7 +2003,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 110.49 86.36 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,7 +2013,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 110.49 86.36 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,7 +2022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 110.49 86.36 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,7 +2031,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 110.49 86.36 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2041,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 110.49 86.36 0)
+			(at 139.7 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +2067,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 173.99 144.78 0)
+		(at 208.28 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2076,7 +2076,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5d386ed-1609-4b46-b85f-4acf8aabb6d1")
 		(property "Reference" "#PWR099"
-			(at 173.99 151.13 0)
+			(at 208.28 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2085,7 +2085,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 149.86 0)
+			(at 208.28 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2093,7 +2093,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 144.78 0)
+			(at 208.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2102,7 +2102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 144.78 0)
+			(at 208.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2111,7 +2111,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 173.99 144.78 0)
+			(at 208.28 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2133,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 91.44 0)
+		(at 190.5 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2142,7 +2142,7 @@
 		(fields_autoplaced yes)
 		(uuid "b197218c-df94-4672-b51a-8bc4a7e3fa5c")
 		(property "Reference" "#PWR073"
-			(at 161.29 97.79 0)
+			(at 190.5 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2151,7 +2151,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 96.52 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2159,7 +2159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 91.44 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2168,7 +2168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 91.44 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2177,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 161.29 91.44 0)
+			(at 190.5 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2199,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 91.44 0)
+		(at 144.78 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2208,7 +2208,7 @@
 		(fields_autoplaced yes)
 		(uuid "b668bcb3-4529-422e-b8f6-ce10051302b9")
 		(property "Reference" "#PWR057"
-			(at 115.57 97.79 0)
+			(at 144.78 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2217,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 96.52 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2225,7 +2225,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 91.44 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2234,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 91.44 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +2243,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 91.44 0)
+			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +2265,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 133.35 139.7 180)
+		(at 167.64 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2274,7 +2274,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb83b322-5917-4e20-90dc-26131c970939")
 		(property "Reference" "J16"
-			(at 124.46 129.54 0)
+			(at 158.75 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,7 +2282,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 124.46 132.08 0)
+			(at 158.75 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2290,7 +2290,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 133.35 139.7 0)
+			(at 167.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2300,7 +2300,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 133.35 139.7 0)
+			(at 167.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2309,7 +2309,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 139.7 0)
+			(at 167.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,7 +2318,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 133.35 139.7 0)
+			(at 167.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2328,7 +2328,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 133.35 139.7 0)
+			(at 167.64 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2354,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 114.3 54.61 0)
+		(at 143.51 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2363,7 +2363,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc63c696-48f5-422f-9dc8-2ee3e8acecfc")
 		(property "Reference" "#PWR058"
-			(at 114.3 60.96 0)
+			(at 143.51 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2372,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.3 59.69 0)
+			(at 143.51 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2380,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 54.61 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2389,7 +2389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 54.61 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2398,7 +2398,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 114.3 54.61 0)
+			(at 143.51 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2420,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 196.85 46.99 180)
+		(at 226.06 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2429,7 +2429,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce8ccf52-8f75-4fd5-b0df-090f26340da3")
 		(property "Reference" "J8"
-			(at 187.96 36.83 0)
+			(at 217.17 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2437,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 187.96 39.37 0)
+			(at 217.17 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2445,7 +2445,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 196.85 46.99 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2455,7 +2455,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 196.85 46.99 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2464,7 +2464,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 46.99 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2473,7 +2473,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 196.85 46.99 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2483,7 +2483,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 196.85 46.99 0)
+			(at 226.06 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2509,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 68.58 139.7 180)
+		(at 102.87 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2518,7 +2518,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1a0b633-f52a-4d08-b124-7605ca02691b")
 		(property "Reference" "J14"
-			(at 59.69 129.54 0)
+			(at 93.98 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2526,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 59.69 132.08 0)
+			(at 93.98 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2534,7 +2534,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 68.58 139.7 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 68.58 139.7 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2553,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 139.7 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2562,7 +2562,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 68.58 139.7 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2572,7 +2572,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 68.58 139.7 0)
+			(at 102.87 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2598,7 +2598,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 156.21 82.55 180)
+		(at 185.42 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2607,7 +2607,7 @@
 		(fields_autoplaced yes)
 		(uuid "d507544b-f12c-4e11-9adb-12ab14c6dbe6")
 		(property "Reference" "J10"
-			(at 147.32 72.39 0)
+			(at 176.53 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2615,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 147.32 74.93 0)
+			(at 176.53 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2623,7 +2623,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 156.21 82.55 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2633,7 +2633,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 156.21 82.55 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2642,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 156.21 82.55 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2651,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 156.21 82.55 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2661,7 +2661,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 156.21 82.55 0)
+			(at 185.42 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2687,7 +2687,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 196.85 82.55 180)
+		(at 226.06 81.28 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2696,7 +2696,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec24a990-e292-4063-b1bd-11d9014a16fa")
 		(property "Reference" "J11"
-			(at 187.96 72.39 0)
+			(at 217.17 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2704,7 +2704,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 187.96 74.93 0)
+			(at 217.17 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2712,7 +2712,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 196.85 82.55 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2722,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 196.85 82.55 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2731,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 82.55 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2740,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 196.85 82.55 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +2750,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 196.85 82.55 0)
+			(at 226.06 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2776,7 +2776,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 100.33 139.7 180)
+		(at 134.62 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2785,7 +2785,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc36be5e-2818-487c-a26b-6baff045f682")
 		(property "Reference" "J15"
-			(at 91.44 129.54 0)
+			(at 125.73 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2793,7 +2793,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 91.44 132.08 0)
+			(at 125.73 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2801,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 100.33 139.7 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2811,7 +2811,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 100.33 139.7 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +2820,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 139.7 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +2829,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 100.33 139.7 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2839,7 +2839,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 100.33 139.7 0)
+			(at 134.62 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 73.66 144.78 0)
+		(at 107.95 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2874,7 +2874,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdc5f046-8ba8-484e-ab67-ba421a413dc3")
 		(property "Reference" "#PWR055"
-			(at 73.66 151.13 0)
+			(at 107.95 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 149.86 0)
+			(at 107.95 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2891,7 +2891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 144.78 0)
+			(at 107.95 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 144.78 0)
+			(at 107.95 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2909,7 +2909,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 73.66 144.78 0)
+			(at 107.95 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2931,7 @@
 	)
 	(symbol
 		(lib_id "PowerManagementBoard:768250002")
-		(at 35.56 137.16 180)
+		(at 69.85 115.57 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2940,7 +2940,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdcaa19f-6feb-4c23-b5b9-b1e0135ff891")
 		(property "Reference" "J13"
-			(at 26.67 127 0)
+			(at 60.96 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2948,7 +2948,7 @@
 			)
 		)
 		(property "Value" "768250002"
-			(at 26.67 129.54 0)
+			(at 60.96 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2956,7 +2956,7 @@
 			)
 		)
 		(property "Footprint" "PowerManagementBoard:CONN_SD-76825-0100_02_MOL"
-			(at 35.56 137.16 0)
+			(at 69.85 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2966,7 @@
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1100/Mega-Fit_Power_Conn.pdf"
-			(at 35.56 137.16 0)
+			(at 69.85 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 137.16 0)
+			(at 69.85 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2984,7 +2984,7 @@
 			)
 		)
 		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 35.56 137.16 0)
+			(at 69.85 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +2994,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "768250002"
-			(at 35.56 137.16 0)
+			(at 69.85 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
