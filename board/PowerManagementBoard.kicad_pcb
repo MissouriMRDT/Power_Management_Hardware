@@ -3440,7 +3440,7 @@
 			(uuid "47e5e337-5742-4dec-8d15-e11e3ba1c77b")
 		)
 		(embedded_fonts no)
-		(model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Shields/Teensy 4.1.step"
+		(model "${MRDT_KICAD_LIBRARIES}/3D Files/MRDT_Shields/Teensy_4_1.STEP"
 			(offset
 				(xyz 0 0 11.684)
 			)
