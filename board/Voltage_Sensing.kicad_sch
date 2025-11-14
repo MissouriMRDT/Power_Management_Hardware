@@ -2921,7 +2921,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "14425f16-3484-44b5-8c8e-3c858f6ded27")
 		(property "Reference" "U5"
 			(at 132.08 64.77 0)
@@ -2932,7 +2931,7 @@
 			)
 		)
 		(property "Value" "Opamp_Dual"
-			(at 132.08 67.31 0)
+			(at 140.462 71.628 0)
 			(effects
 				(font
 					(size 1.27 1.27)

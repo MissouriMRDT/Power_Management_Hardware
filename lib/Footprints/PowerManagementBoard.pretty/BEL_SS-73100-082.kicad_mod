@@ -572,7 +572,7 @@
 		(uuid "39591846-95ba-4be6-bffb-74f9eff08592")
 	)
 	(embedded_fonts no)
-	(model "${PMS_LIB}/lib/3D Models/SS-73100-082--3DModel-STEP-56544.STEP"
+	(model "${PMS_LIB}/3D Models/SS-73100-082--3DModel-STEP-56544.STEP"
 		(offset
 			(xyz 0.1 3.25 0)
 		)

@@ -6296,7 +6296,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "af6ff501-0a44-4e2b-8ad9-56f1e1675f24")
 		(property "Reference" "U11"
 			(at 41.275 43.18 0)

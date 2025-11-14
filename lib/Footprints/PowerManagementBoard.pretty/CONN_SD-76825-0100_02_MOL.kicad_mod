@@ -232,7 +232,7 @@
 		(uuid "f971e342-1746-4473-b101-fa0ebe440790")
 	)
 	(embedded_fonts no)
-	(model "${PMS_LIB}/lib/3D Models/768250002.stp"
+	(model "C:/Users/Cohen Dummerth/Documents/Github/MRDT/PowerManagement_Hardware/lib/3D Models/768250002.stp"
 		(offset
 			(xyz -11.7 -13.8 4.2)
 		)
