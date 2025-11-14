@@ -1594,7 +1594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a3d721a-97c7-4c8b-9405-145d8a13f460")
-		(property "Reference" "J3"
+		(property "Reference" "J16"
 			(at 154.94 83.8199 0)
 			(effects
 				(font
@@ -1749,7 +1749,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
-					(reference "J3")
+					(reference "J16")
 					(unit 1)
 				)
 			)
@@ -1765,7 +1765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fd6d578-0b98-46c4-b9e1-f97da5eaf17f")
-		(property "Reference" "TP2"
+		(property "Reference" "TP4"
 			(at 76.708 57.15 90)
 			(effects
 				(font
@@ -1814,7 +1814,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
-					(reference "TP2")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -1962,7 +1962,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5bf61b29-eb12-430c-824a-46083bba35de")
-		(property "Reference" "TP3"
+		(property "Reference" "TP5"
 			(at 122.428 55.88 90)
 			(effects
 				(font
@@ -2011,7 +2011,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
-					(reference "TP3")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -2027,7 +2027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b3e27a9-311a-43aa-99de-fda3782b9d22")
-		(property "Reference" "J5"
+		(property "Reference" "J13"
 			(at 190.5 81.28 0)
 			(effects
 				(font
@@ -2100,7 +2100,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
-					(reference "J5")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -2116,7 +2116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a36fc431-b6e1-4eaa-8f20-b25510595847")
-		(property "Reference" "J2"
+		(property "Reference" "J15"
 			(at 109.22 83.8199 0)
 			(effects
 				(font
@@ -2271,7 +2271,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/a330d3b6-4e53-4d10-a34b-46d7b687198c"
-					(reference "J2")
+					(reference "J15")
 					(unit 1)
 				)
 			)

@@ -1079,7 +1079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c14142f-3af7-49f5-825e-29b9f604ff2d")
-		(property "Reference" "J6"
+		(property "Reference" "J4"
 			(at 176.53 39.37 0)
 			(effects
 				(font
@@ -1152,7 +1152,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J6")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1234,7 +1234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "271794d7-9719-41bc-99bf-9b34fc6dc527")
-		(property "Reference" "J18"
+		(property "Reference" "J3"
 			(at 222.25 109.22 0)
 			(effects
 				(font
@@ -1307,7 +1307,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J18")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -1455,7 +1455,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "396165c3-c987-48c0-bf81-cd99764166a7")
-		(property "Reference" "J17"
+		(property "Reference" "J2"
 			(at 194.31 107.95 0)
 			(effects
 				(font
@@ -1528,7 +1528,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J17")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -1676,7 +1676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc6669f-76c4-446d-ae9b-2462d1b3d446")
-		(property "Reference" "J7"
+		(property "Reference" "J14"
 			(at 129.54 41.91 0)
 			(effects
 				(font
@@ -1749,7 +1749,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J7")
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -1897,7 +1897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b665081-6196-4bbb-92c3-ae882f76e012")
-		(property "Reference" "J12"
+		(property "Reference" "J9"
 			(at 69.85 41.91 0)
 			(effects
 				(font
@@ -1970,7 +1970,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J12")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -1986,7 +1986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a51a2dac-3bbf-4582-b4c4-d6c8b894a1a1")
-		(property "Reference" "J9"
+		(property "Reference" "J6"
 			(at 130.81 74.93 0)
 			(effects
 				(font
@@ -2059,7 +2059,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2273,7 +2273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb83b322-5917-4e20-90dc-26131c970939")
-		(property "Reference" "J16"
+		(property "Reference" "J1"
 			(at 158.75 107.95 0)
 			(effects
 				(font
@@ -2346,7 +2346,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J16")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2428,7 +2428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce8ccf52-8f75-4fd5-b0df-090f26340da3")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 217.17 40.64 0)
 			(effects
 				(font
@@ -2501,7 +2501,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -2517,7 +2517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1a0b633-f52a-4d08-b124-7605ca02691b")
-		(property "Reference" "J14"
+		(property "Reference" "J11"
 			(at 93.98 107.95 0)
 			(effects
 				(font
@@ -2590,7 +2590,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J14")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -2606,7 +2606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d507544b-f12c-4e11-9adb-12ab14c6dbe6")
-		(property "Reference" "J10"
+		(property "Reference" "J7"
 			(at 176.53 71.12 0)
 			(effects
 				(font
@@ -2679,7 +2679,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J10")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -2695,7 +2695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ec24a990-e292-4063-b1bd-11d9014a16fa")
-		(property "Reference" "J11"
+		(property "Reference" "J8"
 			(at 217.17 71.12 0)
 			(effects
 				(font
@@ -2768,7 +2768,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J11")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -2784,7 +2784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc36be5e-2818-487c-a26b-6baff045f682")
-		(property "Reference" "J15"
+		(property "Reference" "J12"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -2857,7 +2857,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J15")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -2939,7 +2939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdcaa19f-6feb-4c23-b5b9-b1e0135ff891")
-		(property "Reference" "J13"
+		(property "Reference" "J10"
 			(at 60.96 105.41 0)
 			(effects
 				(font
@@ -3012,7 +3012,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/7df83f93-7851-4dc4-9a38-c4dfcc370e8d"
-					(reference "J13")
+					(reference "J10")
 					(unit 1)
 				)
 			)

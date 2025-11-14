@@ -2360,7 +2360,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "098b438d-0a6a-4e78-8651-01615edee64e")
-		(property "Reference" "R62"
+		(property "Reference" "R17"
 			(at 196.85 118.1099 0)
 			(effects
 				(font
@@ -2414,7 +2414,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "R62")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2496,7 +2496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1492a540-b8d5-40ee-9ffc-2cdbe1c06e38")
-		(property "Reference" "H3"
+		(property "Reference" "H1"
 			(at 193.04 92.7099 0)
 			(effects
 				(font
@@ -2544,7 +2544,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "H3")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -2560,7 +2560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2cba47-db2a-40fe-b5c3-381926c746d9")
-		(property "Reference" "C25"
+		(property "Reference" "C12"
 			(at 218.44 125.7299 0)
 			(effects
 				(font
@@ -2614,7 +2614,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "C25")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2630,7 +2630,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "29cd491e-4ed9-4500-b016-cf79660b272b")
-		(property "Reference" "R63"
+		(property "Reference" "R15"
 			(at 261.62 116.8399 0)
 			(effects
 				(font
@@ -2684,7 +2684,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "R63")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -2700,7 +2700,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48e86ce9-1a52-4e76-9c86-c0931562f27e")
-		(property "Reference" "C26"
+		(property "Reference" "C11"
 			(at 252.73 125.7299 0)
 			(effects
 				(font
@@ -2754,7 +2754,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "C26")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b9c9c26-71d1-40e8-acbe-7c4087145eb0")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 172.72 92.7099 0)
 			(effects
 				(font
@@ -2818,7 +2818,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -2834,7 +2834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "522dcbb1-782e-4766-ac18-f905a85857b0")
-		(property "Reference" "D23"
+		(property "Reference" "D6"
 			(at 262.89 126.0474 90)
 			(effects
 				(font
@@ -2897,7 +2897,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "D23")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3045,7 +3045,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a1f604-b5e4-4f96-874b-fd149e422e19")
-		(property "Reference" "H1"
+		(property "Reference" "H4"
 			(at 151.13 92.7099 0)
 			(effects
 				(font
@@ -3093,7 +3093,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "H1")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -3175,7 +3175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ce0f659-4f0b-4889-aa5f-86983ceff413")
-		(property "Reference" "C19"
+		(property "Reference" "C17"
 			(at 153.67 125.7299 0)
 			(effects
 				(font
@@ -3229,7 +3229,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "C19")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -3245,7 +3245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95b8c24d-9460-42d2-b213-37278f141fbc")
-		(property "Reference" "U17"
+		(property "Reference" "U5"
 			(at 232.41 111.76 0)
 			(effects
 				(font
@@ -3302,7 +3302,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "U17")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3318,7 +3318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aef5ad9d-3d96-4fb4-b84a-ae4524b8ff45")
-		(property "Reference" "U16"
+		(property "Reference" "U7"
 			(at 167.64 111.76 0)
 			(effects
 				(font
@@ -3375,7 +3375,7 @@
 		(instances
 			(project ""
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "U16")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -3589,7 +3589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd6d4c86-1e21-4883-b1e6-e3ef1c70f8ba")
-		(property "Reference" "H4"
+		(property "Reference" "H2"
 			(at 213.36 92.7099 0)
 			(effects
 				(font
@@ -3637,7 +3637,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "H4")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -3653,7 +3653,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2086c24-bdfa-4bcb-ba10-c85cd646cd98")
-		(property "Reference" "D22"
+		(property "Reference" "D8"
 			(at 198.12 127.3174 90)
 			(effects
 				(font
@@ -3716,7 +3716,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "D22")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -3798,7 +3798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa9932e-48e3-41f4-b3d9-35cc8c6abffc")
-		(property "Reference" "C20"
+		(property "Reference" "C13"
 			(at 187.96 125.7299 0)
 			(effects
 				(font
@@ -3852,7 +3852,7 @@
 		(instances
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307"
-					(reference "C20")
+					(reference "C13")
 					(unit 1)
 				)
 			)
