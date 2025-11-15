@@ -753,6 +753,12 @@
 		(uuid "e801033c-4738-4f9a-b411-d2f4d1629ee9")
 	)
 	(junction
+		(at 243.84 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "306c5ed7-01f3-490b-ada8-d385584ba148")
+	)
+	(junction
 		(at 114.3 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -805,6 +811,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab3aaafe-7ed9-48ea-8b3b-108fd0e65814")
+	)
+	(junction
+		(at 170.18 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca69f7cf-a363-49a1-9ac0-1155f1fb67d6")
 	)
 	(junction
 		(at 123.19 69.85)
@@ -1070,7 +1082,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 55.88) (xy 246.38 55.88)
+			(xy 242.57 55.88) (xy 243.84 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1180,13 +1192,13 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 55.88) (xy 171.45 55.88)
+			(xy 243.84 55.88) (xy 246.38 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "577202fd-2b43-4a08-a65a-72f550a1ef67")
+		(uuid "5a643db9-5a3b-40ff-9d3d-4468aafeba27")
 	)
 	(wire
 		(pts
@@ -1340,6 +1352,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 55.88) (xy 171.45 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc58510-4d07-4b94-96cf-7a9fc3ad953a")
+	)
+	(wire
+		(pts
 			(xy 198.12 67.31) (xy 198.12 69.85)
 		)
 		(stroke
@@ -1490,6 +1512,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 119.38) (xy 172.72 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce6e03f3-ee3d-40e1-ae42-322be6316968")
+	)
+	(wire
+		(pts
 			(xy 88.9 119.38) (xy 90.17 119.38)
 		)
 		(stroke
@@ -1560,7 +1592,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 172.72 119.38)
+			(xy 168.91 119.38) (xy 170.18 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2035,6 +2067,73 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/553f5510-83a4-4a32-8cf5-5f8ae000bb74"
 					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23d9bbdf-72e2-402e-9a04-9c732a850ee6")
+		(property "Reference" "TP8"
+			(at 246.38 51.3079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 246.38 53.8479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 248.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 243.84 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bddb2f7-249c-4c54-a31e-c65f62fecaf5")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/553f5510-83a4-4a32-8cf5-5f8ae000bb74"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -2706,6 +2805,73 @@
 			(project "PowerManagementBoard"
 				(path "/7eaa639d-7062-45e7-be05-1c2855431307/553f5510-83a4-4a32-8cf5-5f8ae000bb74"
 					(reference "IC4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 170.18 119.38 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78143015-c5ba-412c-a4c2-49a5a320bc31")
+		(property "Reference" "TP9"
+			(at 172.72 121.4119 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 172.72 123.9519 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 165.1 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 170.18 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b05035d5-b432-4886-a1b6-9932195972db")
+		)
+		(instances
+			(project "PowerManagementBoard"
+				(path "/7eaa639d-7062-45e7-be05-1c2855431307/553f5510-83a4-4a32-8cf5-5f8ae000bb74"
+					(reference "TP9")
 					(unit 1)
 				)
 			)

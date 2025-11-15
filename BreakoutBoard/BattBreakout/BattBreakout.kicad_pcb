@@ -5220,6 +5220,71 @@
 		(layer "Edge.Cuts")
 		(uuid "dfb04e34-f1d4-4f2c-9b3f-465c2e5d98e5")
 	)
+	(gr_text "Breakout Board, Rev 1\nMars Rover Design Team\nMissouri S&T, 2026\nAiden Brooks, Cohen Dummerth,\nEmilio Baeza, Max Thering"
+		(at 40.64 66.675 0)
+		(layer "F.SilkS")
+		(uuid "0bca447e-157e-4a7f-84cb-2628a1d95950")
+		(effects
+			(font
+				(size 0.635 0.635)
+				(thickness 0.15875)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND\n"
+		(at 95.25 79.375 90)
+		(layer "F.SilkS")
+		(uuid "333791cb-dce1-4246-8b07-12795fc7ee80")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.635)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Batt2+"
+		(at 55.88 88.9 90)
+		(layer "F.SilkS")
+		(uuid "74b7e91b-9343-483e-baf7-ab0be3908aad")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.635)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Batt1+"
+		(at 56.515 53.34 90)
+		(layer "F.SilkS")
+		(uuid "7683dddf-5784-4dd8-90b0-e01c62832fce")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.635)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "OUT+"
+		(at 95.885 57.785 90)
+		(layer "F.SilkS")
+		(uuid "ed2e34ec-a916-498b-b793-5b1e6e81aeb1")
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.635)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(via
 		(at 60.9335 41.656)
 		(size 0.6)
